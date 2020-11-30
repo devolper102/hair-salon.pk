@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
 
 	<link rel="stylesheet" type="text/css" href="css/utility.css">
-	<link rel="stylesheet" type="text/css" href="css/test.css">
+	<link rel="stylesheet" type="text/css" href="css/bussiness.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -20,7 +20,7 @@
 <body>
 
 <div id="app">
-	
+	<bussiness-section></bussiness-section>
     <footer-section></footer-section>
 </div>
 
@@ -28,7 +28,7 @@
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript" src="js/bussiness.js"></script>
 <script type="text/javascript">
 	
 	
