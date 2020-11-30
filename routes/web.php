@@ -22,3 +22,6 @@ Route::get('/home', function () {
 Route::get('/beautysaloon', function () {
     return view('beautysaloon');
 });
+Route::get('/business-page', function () {
+    return view('/business-page/business');
+});

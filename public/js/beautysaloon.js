@@ -4060,9 +4060,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "beautybookingComponent"
 });
@@ -4472,6 +4469,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -29460,189 +29459,176 @@ var staticRenderFns = [
                           ])
                         ]),
                         _vm._v(" "),
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "address-section w-100 \n\t\t\t        \td-inline-block m-0 pl-5"
-                          },
-                          [
-                            _c("div", { staticClass: "row mt-3" }, [
-                              _c("div", { staticClass: "col-12" }, [
+                        _c("div", { staticClass: "row mt-3" }, [
+                          _c("div", { staticClass: "col-12" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "form-group mb-0 \n\t\t\t        \t\t\tinput-address pl-5"
+                              },
+                              [
+                                _c(
+                                  "span",
+                                  {
+                                    staticClass:
+                                      "text-fee text-size-13 font-weight-bold float-left mr-3"
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n\t\t\t        \t\t\t\t\tAddress\n\t\t\t        \t\t\t\t"
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("input", {
+                                  staticClass: "form-control w-80 text-size-13",
+                                  attrs: {
+                                    type: "text",
+                                    id: "Inputaddress",
+                                    "aria-describedby": "emailHelp",
+                                    placeholder: ""
+                                  }
+                                })
+                              ]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "row mt-3" }, [
+                          _c("div", { staticClass: "col-4" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "total-price w-100 \n\t\t\t        \t\td-inline-block pl-5"
+                              },
+                              [
+                                _c(
+                                  "span",
+                                  {
+                                    staticClass:
+                                      "text-fee text-size-14 float-left mr-4 font-weight-bold pl-3"
+                                  },
+                                  [_vm._v("\n\t\t\t        \t\tAge")]
+                                ),
+                                _vm._v(" "),
+                                _c("input", {
+                                  staticClass: "form-control w-60",
+                                  attrs: {
+                                    type: "text",
+                                    id: "Inputprice",
+                                    "aria-describedby": "emailHelp",
+                                    placeholder: ""
+                                  }
+                                })
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-8 pl-0" }, [
+                            _c(
+                              "div",
+                              { staticClass: "radio-btn w-100 d-inline-block" },
+                              [
                                 _c(
                                   "div",
                                   {
                                     staticClass:
-                                      "form-group mb-0 \n\t\t\t        \t\t\tinput-address"
+                                      "form-check w-15 d-inline-block pb-2"
                                   },
                                   [
                                     _c(
-                                      "span",
-                                      {
-                                        staticClass:
-                                          "text-fee text-size-13 font-weight-bold float-left mr-3"
-                                      },
+                                      "label",
+                                      { staticClass: "form-check-label" },
                                       [
-                                        _vm._v(
-                                          "\n\t\t\t        \t\t\t\t\tAddress\n\t\t\t        \t\t\t\t"
+                                        _c("input", {
+                                          staticClass: "form-check-input",
+                                          attrs: {
+                                            type: "radio",
+                                            name: "optradio"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-13 ml-1"
+                                          },
+                                          [_vm._v("Male")]
                                         )
                                       ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c("input", {
-                                      staticClass:
-                                        "form-control w-80 text-size-13",
-                                      attrs: {
-                                        type: "text",
-                                        id: "Inputaddress",
-                                        "aria-describedby": "emailHelp",
-                                        placeholder: ""
-                                      }
-                                    })
+                                    )
                                   ]
-                                )
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "row mt-3" }, [
-                              _c("div", { staticClass: "col-3" }, [
+                                ),
+                                _vm._v(" "),
                                 _c(
                                   "div",
                                   {
                                     staticClass:
-                                      "total-price w-100 \n\t\t\t        \t\td-inline-block pl-3"
+                                      "form-check w-15 d-inline-block pb-3"
                                   },
                                   [
                                     _c(
-                                      "span",
-                                      {
-                                        staticClass:
-                                          "text-fee text-size-14 float-left mr-4 font-weight-bold"
-                                      },
-                                      [_vm._v("\n\t\t\t        \t\tAge")]
-                                    ),
-                                    _vm._v(" "),
-                                    _c("input", {
-                                      staticClass: "form-control w-60",
-                                      attrs: {
-                                        type: "text",
-                                        id: "Inputprice",
-                                        "aria-describedby": "emailHelp",
-                                        placeholder: ""
-                                      }
-                                    })
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "col-9 pl-0" }, [
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "radio-btn w-100 d-inline-block"
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "form-check w-15 d-inline-block pb-2"
-                                      },
+                                      "label",
+                                      { staticClass: "form-check-label" },
                                       [
+                                        _c("input", {
+                                          staticClass: "form-check-input",
+                                          attrs: {
+                                            type: "radio",
+                                            name: "optradio"
+                                          }
+                                        }),
+                                        _vm._v(" "),
                                         _c(
-                                          "label",
-                                          { staticClass: "form-check-label" },
-                                          [
-                                            _c("input", {
-                                              staticClass: "form-check-input",
-                                              attrs: {
-                                                type: "radio",
-                                                name: "optradio"
-                                              }
-                                            }),
-                                            _vm._v(" "),
-                                            _c(
-                                              "span",
-                                              {
-                                                staticClass:
-                                                  "text-black font-weight-bold text-size-13 ml-1"
-                                              },
-                                              [_vm._v("Male")]
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "form-check w-15 d-inline-block pb-3"
-                                      },
-                                      [
-                                        _c(
-                                          "label",
-                                          { staticClass: "form-check-label" },
-                                          [
-                                            _c("input", {
-                                              staticClass: "form-check-input",
-                                              attrs: {
-                                                type: "radio",
-                                                name: "optradio"
-                                              }
-                                            }),
-                                            _vm._v(" "),
-                                            _c(
-                                              "span",
-                                              {
-                                                staticClass:
-                                                  "text-black font-weight-bold text-size-13 ml-1"
-                                              },
-                                              [_vm._v("Female")]
-                                            )
-                                          ]
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-13 ml-1"
+                                          },
+                                          [_vm._v("Female")]
                                         )
                                       ]
                                     )
                                   ]
                                 )
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "row" }, [
-                              _c("div", { staticClass: "col-12" }, [
-                                _c("div", { staticClass: "form-group pl-3" }, [
+                              ]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "row border-bottom" }, [
+                          _c("div", { staticClass: "col-12" }, [
+                            _c("div", { staticClass: "form-group pl-5" }, [
+                              _c(
+                                "label",
+                                {
+                                  staticClass:
+                                    "text-fee text-size-13 float-left pl-3",
+                                  attrs: { for: "FormControlTextarea1" }
+                                },
+                                [
+                                  _vm._v("Note\n\t\t\t        \t\t\t\t\t"),
                                   _c(
-                                    "label",
+                                    "span",
                                     {
                                       staticClass:
-                                        "text-fee text-size-13 float-left",
-                                      attrs: { for: "FormControlTextarea1" }
+                                        "color-date d-block text-size-12"
                                     },
-                                    [
-                                      _vm._v("Note\n\t\t\t        \t\t\t\t\t"),
-                                      _c(
-                                        "span",
-                                        {
-                                          staticClass:
-                                            "color-date d-block text-size-12"
-                                        },
-                                        [_vm._v("(optional)")]
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("textarea", {
-                                    staticClass: "form-control w-80",
-                                    attrs: { id: "Textarea1", rows: "3" }
-                                  })
-                                ])
-                              ])
+                                    [_vm._v("(optional)")]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("textarea", {
+                                staticClass: "form-control w-80",
+                                attrs: { id: "Textarea1", rows: "3" }
+                              })
                             ])
-                          ]
-                        ),
+                          ])
+                        ]),
                         _vm._v(" "),
                         _c(
                           "div",
@@ -30983,12 +30969,14 @@ var staticRenderFns = [
             _c("div", { staticClass: "row pt-3 pb-3" }, [
               _c("div", { staticClass: "col-2" }, [
                 _c("div", { staticClass: "logo" }, [
-                  _c("img", {
-                    attrs: {
-                      src: "images/logo-image.svg",
-                      alt: "logo-image picture"
-                    }
-                  })
+                  _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                    _c("img", {
+                      attrs: {
+                        src: "images/logo-image.svg",
+                        alt: "logo-image picture"
+                      }
+                    })
+                  ])
                 ])
               ]),
               _vm._v(" "),

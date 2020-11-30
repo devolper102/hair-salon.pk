@@ -6,7 +6,9 @@
 			<div class="row pt-3 pb-3">
 				<div class="col-2">
 					<div class="logo">
+            <a href="jawascript:void(0)">
 						<img src="images/logo-image.svg" alt="logo-image picture">
+            </a>
 					</div>
 				</div>
 				<div class="col-6">

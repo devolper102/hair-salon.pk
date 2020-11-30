@@ -459,3 +459,6 @@ width:100%;
 .input-address input{
     height:25px;
 }
+.clear-confirm-btn .confirm-button{
+    margin-right:30px;
+}

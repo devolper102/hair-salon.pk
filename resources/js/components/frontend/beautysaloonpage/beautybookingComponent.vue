@@ -2002,12 +2002,10 @@
 			        	</div>
 			        	</div>
 			        	</div>
-			        	<div class="address-section w-100 
-			        	d-inline-block m-0 pl-5">
 			        	<div class="row mt-3">
 			        		<div class="col-12">
 			        			<div class="form-group mb-0 
-			        			input-address">
+			        			input-address pl-5">
 			        				<span class="text-fee text-size-13 font-weight-bold float-left mr-3">
 			        					Address
 			        				</span>
@@ -2016,14 +2014,14 @@
 			        		</div>
 			        	</div>
 			        	<div class="row mt-3">
-			        		<div class="col-3">
+			        		<div class="col-4">
 			        			<div class="total-price w-100 
-			        		d-inline-block pl-3">
-			        		<span class="text-fee text-size-14 float-left mr-4 font-weight-bold">
+			        		d-inline-block pl-5">
+			        		<span class="text-fee text-size-14 float-left mr-4 font-weight-bold pl-3">
 			        		Age</span> 
 			        		<input type="text" id="Inputprice" aria-describedby="emailHelp" placeholder="" class="form-control w-60"></div>
 			        		</div>
-			        		<div class="col-9 pl-0">
+			        		<div class="col-8 pl-0">
 			        			<div class="radio-btn w-100 d-inline-block">
 			        			 <div class="form-check w-15 d-inline-block pb-2">
 			        			 	<label class="form-check-label"><input type="radio" name="optradio" class="form-check-input"> 
@@ -2039,10 +2037,10 @@
 			        			</div>
 			        		</div>
 			        	</div>
-			        	<div class="row">
+			        	<div class="row border-bottom">
 			        		<div class="col-12">
-			        			<div class="form-group pl-3">
-			        				<label for="FormControlTextarea1" class="text-fee text-size-13 float-left">Note
+			        			<div class="form-group pl-5">
+			        				<label for="FormControlTextarea1" class="text-fee text-size-13 float-left pl-3">Note
 			        					<span class="color-date d-block text-size-12">(optional)</span>
 			                       </label> 
 								    <textarea id="Textarea1" rows="3" class="form-control w-80">
@@ -2050,7 +2048,6 @@
 			                    </div>
 			        		</div>
 			        	</div>
-			        </div>
 			        		<div class="clear-confirm-btn w-100 d-inline-block m-0 pt-3 pb-3">
 			        			<a class="text-black text-size-14 d-inline-block border-modal-btn clear-btn-padding box-radius ml-5" 
 			        			href="javascript:void(0)">
