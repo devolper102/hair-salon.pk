@@ -7,9 +7,12 @@
 	        		        <h2 class="text-gold text-size-30 font-weight-bold mt-4">How it works?</h2>
 	        		        <div class="">
 	        		            <ul class="work_service w-100 d-inline-block">
-	        		        	    <li class="mt-5 font-weight-bold"><a href="javascript:void(0)" class="text-black"><img src="images/search.svg"><span class="text-size-14 ml-3">Search Service</span></a></li>
-	        		        	    <li class="mt-5 font-weight-bold"><a href="javascript:void(0)" class="text-black"><img src="images/book_service.svg"><span class="text-size-14 ml-3">book Service</span></a></li>
-	        		        	    <li class="mt-5 font-weight-bold"><a href="javascript:void(0)" class="text-black"><img src="images/enjoy_service.svg"><span class="text-size-14 ml-3">Enjoy your service at home or shop</span></a></li>
+	        		        	    <li class="font-weight-bold"><a href="javascript:void(0)" class="text-black d-inline-block"><img src="images/search.svg"><span class="text-size-14 ml-3">Search Service</span></a>
+	        		        	    </li>
+	        		        	    <li class="font-weight-bold"><a href="javascript:void(0)" class="text-black d-inline-block"><img src="images/book_service.svg"><span class="text-size-14 ml-3">book Service</span></a>
+	        		        	    </li>
+	        		        	    <li class="font-weight-bold"><a href="javascript:void(0)" class="text-black d-inline-block"><img src="images/enjoy_service.svg"><span class="text-size-14 ml-3">Enjoy your service at home or shop</span></a>
+	        		        	    </li>
 	        		            </ul>
 	        		        </div>	
 	        	        </div>

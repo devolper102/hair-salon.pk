@@ -201,7 +201,7 @@ text-decoration:none;
 }
 
 .input-services .form-control:focus{
-background:0;
+background-color: #777777;
 box-shadow:none;
 }
 .input-services input::placeholder{
@@ -254,7 +254,7 @@ opacity: 0.7;
 	background-color:#B59E5C;
 }
 .bg-hair-saloon-address p{
-	margin: 13px 0 0px 0;
+	margin-bottom:13px;
 }
 .bg-hair-saloon-address a:hover{
     color:#B59E5C;
@@ -379,7 +379,7 @@ background-color:#F12B2B;
 .input-number input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
-.blog-categories a:hover:before {
+.blog-categories a::before {
     display: block;
     content: '';
     width: 91px;
@@ -399,7 +399,9 @@ background-color:#F12B2B;
     font-size:12px;
     background-color:#EEEEEE;
 }
-
+.looking-services input:focus{
+     background-color:#EEEEEE;
+}
 .popular-service span{
     font-size:14px;
 }
@@ -412,6 +414,9 @@ background-color:#F12B2B;
     float: left;
     box-shadow: 0 2px 8px 0 rgba(0,0,0,.11);
 
+}
+.hair-saloon-slider{
+    cursor:pointer;
 }
 .hair-cut a:hover{
     color: #777777;
@@ -444,4 +449,13 @@ width:100%;
 }
 .heading-home-service a{
     padding:4px 38px;
+}
+
+.total-price input{
+    height:25px;
+    border:1px solid #282828;
+}
+
+.input-address input{
+    height:25px;
 }

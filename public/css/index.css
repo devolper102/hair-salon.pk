@@ -103,3 +103,6 @@ border-bottom:30px solid #B59E5C;
 .carousel-control-prev-icon{
 	display: none !important;
 }
+.work_service li a{
+    margin-bottom:40px;
+}

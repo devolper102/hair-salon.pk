@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1896,6 +1896,2941 @@ module.exports = {
   trim: trim
 };
 
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "beautybookingComponent"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "beautysliderComponent"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "clientreplyComponent"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "galleryComponent"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/footer/footerComponent.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/footer/footerComponent.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "footerComponent"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/header/beautysaloonComponent.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/header/beautysaloonComponent.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "headerComponent"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/homepage/popularcategoriesComponent.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/homepage/popularcategoriesComponent.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "popularcategoriesComponent"
+});
 
 /***/ }),
 
@@ -19532,6 +22467,9712 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue?vue&type=template&id=124ed0fc&":
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue?vue&type=template&id=124ed0fc& ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row mt-4" }, [
+          _c("div", { staticClass: "col-4" }, [
+            _c(
+              "div",
+              { staticClass: "services-heading w-100 d-inline-block" },
+              [
+                _c("h2", { staticClass: "text-black font-weight-bold w-75" }, [
+                  _vm._v("Services\n\t\t\t\t")
+                ])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-8" }, [
+            _c("form", [
+              _c(
+                "div",
+                {
+                  staticClass: "form-group position-relative input-book-service"
+                },
+                [
+                  _c("input", {
+                    staticClass: "form-control pl-5 pr-4",
+                    attrs: {
+                      type: "text",
+                      id: "service-input-text",
+                      "aria-describedby": "emailHelp",
+                      placeholder: "Search for service"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      staticClass: "color-date position-absolute",
+                      attrs: { href: "javascript:void(0)" }
+                    },
+                    [
+                      _c("i", {
+                        staticClass: "fa fa-search",
+                        attrs: { "aria-hidden": "true" }
+                      })
+                    ]
+                  )
+                ]
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row mt-4" }, [
+          _c("div", { staticClass: "col-8" }, [
+            _c("div", { staticClass: "border-bottom border-top pt-2 pb-2" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-8" }, [
+                  _c("div", { staticClass: "beauty-saloon-booking-fee" }, [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "text-fee mb-0 font-weight-bold text-size-14"
+                      },
+                      [_vm._v("Facefit consultation")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-2" }, [
+                  _c("div", { staticClass: "booking-fee" }, [
+                    _c(
+                      "span",
+                      {
+                        staticClass:
+                          "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                      },
+                      [_vm._v("$10\n\t\t\t\t\t\t    ")]
+                    ),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "text-fee text-size-15" }, [
+                      _vm._v("20 min")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-2" }, [
+                  _c("div", { staticClass: "book-btn text-center" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                        attrs: {
+                          "data-toggle": "modal",
+                          "data-target": "#categorie-Modal",
+                          href: "javascript:void(0)"
+                        }
+                      },
+                      [_vm._v("Book")]
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "border-bottom pt-2 pb-2" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-8" }, [
+                  _c("div", { staticClass: "beauty-saloon-booking-fee" }, [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "text-fee mb-0 font-weight-bold text-size-14"
+                      },
+                      [_vm._v("\n\t\t\t\t\t\t\tConsultation")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-2" }, [
+                  _c("div", { staticClass: "booking-fee" }, [
+                    _c(
+                      "span",
+                      {
+                        staticClass:
+                          "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                      },
+                      [_vm._v("$25\n\t\t\t\t\t\t    ")]
+                    ),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "text-fee text-size-15" }, [
+                      _vm._v("1 h")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-2" }, [
+                  _c("div", { staticClass: "book-btn text-center" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                        attrs: { href: "javascript:void(0)" }
+                      },
+                      [_vm._v("Book")]
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "border-bottom pt-2 pb-2" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-8" }, [
+                  _c("div", { staticClass: "beauty-saloon-booking-fee" }, [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "text-fee mb-0 font-weight-bold text-size-14"
+                      },
+                      [_vm._v("Bang / nap trim / line up")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-2" }, [
+                  _c("div", { staticClass: "booking-fee" }, [
+                    _c(
+                      "span",
+                      {
+                        staticClass:
+                          "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                      },
+                      [_vm._v("$35\n\t\t\t\t\t\t    ")]
+                    ),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "text-fee text-size-15" }, [
+                      _vm._v("50 min")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-2" }, [
+                  _c("div", { staticClass: "book-btn text-center" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                        attrs: { href: "javascript:void(0)" }
+                      },
+                      [_vm._v("Book")]
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "faq-accordian pt-2 border-bottom" }, [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-fee font-weight-bold text-size-18 collapsed font-icon-color w-100 d-inline-block",
+                  attrs: {
+                    "data-toggle": "collapse",
+                    href: "#hair-cutting-collapse",
+                    role: "button",
+                    "aria-expanded": "false",
+                    "aria-controls": "collapseExample"
+                  }
+                },
+                [_vm._v("\n\t\t\t\t\tHair Cutting\n\t\t\t    ")]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: { id: "hair-cutting-collapse" }
+                },
+                [
+                  _c("div", { staticClass: "card card-body border-0 p-0" }, [
+                    _c("div", { staticClass: "border-top border-bottom" }, [
+                      _c("div", { staticClass: "row pt-4" }, [
+                        _c("div", { staticClass: "col-8" }, [
+                          _c(
+                            "div",
+                            { staticClass: "beauty-saloon-booking-fee" },
+                            [
+                              _c(
+                                "p",
+                                {
+                                  staticClass:
+                                    "text-fee mb-0 font-weight-bold text-size-14"
+                                },
+                                [_vm._v("Facefit consultation")]
+                              )
+                            ]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-2" }, [
+                          _c("div", { staticClass: "booking-fee" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass:
+                                  "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                              },
+                              [_vm._v("$10\n\t\t\t\t\t\t    ")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "span",
+                              { staticClass: "text-fee text-size-15" },
+                              [_vm._v("20 min")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-2" }, [
+                          _c("div", { staticClass: "book-btn text-center" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                attrs: {
+                                  "data-toggle": "modal",
+                                  "data-target": "#categorie-Modal",
+                                  href: "javascript:void(0)"
+                                }
+                              },
+                              [_vm._v("Book")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "border-bottom" }, [
+                      _c("div", { staticClass: "row pt-4" }, [
+                        _c("div", { staticClass: "col-8" }, [
+                          _c(
+                            "div",
+                            { staticClass: "beauty-saloon-booking-fee" },
+                            [
+                              _c(
+                                "p",
+                                {
+                                  staticClass:
+                                    "text-fee mb-0 font-weight-bold text-size-14"
+                                },
+                                [_vm._v("Consultation")]
+                              )
+                            ]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-2" }, [
+                          _c("div", { staticClass: "booking-fee" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass:
+                                  "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                              },
+                              [_vm._v("$25\n\t\t\t\t\t\t    ")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "span",
+                              { staticClass: "text-fee text-size-15" },
+                              [_vm._v("1 hr\n\t\t\t\t\t\t\t")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-2" }, [
+                          _c("div", { staticClass: "book-btn text-center" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                attrs: {
+                                  "data-toggle": "modal",
+                                  "data-target": "#categorie-Modal",
+                                  href: "javascript:void(0)"
+                                }
+                              },
+                              [_vm._v("Book")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "border-0" }, [
+                      _c("div", { staticClass: "row pt-4" }, [
+                        _c("div", { staticClass: "col-8" }, [
+                          _c(
+                            "div",
+                            { staticClass: "beauty-saloon-booking-fee" },
+                            [
+                              _c(
+                                "p",
+                                {
+                                  staticClass:
+                                    "text-fee mb-0 font-weight-bold text-size-14"
+                                },
+                                [_vm._v("Bang / nap trim / line up")]
+                              )
+                            ]
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-2" }, [
+                          _c("div", { staticClass: "booking-fee" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass:
+                                  "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                              },
+                              [_vm._v("$35\n\t\t\t\t\t\t    ")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "span",
+                              { staticClass: "text-fee text-size-15" },
+                              [_vm._v("50 min\n\t\t\t\t\t\t\t")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-2" }, [
+                          _c("div", { staticClass: "book-btn text-center" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                attrs: {
+                                  "data-toggle": "modal",
+                                  "data-target": "#categorie-Modal",
+                                  href: "javascript:void(0)"
+                                }
+                              },
+                              [_vm._v("Book")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "border-bottom pt-2 pb-2" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-8" }, [
+                  _c("div", { staticClass: "beauty-saloon-booking-fee" }, [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "text-fee mb-0 font-weight-bold text-size-14"
+                      },
+                      [_vm._v("Haircut w/ Blowout")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-2" }, [
+                  _c("div", { staticClass: "booking-fee" }, [
+                    _c(
+                      "span",
+                      {
+                        staticClass:
+                          "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                      },
+                      [_vm._v("$10\n\t\t\t\t\t\t    ")]
+                    ),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "text-fee text-size-15" }, [
+                      _vm._v("20 min")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-2" }, [
+                  _c("div", { staticClass: "book-btn text-center" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                        attrs: { href: "javascript:void(0)" }
+                      },
+                      [_vm._v("Book")]
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "border-bottom pt-2 pb-2" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-8" }, [
+                  _c("div", { staticClass: "beauty-saloon-booking-fee" }, [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "text-fee mb-0 font-weight-bold text-size-14"
+                      },
+                      [_vm._v("Haircut Add-on")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-2" }, [
+                  _c("div", { staticClass: "booking-fee" }, [
+                    _c(
+                      "span",
+                      {
+                        staticClass:
+                          "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                      },
+                      [_vm._v("$25\n\t\t\t\t\t\t    ")]
+                    ),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "text-fee text-size-15" }, [
+                      _vm._v("1 h")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-2" }, [
+                  _c("div", { staticClass: "book-btn text-center" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                        attrs: { href: "javascript:void(0)" }
+                      },
+                      [_vm._v("Book")]
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "border-bottom pt-2 pb-2" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-8" }, [
+                  _c("div", { staticClass: "beauty-saloon-booking-fee" }, [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "text-fee mb-0 font-weight-bold text-size-14"
+                      },
+                      [_vm._v("Trim")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-2" }, [
+                  _c("div", { staticClass: "booking-fee" }, [
+                    _c(
+                      "span",
+                      {
+                        staticClass:
+                          "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                      },
+                      [_vm._v("$35\n\t\t\t\t\t\t    ")]
+                    ),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "text-fee text-size-15" }, [
+                      _vm._v("50 min")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-2" }, [
+                  _c("div", { staticClass: "book-btn text-center" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                        attrs: { href: "javascript:void(0)" }
+                      },
+                      [_vm._v("Book")]
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "faq-accordian pt-2 pb-2 border-bottom" },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-fee font-weight-bold text-size-18 collapsed font-icon-color w-100 d-inline-block",
+                    attrs: {
+                      "data-toggle": "collapse",
+                      href: "#hair-styling-collapse",
+                      role: "button",
+                      "aria-expanded": "false",
+                      "aria-controls": "collapseExample"
+                    }
+                  },
+                  [_vm._v("\n\t\t\t\t\tHair Styling\n\t\t\t    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "hair-styling-collapse" }
+                  },
+                  [
+                    _c("div", { staticClass: "card card-body border-0 p-0" }, [
+                      _c("div", { staticClass: "border-top border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Facefit consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$10\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("20 min")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$25\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("1 hr\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-0" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Bang / nap trim / line up")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$35\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("50 min\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "faq-accordian pt-2 pb-2 border-bottom" },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-fee font-weight-bold text-size-18 collapsed font-icon-color w-100 d-inline-block",
+                    attrs: {
+                      "data-toggle": "collapse",
+                      href: "#weaves-wigs-collapse",
+                      role: "button",
+                      "aria-expanded": "false",
+                      "aria-controls": "collapseExample"
+                    }
+                  },
+                  [_vm._v("\n\t\t\t\t\tWeaves/Wigs/Extensions\n\t\t\t    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "weaves-wigs-collapse" }
+                  },
+                  [
+                    _c("div", { staticClass: "card card-body border-0 p-0" }, [
+                      _c("div", { staticClass: "border-top border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Facefit consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$10\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("20 min")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$25\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("1 hr\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-0" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Bang / nap trim / line up")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$35\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("50 min\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "faq-accordian pt-2 pb-2 border-bottom" },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-fee font-weight-bold text-size-18 collapsed font-icon-color w-100 d-inline-block",
+                    attrs: {
+                      "data-toggle": "collapse",
+                      href: "#waxing-collapse",
+                      role: "button",
+                      "aria-expanded": "false",
+                      "aria-controls": "collapseExample"
+                    }
+                  },
+                  [_vm._v("\n\t\t\t\t\tWaxing\n\t\t\t    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "collapse", attrs: { id: "waxing-collapse" } },
+                  [
+                    _c("div", { staticClass: "card card-body border-0 p-0" }, [
+                      _c("div", { staticClass: "border-top border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Facefit consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$10\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("20 min")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$25\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("1 hr\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-0" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Bang / nap trim / line up")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$35\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("50 min\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "faq-accordian pt-2 pb-2 border-bottom" },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-fee font-weight-bold text-size-18 collapsed font-icon-color w-100 d-inline-block",
+                    attrs: {
+                      "data-toggle": "collapse",
+                      href: "#add-ons-collapse",
+                      role: "button",
+                      "aria-expanded": "false",
+                      "aria-controls": "collapseExample"
+                    }
+                  },
+                  [_vm._v("\n\t\t\t\t\tAdd-ons\n\t\t\t    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "add-ons-collapse" }
+                  },
+                  [
+                    _c("div", { staticClass: "card card-body border-0 p-0" }, [
+                      _c("div", { staticClass: "border-top border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Facefit consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$10\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("20 min")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$25\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("1 hr\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-0" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Bang / nap trim / line up")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$35\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("50 min\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "faq-accordian pt-2 pb-2 border-bottom" },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-fee font-weight-bold text-size-18 collapsed font-icon-color w-100 d-inline-block",
+                    attrs: {
+                      "data-toggle": "collapse",
+                      href: "#haircoloring-collapse",
+                      role: "button",
+                      "aria-expanded": "false",
+                      "aria-controls": "collapseExample"
+                    }
+                  },
+                  [_vm._v("\n\t\t\t\t\tHaircoloring\n\t\t\t    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "haircoloring-collapse" }
+                  },
+                  [
+                    _c("div", { staticClass: "card card-body border-0 p-0" }, [
+                      _c("div", { staticClass: "border-top border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Facefit consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$10\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("20 min")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$25\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("1 hr\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-0" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Bang / nap trim / line up")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$35\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("50 min\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "faq-accordian pt-2 pb-2 border-bottom" },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-fee font-weight-bold text-size-18 collapsed font-icon-color w-100 d-inline-block",
+                    attrs: {
+                      "data-toggle": "collapse",
+                      href: "#braids-locs-collapse",
+                      role: "button",
+                      "aria-expanded": "false",
+                      "aria-controls": "collapseExample"
+                    }
+                  },
+                  [_vm._v("\n\t\t\t\t\tBraids and Locs\n\t\t\t    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "braids-locs-collapse" }
+                  },
+                  [
+                    _c("div", { staticClass: "card card-body border-0 p-0" }, [
+                      _c("div", { staticClass: "border-top border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Facefit consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$10\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("20 min")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$25\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("1 hr\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-0" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Bang / nap trim / line up")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$35\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("50 min\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "faq-accordian pt-2 pb-2 border-bottom" },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-fee font-weight-bold text-size-18 collapsed font-icon-color w-100 d-inline-block",
+                    attrs: {
+                      "data-toggle": "collapse",
+                      href: "#chemical-services-collapse",
+                      role: "button",
+                      "aria-expanded": "false",
+                      "aria-controls": "collapseExample"
+                    }
+                  },
+                  [_vm._v("\n\t\t\t\t\tChemical Services\n\t\t\t    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "chemical-services-collapse" }
+                  },
+                  [
+                    _c("div", { staticClass: "card card-body border-0 p-0" }, [
+                      _c("div", { staticClass: "border-top border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Facefit consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$10\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("20 min")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$25\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("1 hr\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-0" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Bang / nap trim / line up")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$35\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("50 min\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "faq-accordian pt-2 pb-2 border-bottom" },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-fee font-weight-bold text-size-18 collapsed font-icon-color w-100 d-inline-block",
+                    attrs: {
+                      "data-toggle": "collapse",
+                      href: "#makeup-collapse",
+                      role: "button",
+                      "aria-expanded": "false",
+                      "aria-controls": "collapseExample"
+                    }
+                  },
+                  [_vm._v("\n\t\t\t\t\tMakeup & Lashes\n\t\t\t    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "collapse", attrs: { id: "makeup-collapse" } },
+                  [
+                    _c("div", { staticClass: "card card-body border-0 p-0" }, [
+                      _c("div", { staticClass: "border-top border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Facefit consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$10\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("20 min")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$25\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("1 hr\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-0" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Bang / nap trim / line up")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$35\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("50 min\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "faq-accordian pt-2 pb-2 border-bottom" },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-fee font-weight-bold text-size-18 collapsed font-icon-color w-100 d-inline-block",
+                    attrs: {
+                      "data-toggle": "collapse",
+                      href: "#combo-deals-collapse",
+                      role: "button",
+                      "aria-expanded": "false",
+                      "aria-controls": "collapseExample"
+                    }
+                  },
+                  [_vm._v("\n\t\t\t\t\tCombo Deals\n\t\t\t    ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "combo-deals-collapse" }
+                  },
+                  [
+                    _c("div", { staticClass: "card card-body border-0 p-0" }, [
+                      _c("div", { staticClass: "border-top border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Facefit consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$10\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("20 min")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-bottom" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Consultation")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$25\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("1 hr\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "border-0" }, [
+                        _c("div", { staticClass: "row pt-4" }, [
+                          _c("div", { staticClass: "col-8" }, [
+                            _c(
+                              "div",
+                              { staticClass: "beauty-saloon-booking-fee" },
+                              [
+                                _c(
+                                  "p",
+                                  {
+                                    staticClass:
+                                      "text-fee mb-0 font-weight-bold text-size-14"
+                                  },
+                                  [_vm._v("Bang / nap trim / line up")]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "booking-fee" }, [
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "text-fee \n\t\t\t\t\t\t\tfont-weight-bold text-size-16 mr-3"
+                                },
+                                [_vm._v("$35\n\t\t\t\t\t\t    ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                { staticClass: "text-fee text-size-15" },
+                                [_vm._v("50 min\n\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c("div", { staticClass: "book-btn text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-white font-weight-bold bg-gold box-radius book-padding text-size-14",
+                                  attrs: {
+                                    "data-toggle": "modal",
+                                    "data-target": "#categorie-Modal",
+                                    href: "javascript:void(0)"
+                                  }
+                                },
+                                [_vm._v("Book")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-4" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "google-map w-85 float-right \n\t    \td-inline-block staff-bg"
+              },
+              [
+                _c("iframe", {
+                  staticStyle: { border: "0" },
+                  attrs: {
+                    src:
+                      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19780222.739759386!2d54.85849399697564!3d28.24410887801816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1605698611593!5m2!1sen!2s",
+                    width: "297",
+                    height: "300",
+                    frameborder: "0",
+                    allowfullscreen: "",
+                    "aria-hidden": "false",
+                    tabindex: "0"
+                  }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "staff-bg w-85 float-right d-inline-block" },
+              [
+                _c("div", { staticClass: "staf-heading border-bottom" }, [
+                  _c("h5", { staticClass: "text-fee font-weight-bold pl-3" }, [
+                    _vm._v("Staff\n\t    \t\t\t")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "main-staff-images-name w-100 \n\t    \t\td-inline-block pt-3 pb-3"
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "staff-image w-33 text-center \n\t\t    \t\tfloat-left"
+                      },
+                      [
+                        _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                          _c("img", {
+                            attrs: {
+                              src: "images/staff-image.svg",
+                              alt: "staff-image picture"
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          {
+                            staticClass:
+                              "text-fee font-weight-bold text-size-14 mb-0"
+                          },
+                          [_vm._v("Rudolfo")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "staff-image w-33 text-center \n\t\t    \t\tfloat-left"
+                      },
+                      [
+                        _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                          _c("img", {
+                            attrs: {
+                              src: "images/staff-image.svg",
+                              alt: "staff-image picture"
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          {
+                            staticClass:
+                              "text-fee font-weight-bold text-size-14 mb-0"
+                          },
+                          [_vm._v("Rudolfo")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "staff-image w-33 text-center \n\t\t    \t\tfloat-left"
+                      },
+                      [
+                        _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                          _c("img", {
+                            attrs: {
+                              src: "images/staff-image.svg",
+                              alt: "staff-image picture"
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          {
+                            staticClass:
+                              "text-fee font-weight-bold text-size-14 mb-0"
+                          },
+                          [_vm._v("Rudolfo")]
+                        )
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "contact-bussiness-heading w-100 d-inline-block border-bottom"
+                  },
+                  [
+                    _c(
+                      "h5",
+                      { staticClass: "text-fee font-weight-bold text-center" },
+                      [_vm._v("Contact and business hours")]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "contact-number w-100 d-inline-block pt-2 pb-2 pl-4 pr-4 border-bottom"
+                  },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "text-fee font-weight-bold text-size-14",
+                        attrs: { href: "javascript:void(0)" }
+                      },
+                      [
+                        _c("i", {
+                          staticClass: "fa fa-mobile mr-3 text-size-20",
+                          attrs: { "aria-hidden": "true" }
+                        }),
+                        _vm._v("\n\t    \t\t\t\t+92 335 1234567 \n\t    \t\t\t")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "call-btn text-white bg-gold font-weight-bold text-size-13 box-radius float-right",
+                        attrs: { href: "javascript:void(0)" }
+                      },
+                      [_vm._v("\n\t    \t\t\t\tCall\n\t    \t\t\t")]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "ul",
+                  {
+                    staticClass:
+                      "weakend-name-time w-100 d-inline-block pt-2 pb-1 pl-4 pr-4 mb-0"
+                  },
+                  [
+                    _c("li", { staticClass: "float-left w-100 pb-2" }, [
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-14 float-left"
+                        },
+                        [_vm._v("\n\t    \t\t\t\t\tWednesday\n\t    \t\t\t\t")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-13 float-right"
+                        },
+                        [
+                          _vm._v(
+                            "\n\t    \t\t\t\t\t09 AM to 7 PM \n\t    \t\t\t\t"
+                          )
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "float-left w-100 pb-2" }, [
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-14 float-left"
+                        },
+                        [_vm._v("\n\t    \t\t\t\t\tThursday\n\t    \t\t\t\t")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-13 float-right"
+                        },
+                        [
+                          _vm._v(
+                            "\n\t    \t\t\t\t\t09 AM to 7 PM\n\t    \t\t\t\t"
+                          )
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "float-left w-100 pb-2" }, [
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-14 float-left"
+                        },
+                        [_vm._v("\n\t    \t\t\t\t\tFriday\n\t    \t\t\t\t")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-13 float-right"
+                        },
+                        [
+                          _vm._v(
+                            "\n\t    \t\t\t\t\t09 AM to 7 PM\n\t    \t\t\t\t"
+                          )
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "float-left w-100 pb-2" }, [
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-14 float-left"
+                        },
+                        [_vm._v("\n\t    \t\t\t\t\tSaturday\n\t    \t\t\t\t")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-13 float-right w-35"
+                        },
+                        [_vm._v("\n\t    \t\t\t\t\tClose\n\t    \t\t\t\t")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "float-left w-100 pb-2" }, [
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-14 float-left"
+                        },
+                        [_vm._v("\n\t    \t\t\t\t\tSunday\n\t    \t\t\t\t")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-13 float-right w-35"
+                        },
+                        [_vm._v("\n\t    \t\t\t\t\tClose\n\t    \t\t\t\t")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "float-left w-100 pb-2" }, [
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-14 float-left"
+                        },
+                        [_vm._v("\n\t    \t\t\t\t\tMonday\n\t    \t\t\t\t")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-13 float-right"
+                        },
+                        [
+                          _vm._v(
+                            "\n\t    \t\t\t\t\t09 AM to 7 PM\n\t    \t\t\t\t"
+                          )
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "float-left w-100" }, [
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-14 float-left"
+                        },
+                        [_vm._v("\n\t    \t\t\t\t\tTuesday\n\t    \t\t\t\t")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "text-fee font-weight-bold text-size-13 float-right"
+                        },
+                        [
+                          _vm._v(
+                            "\n\t    \t\t\t\t\t09 AM to 7 PM\n\t    \t\t\t\t"
+                          )
+                        ]
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "social-media-icon-heading w-100 d-inline-block border-bottom"
+                  },
+                  [
+                    _c(
+                      "h5",
+                      {
+                        staticClass:
+                          "text-fee font-weight-bold text-center mb-1"
+                      },
+                      [
+                        _vm._v(
+                          "\n\t    \t\t\t\tSocial media and share\n\t    \t\t\t"
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "awesome-icon w-85 float-right d-inline-block p-2"
+              },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "instagram-icon bg-gold text-white mr-2 text-size-18 d-inline-block text-center",
+                    attrs: { href: "javascript:void(0)" }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-instagram",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "instagram-icon text-white bg-gold mr-2 text-size-18 d-inline-block text-center",
+                    attrs: { href: "javascript:void(0)" }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-facebook",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "mr-2 text-gold instagram-icon text-white bg-gold text-size-18 d-inline-block text-center",
+                    attrs: { href: "javascript:void(0)" }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-wikipedia-w",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "share-icon text-gold text-size-30",
+                    attrs: { href: "javascript:void(0)" }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-share-alt",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "report-btn w-100 d-inline-block mt-3 mb-2" },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "text-white font-weight-bold bg-gold box-radius text-size-14",
+                        attrs: { href: "jawascript:void(0)" }
+                      },
+                      [_vm._v("\n\t    \t\t\tReport\n\t    \t\t")]
+                    )
+                  ]
+                )
+              ]
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade",
+          attrs: {
+            id: "categorie-Modal",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "exampleModalLabel",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "modal-dialog categories-modal",
+              attrs: { role: "document" }
+            },
+            [
+              _c("div", { staticClass: "modal-content" }, [
+                _c("div", { staticClass: "modal-header bg-slide-address" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "text-gold d-flex text-size-30",
+                      attrs: { href: "jawascript:void(0)" }
+                    },
+                    [
+                      _c("i", {
+                        staticClass: "fa fa-angle-left mr-5",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        {
+                          staticClass:
+                            "modal-title text-white text-size-16 mt-1",
+                          attrs: { id: "exampleModalLabel" }
+                        },
+                        [_vm._v("Book a Date and Time")]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "close mr-1 text-white cancel-btn",
+                      attrs: {
+                        type: "button",
+                        "data-dismiss": "modal",
+                        "aria-label": "Close"
+                      }
+                    },
+                    [
+                      _c("span", { attrs: { "aria-hidden": "true" } }, [
+                        _vm._v("×")
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-body pb-0" }, [
+                  _c(
+                    "span",
+                    {
+                      staticClass:
+                        "text-black text-size-14 ml-5 font-weight-bold"
+                    },
+                    [_vm._v("Select staff member")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "carousel slide staff-modal",
+                      attrs: { id: "categories-modal", "data-ride": "carousel" }
+                    },
+                    [
+                      _c("div", { staticClass: "carousel-inner" }, [
+                        _c("div", { staticClass: "carousel-item active" }, [
+                          _c("div", { staticClass: "w-90 m-auto d-block" }, [
+                            _c("div", { staticClass: "row mt-2" }, [
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-gold box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-white font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ])
+                            ])
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "carousel-item" }, [
+                          _c("div", { staticClass: "w-90 m-auto d-block" }, [
+                            _c("div", { staticClass: "row mt-2" }, [
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-gold box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-white font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ])
+                            ])
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "carousel-item" }, [
+                          _c("div", { staticClass: "w-90 m-auto d-block" }, [
+                            _c("div", { staticClass: "row mt-2" }, [
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-gold box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-white font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-gold box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-white font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "categories-staff-bg bg-white box-shadow w-100 d-inline-block p-1 client-border"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-image-2 w-25 float-left"
+                                      },
+                                      [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "images/staff-image.svg",
+                                            alt: "staff-image picture"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "staff-name w-75 float-left pl-3 pt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-black font-weight-bold text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n      \t\t\t\t\t\tImraj\n      \t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ])
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "#categories-modal",
+                            role: "button",
+                            "data-slide": "prev"
+                          }
+                        },
+                        [
+                          _c("span", {
+                            staticClass: "prev-icon",
+                            attrs: { "aria-hidden": "true" }
+                          }),
+                          _vm._v(" "),
+                          _c("span", { staticClass: "sr-only" }, [
+                            _vm._v("Previous")
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "#categories-modal",
+                            role: "button",
+                            "data-slide": "next"
+                          }
+                        },
+                        [
+                          _c("span", {
+                            staticClass: "next-icon",
+                            attrs: { "aria-hidden": "true" }
+                          }),
+                          _vm._v(" "),
+                          _c("span", { staticClass: "sr-only" }, [
+                            _vm._v("Next")
+                          ])
+                        ]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row mt-3" }, [
+                    _c("div", { staticClass: "col-12" }, [
+                      _c(
+                        "div",
+                        { staticClass: "date-heading w-100 d-inline-block" },
+                        [
+                          _c(
+                            "p",
+                            {
+                              staticClass:
+                                "text-black font-weight-bold text-center text-size-15"
+                            },
+                            [_vm._v("September 2020")]
+                          )
+                        ]
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-12 p-xs-0" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "slider-calendar",
+                        attrs: { id: "calendar_sliderTwo" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "main bg-white custom_bottom_rounded"
+                          },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "slider slider-nav text-center text_14 font-weight-bold p-2 w-75 m-auto"
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "w-100 d-inline-block calendar-day"
+                                  },
+                                  [
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "color-date pt-1 text-size-20 d-inline-block box-shadow bg-white mr-3",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t12 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tSa\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "color-date pt-1 text-size-20 d-inline-block box-shadow bg-white",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t13 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tSa\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "w-100 d-inline-block calendar-day"
+                                  },
+                                  [
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "date-box text-black pt-1 text-size-25 d-inline-block box-shadow bg-white mr-2",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t14 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tSu\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "date-box text-black pt-1 text-size-25 d-inline-block box-shadow bg-time",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t15 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tSu\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "w-100 d-inline-block calendar-day"
+                                  },
+                                  [
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "text-black pt-1 text-size-20 d-inline-block box-shadow bg-white mr-3",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t16 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tMo\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "text-black pt-1 text-size-20 d-inline-block box-shadow bg-white",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t17 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tMo\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "w-100 d-inline-block calendar-day"
+                                  },
+                                  [
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "text-black pt-1 text-size-20 d-inline-block box-shadow bg-white mr-3",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t18 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tTu\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "text-black pt-1 text-size-20 d-inline-block box-shadow bg-white",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t14 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tTu\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "w-100 d-inline-block calendar-day"
+                                  },
+                                  [
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "color-date pt-1 text-size-20 d-inline-block box-shadow bg-white mr-3",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t17 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tSa\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "color-date pt-1 text-size-20 d-inline-block box-shadow bg-white",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t13 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tSa\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "w-100 d-inline-block calendar-day"
+                                  },
+                                  [
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "date-box text-black pt-1 text-size-25 d-inline-block box-shadow bg-time mr-2",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t15 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tSu\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "date-box text-black pt-1 text-size-25 d-inline-block box-shadow bg-white",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t16 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tSu\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "w-100 d-inline-block calendar-day"
+                                  },
+                                  [
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "text-black pt-1 text-size-20 d-inline-block box-shadow bg-white mr-3",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t17 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tMo\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "text-black pt-1 text-size-20 d-inline-block box-shadow bg-white",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t18 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tMo\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "w-100 d-inline-block calendar-day"
+                                  },
+                                  [
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "text-black pt-1 text-size-20 d-inline-block box-shadow bg-white mr-3",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t14 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tTu\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "text-black pt-1 text-size-20 d-inline-block box-shadow bg-white",
+                                        attrs: { href: "#javascript:void(0)" }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t    \t\t13 \n\t\t\t\t\t\t\t    \t\t"
+                                        ),
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "d-block text-size-14 font-weight-normal"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tTu\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              { staticClass: "slider slider-for p-2" },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass: "slots_shedule knockdoc_border"
+                                  },
+                                  [
+                                    _c("div", { staticClass: "row" }, [
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block mr-3 float-right font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/morning.svg",
+                                                  alt: "Morning Image"
+                                                }
+                                              }),
+                                              _vm._v(" Morning")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block mr-3 float-right font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/afternoon.svg",
+                                                  alt: "Afternoon Image"
+                                                }
+                                              }),
+                                              _vm._v(" Afternoon")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3 \n                                           text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/evening.svg",
+                                                  alt: "Evening Image"
+                                                }
+                                              }),
+                                              _vm._v(" Evening")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block ml-3 font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/night.svg",
+                                                  alt: "Night Image"
+                                                }
+                                              }),
+                                              _vm._v(" Night")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t08:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t09:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t10:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ])
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass: "slots_shedule knockdoc_border"
+                                  },
+                                  [
+                                    _c("div", { staticClass: "row" }, [
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block mr-3 float-right font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/morning.svg",
+                                                  alt: "Morning Image"
+                                                }
+                                              }),
+                                              _vm._v(" Morning")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block mr-3 float-right font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/afternoon.svg",
+                                                  alt: "Afternoon Image"
+                                                }
+                                              }),
+                                              _vm._v(" Afternoon")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3 \n                                           text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/evening.svg",
+                                                  alt: "Evening Image"
+                                                }
+                                              }),
+                                              _vm._v(" Evening")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block ml-3 font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/night.svg",
+                                                  alt: "Night Image"
+                                                }
+                                              }),
+                                              _vm._v(" Night")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t08:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t09:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t10:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ])
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass: "slots_shedule knockdoc_border"
+                                  },
+                                  [
+                                    _c("div", { staticClass: "row" }, [
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block mr-3 float-right font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/morning.svg",
+                                                  alt: "Morning Image"
+                                                }
+                                              }),
+                                              _vm._v(" Morning")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block mr-3 float-right font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/afternoon.svg",
+                                                  alt: "Afternoon Image"
+                                                }
+                                              }),
+                                              _vm._v(" Afternoon")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/evening.svg",
+                                                  alt: "Evening Image"
+                                                }
+                                              }),
+                                              _vm._v(" Evening")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block ml-3 font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/night.svg",
+                                                  alt: "Night Image"
+                                                }
+                                              }),
+                                              _vm._v(" Night")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t08:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t09:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t10:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ])
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass: "slots_shedule knockdoc_border"
+                                  },
+                                  [
+                                    _c("div", { staticClass: "row" }, [
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block mr-3 float-right font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/morning.svg",
+                                                  alt: "Morning Image"
+                                                }
+                                              }),
+                                              _vm._v(" Morning")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block mr-3 float-right font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/afternoon.svg",
+                                                  alt: "Afternoon Image"
+                                                }
+                                              }),
+                                              _vm._v(" Afternoon")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3 \n                                           text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/evening.svg",
+                                                  alt: "Evening Image"
+                                                }
+                                              }),
+                                              _vm._v(
+                                                " Evening\n\t\t\t\t\t\t\t\t    \t\t\t"
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block ml-3 font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/night.svg",
+                                                  alt: "Night Image"
+                                                }
+                                              }),
+                                              _vm._v(" Night")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t08:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t09:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t10:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ])
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass: "slots_shedule knockdoc_border"
+                                  },
+                                  [
+                                    _c("div", { staticClass: "row" }, [
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block mr-3 float-right font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/morning.svg",
+                                                  alt: "Morning Image"
+                                                }
+                                              }),
+                                              _vm._v(" Morning")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block mr-3 float-right font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/afternoon.svg",
+                                                  alt: "Afternoon Image"
+                                                }
+                                              }),
+                                              _vm._v(" Afternoon")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3 \n                                           text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/evening.svg",
+                                                  alt: "Evening Image"
+                                                }
+                                              }),
+                                              _vm._v(" Evening")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-4 col-sm-3 col-md-4 col-lg-3"
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "mt-3 d-inline-block ml-3 font-weight-bold text-size-15"
+                                            },
+                                            [
+                                              _c("img", {
+                                                staticClass:
+                                                  "img-fluid float-left mr-2 mt-1",
+                                                attrs: {
+                                                  src: "images/night.svg",
+                                                  alt: "Night Image"
+                                                }
+                                              }),
+                                              _vm._v(" Night")
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t08:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t09:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t10:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "col-xs-8 col-sm-9 col-md-8 col-lg-12 text-center"
+                                        },
+                                        [
+                                          _c(
+                                            "ul",
+                                            {
+                                              staticClass:
+                                                "morning d-inline-block m-0"
+                                            },
+                                            [
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t07:00 PM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "li",
+                                                {
+                                                  staticClass:
+                                                    "time-box time-box float-left pl-5 pr-5 pt-1 pb-1 ml-3 mt-3 bg-time box-radius"
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t\t\t\t    \t\t\t00:00 AM\n\t\t\t\t\t\t\t\t\t\t    \t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ])
+                                  ]
+                                )
+                              ]
+                            )
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "modal-footer border-0 pt-2 w-100 d-inline-block pb-0"
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "row border-top border-bottom pt-1 pb-1"
+                          },
+                          [
+                            _c("div", { staticClass: "col-6" }, [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "hair-coloring float-left d-inline-block pl-5 m-0"
+                                },
+                                [
+                                  _c(
+                                    "p",
+                                    {
+                                      staticClass:
+                                        "text-black font-weight-bold mb-0"
+                                    },
+                                    [
+                                      _vm._v(
+                                        "Hair Coloring\n\t\t\t        \t\t\t\t\t"
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("span", { staticClass: "color-date" }, [
+                                    _vm._v("Address")
+                                  ])
+                                ]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "col-6" }, [
+                              _c(
+                                "div",
+                                { staticClass: "price float-right w-20" },
+                                [
+                                  _c(
+                                    "p",
+                                    {
+                                      staticClass:
+                                        "text-black \n\t\t\t\t        \t\t\t\tfont-weight-bold mb-0"
+                                    },
+                                    [_vm._v("$12\n\n\t\t\t\t        \t\t\t")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("span", { staticClass: "color-date" }, [
+                                    _vm._v("Time\n\t\t\t\t        \t\t\t\t")
+                                  ])
+                                ]
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "row border-bottom pt-2 pb-3" },
+                          [
+                            _c("div", { staticClass: "col-12" }, [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "another-service w-100 d-inline-block pl-5"
+                                },
+                                [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass:
+                                        "text-black font-weight-bold",
+                                      attrs: { href: "javascript:void(0)" }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass:
+                                          "fa fa-plus mr-2 text-center text-size-12",
+                                        attrs: { "aria-hidden": "true" }
+                                      }),
+                                      _vm._v(
+                                        "\n\t\t\t        \t\t\t\t\tAdd another service\n\t\t\t        \t\t\t\t"
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "row border-bottom" }, [
+                          _c("div", { staticClass: "col-6" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "home-service w-100 d-inline-block m-0 pt-2 pb-3 pl-5"
+                              },
+                              [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "text-black font-weight-bold",
+                                    attrs: { href: "javascript:void(0)" }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-home mr-2",
+                                      attrs: { "aria-hidden": "true" }
+                                    }),
+                                    _vm._v(
+                                      "\n\t\t\t        \t\t\t\t\tHome services\n\t\t\t        \t\t\t\t"
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-6" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "total-price w-60 \n\t\t\t        \t\td-inline-block float-right"
+                              },
+                              [
+                                _c(
+                                  "span",
+                                  {
+                                    staticClass:
+                                      "text-fee text-size-13 font-weight-bold float-left mr-4"
+                                  },
+                                  [_vm._v("Total price")]
+                                ),
+                                _vm._v(" "),
+                                _c("input", {
+                                  staticClass: "form-control w-45",
+                                  attrs: {
+                                    type: "text",
+                                    id: "Inputprice",
+                                    "aria-describedby": "emailHelp",
+                                    placeholder: ""
+                                  }
+                                })
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "w-100 d-inline-block" }, [
+                              _c(
+                                "p",
+                                {
+                                  staticClass:
+                                    "color-date text-size-13 mr-4 float-right mb-0"
+                                },
+                                [_vm._v("Home service charges also included")]
+                              )
+                            ])
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "address-section w-100 \n\t\t\t        \td-inline-block m-0 pl-5"
+                          },
+                          [
+                            _c("div", { staticClass: "row mt-3" }, [
+                              _c("div", { staticClass: "col-12" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "form-group mb-0 \n\t\t\t        \t\t\tinput-address"
+                                  },
+                                  [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "text-fee text-size-13 font-weight-bold float-left mr-3"
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t        \t\t\t\t\tAddress\n\t\t\t        \t\t\t\t"
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      staticClass:
+                                        "form-control w-80 text-size-13",
+                                      attrs: {
+                                        type: "text",
+                                        id: "Inputaddress",
+                                        "aria-describedby": "emailHelp",
+                                        placeholder: ""
+                                      }
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "row mt-3" }, [
+                              _c("div", { staticClass: "col-3" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "total-price w-100 \n\t\t\t        \t\td-inline-block pl-3"
+                                  },
+                                  [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "text-fee text-size-14 float-left mr-4 font-weight-bold"
+                                      },
+                                      [_vm._v("\n\t\t\t        \t\tAge")]
+                                    ),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      staticClass: "form-control w-60",
+                                      attrs: {
+                                        type: "text",
+                                        id: "Inputprice",
+                                        "aria-describedby": "emailHelp",
+                                        placeholder: ""
+                                      }
+                                    })
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-9 pl-0" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "radio-btn w-100 d-inline-block"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "form-check w-15 d-inline-block pb-2"
+                                      },
+                                      [
+                                        _c(
+                                          "label",
+                                          { staticClass: "form-check-label" },
+                                          [
+                                            _c("input", {
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "radio",
+                                                name: "optradio"
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "span",
+                                              {
+                                                staticClass:
+                                                  "text-black font-weight-bold text-size-13 ml-1"
+                                              },
+                                              [_vm._v("Male")]
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "form-check w-15 d-inline-block pb-3"
+                                      },
+                                      [
+                                        _c(
+                                          "label",
+                                          { staticClass: "form-check-label" },
+                                          [
+                                            _c("input", {
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "radio",
+                                                name: "optradio"
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "span",
+                                              {
+                                                staticClass:
+                                                  "text-black font-weight-bold text-size-13 ml-1"
+                                              },
+                                              [_vm._v("Female")]
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "row" }, [
+                              _c("div", { staticClass: "col-12" }, [
+                                _c("div", { staticClass: "form-group pl-3" }, [
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass:
+                                        "text-fee text-size-13 float-left",
+                                      attrs: { for: "FormControlTextarea1" }
+                                    },
+                                    [
+                                      _vm._v("Note\n\t\t\t        \t\t\t\t\t"),
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass:
+                                            "color-date d-block text-size-12"
+                                        },
+                                        [_vm._v("(optional)")]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("textarea", {
+                                    staticClass: "form-control w-80",
+                                    attrs: { id: "Textarea1", rows: "3" }
+                                  })
+                                ])
+                              ])
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "clear-confirm-btn w-100 d-inline-block m-0 pt-3 pb-3"
+                          },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-black text-size-14 d-inline-block border-modal-btn clear-btn-padding box-radius ml-5",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [
+                                _vm._v(
+                                  "\n\t\t\t        \t\t\t\tClear all\n\t\t\t        \t\t\t"
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "bg-gold text-white text-size-14 float-right clear-btn-padding box-radius d-inline-block confirm-button",
+                                attrs: {
+                                  href: "javascript:void(0)",
+                                  "data-toggle": "modal",
+                                  "data-target": "#confirm-detail-modal"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "\n\t\t\t        \t\t\t\tConfirm\n\t\t\t        \t\t\t"
+                                )
+                              ]
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade",
+          attrs: {
+            id: "confirm-detail-modal",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "exampleModalLabel",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "modal-dialog detail-modal",
+              attrs: { role: "document" }
+            },
+            [
+              _c("div", { staticClass: "modal-content" }, [
+                _c("div", { staticClass: "modal-header bg-slide-address" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "text-gold d-flex text-size-30",
+                      attrs: { href: "jawascript:void(0)" }
+                    },
+                    [
+                      _c("i", {
+                        staticClass: "fa fa-angle-left mr-5",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        {
+                          staticClass:
+                            "modal-title text-white text-size-16 mt-1",
+                          attrs: { id: "exampleModalLabel" }
+                        },
+                        [_vm._v("Confirm detail")]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "close mr-1 text-white cancel-btn",
+                      attrs: {
+                        type: "button",
+                        "data-dismiss": "modal",
+                        "aria-label": "Close"
+                      }
+                    },
+                    [
+                      _c("span", { attrs: { "aria-hidden": "true" } }, [
+                        _vm._v("×")
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-body p-0" }, [
+                  _c("div", { staticClass: "bg-time w-100 d-inline-block" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "term-service date-shop-name w-100 d-inline-block pl-3 client-border pb-3"
+                      },
+                      [
+                        _c(
+                          "h4",
+                          {
+                            staticClass:
+                              "detail-color mb-0 pt-2 font-weight-bold"
+                          },
+                          [
+                            _vm._v(
+                              "Thursday, 17 September 17 2020, 10:00 AM - 10:30 AM"
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "span",
+                          {
+                            staticClass:
+                              "text-black text-size-14 font-weight-bold"
+                          },
+                          [_vm._v("Shop Name")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "container" }, [
+                      _c("div", { staticClass: "row pt-2" }, [
+                        _c("div", { staticClass: "col-6" }, [
+                          _c("div", { staticClass: "hair-cut" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-fee font-weight-bold pb-2 d-inline-block",
+                                attrs: { href: "jawascript:void(0)" }
+                              },
+                              [
+                                _vm._v(
+                                  "\n\t            \t\tHaircut\n\t            \t"
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-fee text-size-14 d-block font-weight-normal",
+                                attrs: { href: "jawascript:void(0)" }
+                              },
+                              [_vm._v("Client Name\n\t            \t\t")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-6" }, [
+                          _c(
+                            "div",
+                            { staticClass: "hair-cut float-right text-center" },
+                            [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-fee font-weight-bold pb-2 d-inline-block float-right",
+                                  attrs: { href: "jawascript:void(0)" }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n\t            \t\t$25.00\n\t            \t"
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "text-fee text-size-16 d-block font-weight-normal w-75 float-right",
+                                  attrs: { href: "jawascript:void(0)" }
+                                },
+                                [
+                                  _vm._v(
+                                    "10:00 AM - 10:30 PM\n\t                "
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("form", [
+                    _c("div", { staticClass: "form-group p-3" }, [
+                      _c(
+                        "label",
+                        {
+                          staticClass: "text-fee text-size-17",
+                          attrs: { for: "FormControlTextarea1" }
+                        },
+                        [_vm._v("Leave a note (optional)\n\t\t\t    ")]
+                      ),
+                      _vm._v(" "),
+                      _c("textarea", {
+                        staticClass: "form-control",
+                        attrs: { id: "Textarea1", rows: "3" }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "radio-btn w-100 d-inline-block p-3" },
+                    [
+                      _c("p", { staticClass: "text-fee client-border pb-1" }, [
+                        _vm._v("Have you used services of SHOP NAME before?")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "form-check w-100 d-inline-block pb-2" },
+                        [
+                          _c("label", { staticClass: "form-check-label" }, [
+                            _c("input", {
+                              staticClass: "form-check-input",
+                              attrs: { type: "radio", name: "optradio" }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "span",
+                              {
+                                staticClass:
+                                  "text-black font-weight-bold text-size-15 ml-4"
+                              },
+                              [_vm._v("Yes")]
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "form-check w-100 d-inline-block client-border pb-3"
+                        },
+                        [
+                          _c("label", { staticClass: "form-check-label" }, [
+                            _c("input", {
+                              staticClass: "form-check-input",
+                              attrs: { type: "radio", name: "optradio" }
+                            }),
+                            _c(
+                              "span",
+                              {
+                                staticClass:
+                                  "text-black font-weight-bold text-size-15 ml-4"
+                              },
+                              [_vm._v("No")]
+                            )
+                          ])
+                        ]
+                      )
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "modal-footer term-service w-100 d-inline-block border-0 pt-0"
+                  },
+                  [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "text-gold font-weight-bold text-center mb-2 mt-0"
+                      },
+                      [_vm._v("Terms of Services")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass:
+                          "text-white bg-gold btn-lg btn-block border-0 text-size-15",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("Confirm")]
+                    )
+                  ]
+                )
+              ])
+            ]
+          )
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue?vue&type=template&id=9af072a4&":
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue?vue&type=template&id=9af072a4& ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "carousel slide beauty-slider",
+          attrs: { id: "beauty-saloon-slider", "data-ride": "carousel" }
+        },
+        [
+          _c("div", { staticClass: "carousel-inner" }, [
+            _c("div", { staticClass: "carousel-item active" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "bg-image-beauty-saloon w-100 \n\t        d-inline-block image-layer"
+                },
+                [
+                  _c("div", { staticClass: "container" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "image-slider w-85 d-inline-block position-absolute"
+                      },
+                      [
+                        _c("div", { staticClass: "row" }, [
+                          _c("div", { staticClass: "col-10" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "heading-hair-beauty-saloon w-100 d-inline-block"
+                              },
+                              [
+                                _c(
+                                  "h1",
+                                  {
+                                    staticClass:
+                                      "text-white \n\t\t\t  \t\t\t\tfont-weight-bold mb-0"
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n\t\t\t  \t\t\t\t\tDelectable hair designs and beauty salon\n\t\t\t  \t\t\t\t"
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "p",
+                                  { staticClass: "text-white text-size-20" },
+                                  [
+                                    _vm._v(
+                                      "\n\t\t\t  \t\t\t\t\tJonesboro Rd, 4140, A-10, Forest Park, 30297\n\t\t\t  \t\t\t\t"
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "heart-icon w-100 \n\t\t\t  \t\t\td-inline-block text-center"
+                              },
+                              [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "text-white",
+                                    attrs: { href: "javascript:void(0)" }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-heart-o",
+                                      attrs: { "aria-hidden": "true" }
+                                    })
+                                  ]
+                                )
+                              ]
+                            )
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "carousel-item" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "bg-image-beauty-saloon w-100 \n\t        d-inline-block image-layer"
+                },
+                [
+                  _c("div", { staticClass: "container" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "image-slider w-85 d-inline-block position-absolute"
+                      },
+                      [
+                        _c("div", { staticClass: "row" }, [
+                          _c("div", { staticClass: "col-10" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "heading-hair-beauty-saloon w-100 d-inline-block"
+                              },
+                              [
+                                _c(
+                                  "h1",
+                                  {
+                                    staticClass:
+                                      "text-white \n\t\t\t  \t\t\t\tfont-weight-bold mb-0"
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n\t\t\t  \t\t\t\t\tDelectable hair designs and beauty salon\n\t\t\t  \t\t\t\t"
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "p",
+                                  { staticClass: "text-white text-size-20" },
+                                  [
+                                    _vm._v(
+                                      "\n\t\t\t  \t\t\t\t\tJonesboro Rd, 4140, A-10, Forest Park, 30297\n\t\t\t  \t\t\t\t"
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "heart-icon w-100 \n\t\t\t  \t\t\td-inline-block text-center"
+                              },
+                              [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "text-white",
+                                    attrs: { href: "javascript:void(0)" }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-heart-o",
+                                      attrs: { "aria-hidden": "true" }
+                                    })
+                                  ]
+                                )
+                              ]
+                            )
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "carousel-item" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "bg-image-beauty-saloon w-100 \n\t        d-inline-block image-layer"
+                },
+                [
+                  _c("div", { staticClass: "container" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "image-slider w-85 d-inline-block position-absolute"
+                      },
+                      [
+                        _c("div", { staticClass: "row" }, [
+                          _c("div", { staticClass: "col-10" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "heading-hair-beauty-saloon w-100 d-inline-block"
+                              },
+                              [
+                                _c(
+                                  "h1",
+                                  {
+                                    staticClass:
+                                      "text-white \n\t\t\t  \t\t\t\tfont-weight-bold mb-0"
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n\t\t\t  \t\t\t\t\tDelectable hair designs and beauty salon\n\t\t\t  \t\t\t\t"
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "p",
+                                  { staticClass: "text-white text-size-20" },
+                                  [
+                                    _vm._v(
+                                      "\n\t\t\t  \t\t\t\t\tJonesboro Rd, 4140, A-10, Forest Park, 30297\n\t\t\t  \t\t\t\t"
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-2" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "heart-icon w-100 \n\t\t\t  \t\t\td-inline-block text-center"
+                              },
+                              [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "text-white",
+                                    attrs: { href: "javascript:void(0)" }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-heart-o",
+                                      attrs: { "aria-hidden": "true" }
+                                    })
+                                  ]
+                                )
+                              ]
+                            )
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "#beauty-saloon-slider",
+                role: "button",
+                "data-slide": "prev"
+              }
+            },
+            [
+              _c("span", {
+                staticClass: "prev-icon",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "#beauty-saloon-slider",
+                role: "button",
+                "data-slide": "next"
+              }
+            },
+            [
+              _c("span", {
+                staticClass: "next-icon",
+                attrs: { "aria-hidden": "true" }
+              }),
+              _vm._v(" "),
+              _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
+            ]
+          )
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue?vue&type=template&id=4f37b0c0&":
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue?vue&type=template&id=4f37b0c0& ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row mt-4 client-border pb-4" }, [
+          _c("div", { staticClass: "col-6" }, [
+            _c(
+              "div",
+              { staticClass: "heading-client-text w-100 d-inline-block" },
+              [
+                _c(
+                  "h3",
+                  {
+                    staticClass: "text-black gold-border font-weight-bold w-75"
+                  },
+                  [_vm._v("Clients Say")]
+                ),
+                _vm._v(" "),
+                _c("p", { staticClass: "text-black text-size-14" }, [
+                  _vm._v(
+                    "\n\t\t\t\t\tIt is a long established fact that a reader will be distracted by the readable content of\n\t\t\t\t\tIpsum is that it has a more-or-less normal distribution of letters, as opposed to using\n\t\t\t\t\t'Content here, content here', making it look like readable English.\n\t\t\t\t"
+                  )
+                ])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-4" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "client-view-rate w-35 p-2 d-inline-block float-right"
+              },
+              [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "text-black font-weight-bold text-size-20 d-block text-center"
+                  },
+                  [
+                    _vm._v("5.5/\n\t\t\t\t\t"),
+                    _c(
+                      "span",
+                      {
+                        staticClass:
+                          "text-black text-size-15 font-weight-normal"
+                      },
+                      [_vm._v("100")]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                  _c("i", {
+                    staticClass: "fa fa-star",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                  _c("i", {
+                    staticClass: "fa fa-star",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                  _c("i", {
+                    staticClass: "fa fa-star",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                  _c("i", {
+                    staticClass: "fa fa-star",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                  _c("i", {
+                    staticClass: "fa fa-star",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-2" }, [
+            _c(
+              "div",
+              { staticClass: "bussiness-btn w-100 d-inline-block mt-3" },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-white font-weight-bold bg-gold hair-saloon-btn float-left box-radius",
+                    attrs: { href: "javascript:void(0)" }
+                  },
+                  [_vm._v("\n\t\t\t\t\tShow more\n\t\t\t\t\t")]
+                )
+              ]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row mt-2 client-border" }, [
+          _c("div", { staticClass: "col-10" }, [
+            _c("div", { staticClass: "client-image w-10 float-left" }, [
+              _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: {
+                    src: "images/client-image.svg",
+                    alt: "client-image picture"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "client-name w-80 float-left" }, [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-black font-weight-bold text-size-20 d-block",
+                  attrs: { href: "javascript:void(0)" }
+                },
+                [_vm._v("\n\t\t\t\t\tEmma.\n\t\t\t\t")]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "text-gold text-size-18" }, [
+                _vm._v("\n\t\t\t\t\t5.0\n\t\t\t\t")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "client-detail w-100 d-inline-block" }, [
+              _c("p", { staticClass: "text-black text-size-14" }, [
+                _vm._v(
+                  "\n\t\t\t\t\tIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its ayout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. \n\t\t\t\t"
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "replied-box w-100 d-inline-block p-2 box-radius mb-2 ml-5"
+              },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass: "text-gold",
+                    attrs: { href: "javascript:void(0)" }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-reply mr-2",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  { staticClass: "text-fee text-size-13 font-weight-bold" },
+                  [_vm._v("Replied: Sep 13, 2020")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "text-black text-size-14 font-weight-bold ml-4 d-block"
+                  },
+                  [_vm._v("Luxe Barber & Shave Lounge")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "p",
+                  {
+                    staticClass:
+                      "color-date ml-4 font-weight-bold text-size-12 mb-0 mt-1"
+                  },
+                  [_vm._v("thank you Gab ,it was a pleasure.")]
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-2" }, [
+            _c(
+              "div",
+              { staticClass: "report-btn w-100 d-inline-block mt-3 mb-2" },
+              [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-white font-weight-bold bg-gold box-radius text-size-14 float-right",
+                    attrs: { href: "jawascript:void(0)" }
+                  },
+                  [_vm._v("\n\t    \t\t\tReport\n\t    \t\t")]
+                )
+              ]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row mt-2 client-border" }, [
+          _c("div", { staticClass: "col-12" }, [
+            _c("div", { staticClass: "client-image w-10 float-left" }, [
+              _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: {
+                    src: "images/client-image.svg",
+                    alt: "client-image picture"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "client-name w-80 float-left" }, [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-black font-weight-bold text-size-20 d-block",
+                  attrs: { href: "javascript:void(0)" }
+                },
+                [_vm._v("\n\t\t\t\t\tEmma.\n\t\t\t\t")]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "text-gold text-size-18" }, [
+                _vm._v("\n\t\t\t\t\t5.0\n\t\t\t\t")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "client-detail w-100 d-inline-block" }, [
+              _c("p", { staticClass: "text-black text-size-14" }, [
+                _vm._v(
+                  "\n\t\t\t\t\tIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its ayout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. \n\t\t\t\t"
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue?vue&type=template&id=94ddaba6&":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue?vue&type=template&id=94ddaba6& ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "bg-gallery w-100 d-inline-block pb-5" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              {
+                staticClass: "heading-gallery-images w-100 d-inline-block mt-3"
+              },
+              [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "text-white font-weight-bold text-size-30 w-25 gold-border d-inline-block"
+                  },
+                  [_vm._v("About & Gallery\n\t\t\t\t")]
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row mt-4" }, [
+            _c("div", { staticClass: "col-3" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "hair-design-detail w-100 d-inline-block p-2 border-white"
+                },
+                [
+                  _c("h5", { staticClass: "text-gold font-weight-bold" }, [
+                    _vm._v("Delectable hair designs and beauty salon")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-white text-size-14 mb-1" }, [
+                    _vm._v(
+                      "\n\t\t\t\t\t\tLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n\t\t\t\t\t\tLorem Ipsum is simply dummy text of the printing and typesetting industry.\n\t\t\t\t\t\tLorem Ipsum is simply dummy text of the printing and typesetting industry.\n\t\t\t\t\t\tLorem Ipsum is simply dummy text of the printing and typesetting industry.\n\t\t\t\t\t\tLorem Ipsum is simply dummy text \n\t\t\t\t\t"
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3" }, [
+              _c("div", { staticClass: "gallery-image w-100 d-inline-block" }, [
+                _c("a", { attrs: { href: "#javascript:void(0)" } }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: {
+                      src: "images/gallery-image.svg",
+                      alt: "gallery-image picture"
+                    }
+                  })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3" }, [
+              _c("div", { staticClass: "gallery-image w-100 d-inline-block" }, [
+                _c("a", { attrs: { href: "#javascript:void(0)" } }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: {
+                      src: "images/gallery-image-2.svg",
+                      alt: "gallery-image-2\n\t\t\t\t\t\t picture"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "gallery-image-3 w-100 d-inline-block" },
+                [
+                  _c("a", { attrs: { href: "#javascript:void(0)" } }, [
+                    _c("img", {
+                      staticClass: "img-fluid",
+                      attrs: {
+                        src: "images/gallery-image-3.svg",
+                        alt: "gallery-image-3\n\t\t\t\t\t\t picture"
+                      }
+                    })
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3" }, [
+              _c("div", { staticClass: "gallery-image w-100 d-inline-block" }, [
+                _c("a", { attrs: { href: "#javascript:void(0)" } }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: {
+                      src: "images/gallery-image-4.svg",
+                      alt: "gallery-image-4\n\t\t\t\t\t\t picture"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "show-more-gallery w-100 d-inline-block" },
+                [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "text-gold text-size-30 font-weight-bold",
+                      attrs: { href: "javascript:void(0)" }
+                    },
+                    [_vm._v("\n\t\t\t\t\t\tShow more\n\t\t\t\t\t")]
+                  )
+                ]
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/footer/footerComponent.vue?vue&type=template&id=04d34ed0&":
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/footer/footerComponent.vue?vue&type=template&id=04d34ed0& ***!
+  \**********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("footer", { staticClass: "footer-bg" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row gold_border" }, [
+            _c("div", { staticClass: "col-5" }, [
+              _c("div", { staticClass: "logo mt-4 mb-lg-4" }, [
+                _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                  _c("img", {
+                    attrs: {
+                      src: "images/logo-img.svg",
+                      alt: "logo-img picture"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "media_icons mt-4 mb-3" }, [
+                _c("h1", { staticClass: "text-gold text-size-22" }, [
+                  _vm._v("Follow us on\n                    \t")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "bg-gold text-black box-radius d-inline-block mr-5",
+                    attrs: { href: "jawascript:void(0)" }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-instagram text-size-18",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "bg-gold text-black box-radius d-inline-block mr-5 facebook-icon",
+                    attrs: { href: "jawascript:void(0)" }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-facebook text-size-18",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "bg-gold text-black box-radius d-inline-block",
+                    attrs: { href: "jawascript:void(0)" }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-twitter text-size-18",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-7 mt-5" }, [
+              _c("ul", { staticClass: "d-block mb-lg-5" }, [
+                _c(
+                  "li",
+                  {
+                    staticClass:
+                      "d-inline-block px-lg-3 text-size-14 font-weight-bold"
+                  },
+                  [
+                    _c(
+                      "a",
+                      { staticClass: "text-white", attrs: { href: "" } },
+                      [_vm._v("Blog")]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "li",
+                  {
+                    staticClass:
+                      "d-inline-block px-lg-3 text-size-14 font-weight-bold"
+                  },
+                  [
+                    _c(
+                      "a",
+                      { staticClass: "text-white", attrs: { href: "" } },
+                      [_vm._v("About us")]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "li",
+                  {
+                    staticClass:
+                      "d-inline-block px-lg-3 text-size-14 font-weight-bold"
+                  },
+                  [
+                    _c(
+                      "a",
+                      { staticClass: "text-white", attrs: { href: "" } },
+                      [_vm._v("Privacy policy")]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "li",
+                  {
+                    staticClass:
+                      "d-inline-block px-lg-3 text-size-14 font-weight-bold"
+                  },
+                  [
+                    _c(
+                      "a",
+                      { staticClass: "text-white", attrs: { href: "" } },
+                      [_vm._v("Term of Service")]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "li",
+                  {
+                    staticClass:
+                      "d-inline-block px-lg-3 text-size-14 font-weight-bold"
+                  },
+                  [
+                    _c(
+                      "a",
+                      { staticClass: "text-white", attrs: { href: "" } },
+                      [_vm._v("Careers")]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "li",
+                  {
+                    staticClass:
+                      "d-inline-block px-lg-3 text-size-14 font-weight-bold"
+                  },
+                  [
+                    _c(
+                      "a",
+                      { staticClass: "text-white", attrs: { href: "" } },
+                      [_vm._v("Contact")]
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "Android_ios float-right mt-lg-4" }, [
+                _c("a", { attrs: { href: "" } }, [
+                  _c("img", {
+                    staticClass: "d-inline-block",
+                    attrs: { src: "images/ios.svg" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "" } }, [
+                  _c("img", {
+                    staticClass: "d-inline-block",
+                    attrs: { src: "images/android.svg" }
+                  })
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center text-white pt-3 pb-1" }, [
+            _c("p", { staticClass: "text-size-14" }, [_vm._v("Copyright2020")])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/header/beautysaloonComponent.vue?vue&type=template&id=086f8ede&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/header/beautysaloonComponent.vue?vue&type=template&id=086f8ede& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("header", [
+        _c("div", { staticClass: "header-bg w-100 d-inline-block bg-black" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row pt-3 pb-3" }, [
+              _c("div", { staticClass: "col-2" }, [
+                _c("div", { staticClass: "logo" }, [
+                  _c("img", {
+                    attrs: {
+                      src: "images/logo-image.svg",
+                      alt: "logo-image picture"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-6" }, [
+                _c(
+                  "div",
+                  { staticClass: "main-service-input w-100 d-block m-0" },
+                  [
+                    _c("div", { staticClass: "row" }, [
+                      _c("div", { staticClass: "col-6 pr-0" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "form-group input-services position-relative w-100 float-right mb-0"
+                          },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "text-white position-absolute",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [
+                                _c("i", {
+                                  staticClass: "fa fa-search",
+                                  attrs: { "aria-hidden": "true" }
+                                })
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("input", {
+                              staticClass:
+                                "form-control text-white pl-5 pr-2 h-50 border-0 bg-black",
+                              attrs: {
+                                type: "text",
+                                id: "service-input-text",
+                                "aria-describedby": "emailHelp",
+                                placeholder: "Book your services...."
+                              }
+                            })
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-6 pl-0" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "form-group input-services input-services-2 position-relative w-100 float-left mb-0"
+                          },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "text-white position-absolute",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [
+                                _c("i", {
+                                  staticClass: "fa fa-map-marker",
+                                  attrs: { "aria-hidden": "true" }
+                                })
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("input", {
+                              staticClass:
+                                "form-control text-white pl-5 pr-5 h-50 bg-black",
+                              attrs: {
+                                type: "text",
+                                id: "service-input-text",
+                                "aria-describedby": "emailHelp",
+                                placeholder: "Where?"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "location-icon text-white bg-gold position-absolute d-inline-block text-center p-1",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [
+                                _c("i", {
+                                  staticClass: "fa fa-location-arrow",
+                                  attrs: { "aria-hidden": "true" }
+                                })
+                              ]
+                            )
+                          ]
+                        )
+                      ])
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-2" }, [
+                _c(
+                  "div",
+                  { staticClass: "login-signup float-right mt-2 mr-3" },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "text-white text-size-16",
+                        attrs: {
+                          href: "javascript:void(0)",
+                          "data-toggle": "modal",
+                          "data-target": "#login-signup-popup"
+                        }
+                      },
+                      [
+                        _c("i", {
+                          staticClass: "fa fa-user mr-2",
+                          attrs: { "aria-hidden": "true" }
+                        }),
+                        _vm._v("\n\t\t\t\t\t\tLogin / Signup\n\t\t\t\t")
+                      ]
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-2 p-0" }, [
+                _c(
+                  "div",
+                  { staticClass: "bussiness-btn w-100 d-inline-block" },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "text-white font-weight-bold bg-gold hair-saloon-btn float-left box-radius",
+                        attrs: { href: "javascript:void(0)" }
+                      },
+                      [_vm._v("\n\t\t\t\t\tFor Business\n\t\t\t\t\t")]
+                    )
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row mt-3 mb-2" }, [
+              _c("div", { staticClass: "col-12" }, [
+                _c(
+                  "nav",
+                  {
+                    staticClass:
+                      "navbar navbar-expand-lg navbar-light \n\t\t\t\tpl-0 pr-0"
+                  },
+                  [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "navbar-toggler",
+                        attrs: {
+                          type: "button",
+                          "data-toggle": "collapse",
+                          "data-target": "#navbarSupportedContent",
+                          "aria-controls": "navbarSupportedContent",
+                          "aria-expanded": "false",
+                          "aria-label": "Toggle navigation"
+                        }
+                      },
+                      [_c("span", { staticClass: "navbar-toggler-icon" })]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "collapse navbar-collapse",
+                        attrs: { id: "navbarSupportedContent" }
+                      },
+                      [
+                        _c(
+                          "ul",
+                          {
+                            staticClass:
+                              "navbar-nav hair-saloon-categories w-100 float-left"
+                          },
+                          [
+                            _c("li", { staticClass: "nav-item" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "nav-link text-white position-relative",
+                                  attrs: { href: "javascript:void(0)" }
+                                },
+                                [_vm._v("Hair Salon \n\t\t\t\t\t\t\t\t")]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "nav-item" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "nav-link text-white position-relative",
+                                  attrs: { href: "javascript:void(0)" }
+                                },
+                                [_vm._v("Barbershop\n\t\t\t\t\t\t\t\t")]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "nav-item" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "nav-link text-white position-relative",
+                                  attrs: { href: "javascript:void(0)" }
+                                },
+                                [_vm._v("Nail Salon\n\t\t\t\t\t\t\t    ")]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "nav-item" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "nav-link text-white position-relative",
+                                  attrs: { href: "javascript:void(0)" }
+                                },
+                                [_vm._v("Beauty Salon\n\t\t\t\t\t\t\t\t")]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "nav-item" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "nav-link text-white position-relative",
+                                  attrs: { href: "javascript:void(0)" }
+                                },
+                                [_vm._v("Eye Brows & Lashes\n\t\t\t\t\t\t\t\t")]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "nav-item" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "nav-link text-white position-relative",
+                                  attrs: { href: "javascript:void(0)" }
+                                },
+                                [_vm._v("Massage\n\t\t\t\t\t\t\t\t")]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "nav-item" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "nav-link text-white position-relative",
+                                  attrs: { href: "javascript:void(0)" }
+                                },
+                                [_vm._v("Makeup Artist\n\t\t\t\t\t\t\t\t")]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "nav-item" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "nav-link text-white more-btn",
+                                  attrs: { href: "javascript:void(0)" }
+                                },
+                                [_vm._v("More\n\t\t\t\t\t\t\t\t")]
+                              )
+                            ])
+                          ]
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade",
+          attrs: {
+            id: "login-signup-popup",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "exampleModalLabel",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "modal-dialog w-30 sign-in-modal",
+              attrs: { role: "document" }
+            },
+            [
+              _c("div", { staticClass: "modal-content" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "modal-header sign-modal-heading border-0 pb-0 w-100 d-inline-block"
+                  },
+                  [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "close pt-1 cross-btn float-right",
+                        attrs: {
+                          type: "button",
+                          "data-dismiss": "modal",
+                          "aria-label": "Close"
+                        }
+                      },
+                      [
+                        _c(
+                          "span",
+                          {
+                            staticClass: "text-size-15 d-inline-block",
+                            attrs: { "aria-hidden": "true" }
+                          },
+                          [_vm._v("×")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "h5",
+                      {
+                        staticClass:
+                          "text-gold font-weight-bold mt-1 pb-2 w-100 border-sign-bottom"
+                      },
+                      [_vm._v("SIGN IN\n        ")]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-body pt-0 pb-0" }, [
+                  _c("form", [
+                    _c("div", { staticClass: "form-group input-email" }, [
+                      _c(
+                        "label",
+                        {
+                          staticClass: "color-date text-size-15",
+                          attrs: { for: "InputEmail1" }
+                        },
+                        [_vm._v("Enter you Email\n        \t\t")]
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control text-size-14",
+                        attrs: {
+                          type: "email",
+                          id: "InputEmail1",
+                          "aria-describedby": "emailHelp",
+                          placeholder: ""
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "or-text" }, [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "text-black font-weight-bold text-size-16 text-center mb-0"
+                      },
+                      [_vm._v("OR")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "modal-footer border-0 social-icon-btn" },
+                  [
+                    _c(
+                      "button",
+                      {
+                        staticClass:
+                          "facebook-btn w-100 box-radius text-white border-0 text-size-14 p-2",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("FACEBOOK")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass:
+                          "gmail-btn w-100 box-radius text-white border-0 text-size-14 p-2",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("GMAIL\n        ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "note-member-signup w-40 m-auto d-inline-block text-center mt-3 border-sign-bottom pb-1"
+                      },
+                      [
+                        _c("span", { staticClass: "color-date text-size-13" }, [
+                          _vm._v("Not a member?")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "signup-btn sign-color font-weight-bold text-size-14",
+                            attrs: {
+                              "data-toggle": "modal",
+                              "data-target": "#sigin-popup",
+                              href: "javascript:void(0)"
+                            }
+                          },
+                          [_vm._v("\n        \tsign up\n        \t")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "privacy-policy w-100 d-inline-block \n        text-center mt-3"
+                      },
+                      [
+                        _c(
+                          "span",
+                          {
+                            staticClass:
+                              "color-date text-size-15 pb-1 border-sign-bottom"
+                          },
+                          [_vm._v("privacy policy\n        \t")]
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade",
+          attrs: {
+            id: "sigin-popup",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "exampleModalLabel",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "modal-dialog w-30 sign-password-modal",
+              attrs: { role: "document" }
+            },
+            [
+              _c("div", { staticClass: "modal-content" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "modal-header sign-modal-heading border-0 pb-0 w-100 d-inline-block"
+                  },
+                  [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "close pt-1 cross-btn float-right",
+                        attrs: {
+                          type: "button",
+                          "data-dismiss": "modal",
+                          "aria-label": "Close"
+                        }
+                      },
+                      [
+                        _c(
+                          "span",
+                          {
+                            staticClass: "text-size-15 d-inline-block",
+                            attrs: { "aria-hidden": "true" }
+                          },
+                          [_vm._v("×")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "h5",
+                      {
+                        staticClass:
+                          "text-gold font-weight-bold mt-1 pb-2 w-100 border-sign-bottom"
+                      },
+                      [_vm._v("SIGN IN\n        ")]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-body pt-0 pb-0" }, [
+                  _c("form", [
+                    _c("div", { staticClass: "form-group input-email" }, [
+                      _c(
+                        "label",
+                        {
+                          staticClass: "color-date text-size-15",
+                          attrs: { for: "InputEmail1" }
+                        },
+                        [_vm._v("Password\n        \t\t")]
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control text-size-14",
+                        attrs: {
+                          type: "password",
+                          id: "InputPassword",
+                          "aria-describedby": "emailHelp",
+                          placeholder: ""
+                        }
+                      })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "modal-footer border-0 social-icon-btn pt-0" },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "forgot-password w-100 d-inline-block mb-4"
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "color-date text-size-11 font-weight-bold float-right\n      \t\tpt-1 pb-1 pl-3 pr-3",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Forget password?")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "note-member-signup w-55 m-auto d-inline-block text-center border-sign-bottom pb-1"
+                      },
+                      [
+                        _c("span", { staticClass: "color-date text-size-13" }, [
+                          _vm._v("Already have an account?")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "sign-color font-weight-bold text-size-14 sign-in-btn",
+                            attrs: {
+                              href: "javascript:void(0)",
+                              "data-toggle": "modal",
+                              "data-target": "#signup-popup"
+                            }
+                          },
+                          [_vm._v("\n        \tsign in\n        \t")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "privacy-policy w-100 d-inline-block \n        text-center mt-3"
+                      },
+                      [
+                        _c(
+                          "span",
+                          {
+                            staticClass:
+                              "color-date text-size-15 pb-1 border-sign-bottom"
+                          },
+                          [_vm._v("privacy policy\n        \t")]
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade",
+          attrs: {
+            id: "signup-popup",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "exampleModalLabel",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "modal-dialog w-30 signup-modal",
+              attrs: { role: "document" }
+            },
+            [
+              _c("div", { staticClass: "modal-content" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "modal-header sign-modal-heading border-0 pb-0 w-100 d-inline-block"
+                  },
+                  [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "close pt-1 cross-btn float-right",
+                        attrs: {
+                          type: "button",
+                          "data-dismiss": "modal",
+                          "aria-label": "Close"
+                        }
+                      },
+                      [
+                        _c(
+                          "span",
+                          {
+                            staticClass: "text-size-15 d-inline-block",
+                            attrs: { "aria-hidden": "true" }
+                          },
+                          [_vm._v("×")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "h5",
+                      {
+                        staticClass:
+                          "text-gold font-weight-bold mt-1 pb-2 w-100 border-sign-bottom"
+                      },
+                      [_vm._v("SIGN UP\n        ")]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-body pt-0 pb-0" }, [
+                  _c("form", [
+                    _c("div", { staticClass: "form-group input-email mb-2" }, [
+                      _c(
+                        "label",
+                        {
+                          staticClass: "color-date text-size-15",
+                          attrs: { for: "InputEmail1" }
+                        },
+                        [_vm._v("Enter you Email\n        \t\t")]
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control text-size-14",
+                        attrs: {
+                          type: "email",
+                          id: "InputEmail1-2",
+                          "aria-describedby": "emailHelp",
+                          placeholder: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group input-email mb-2" }, [
+                      _c(
+                        "label",
+                        {
+                          staticClass: "color-date text-size-15",
+                          attrs: { for: "InputEmail1" }
+                        },
+                        [_vm._v("Password\n        \t\t")]
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control text-size-14",
+                        attrs: {
+                          type: "password",
+                          id: "InputPassword-2",
+                          "aria-describedby": "emailHelp",
+                          placeholder: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group input-email mb-2" }, [
+                      _c(
+                        "label",
+                        {
+                          staticClass: "color-date text-size-15",
+                          attrs: { for: "InputEmail1" }
+                        },
+                        [_vm._v("Re-enter password\n        \t\t")]
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control text-size-14",
+                        attrs: {
+                          type: "password",
+                          id: "InputPassword-3",
+                          "aria-describedby": "emailHelp",
+                          placeholder: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("select", { staticClass: "form-control mt-3" }, [
+                      _c("option", [
+                        _vm._v("\n        \t\t\tClient\n        \t\t")
+                      ]),
+                      _vm._v(" "),
+                      _c("option", [
+                        _vm._v("\n        \t\t\tCustomer\n        \t\t")
+                      ]),
+                      _vm._v(" "),
+                      _c("option", [
+                        _vm._v("\n        \t\t\tHair Cutting\n        \t\t")
+                      ]),
+                      _vm._v(" "),
+                      _c("option", [
+                        _vm._v("\n        \t\t\tShaving\n        \t\t")
+                      ]),
+                      _vm._v(" "),
+                      _c("option", [
+                        _vm._v("\n        \t\t\tTind\n        \t\t")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "or-text mt-3" }, [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "text-black font-weight-bold text-size-16 text-center mb-0"
+                      },
+                      [_vm._v("OR")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "modal-footer border-0 social-icon-btn" },
+                  [
+                    _c(
+                      "button",
+                      {
+                        staticClass:
+                          "facebook-btn w-100 box-radius text-white border-0 text-size-14 p-2",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("FACEBOOK")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass:
+                          "gmail-btn w-100 box-radius text-white border-0 text-size-14 p-2 mb-3",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("GMAIL\n        ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "note-member-signup w-55 m-auto d-inline-block text-center border-sign-bottom pb-1"
+                      },
+                      [
+                        _c("span", { staticClass: "color-date text-size-13" }, [
+                          _vm._v("Already have an account?")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "signup-btn sign-color font-weight-bold text-size-14",
+                            attrs: {
+                              "data-toggle": "modal",
+                              "data-target": "#sigin-popup",
+                              href: "javascript:void(0)"
+                            }
+                          },
+                          [_vm._v("\n        \tsign in\n        \t")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "privacy-policy w-100 d-inline-block \n        text-center mt-3"
+                      },
+                      [
+                        _c(
+                          "span",
+                          {
+                            staticClass:
+                              "color-date text-size-15 pb-1 border-sign-bottom"
+                          },
+                          [_vm._v("privacy policy\n        \t")]
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ])
+            ]
+          )
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/homepage/popularcategoriesComponent.vue?vue&type=template&id=9cdc4452&":
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/homepage/popularcategoriesComponent.vue?vue&type=template&id=9cdc4452& ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "categories" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12" }, [
+              _c("div", { staticClass: "logo text-center mt-4 mb-lg-4" }, [
+                _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                  _c("img", {
+                    attrs: { src: "images/icon.svg", alt: "icon picture" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("h2", { staticClass: "text-size-33 text-gold mt-2" }, [
+                  _vm._v("MOST POPULAR CATEGORIES  NEARBY")
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3 mt-4 blog-categories" }, [
+              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                _c(
+                  "p",
+                  {
+                    staticClass:
+                      "text-size-16 text-black d-inline-block font-weight-bold"
+                  },
+                  [_vm._v("Hair saloon near me")]
+                ),
+                _vm._v(" "),
+                _c("i", {
+                  staticClass:
+                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3 mt-4 blog-categories" }, [
+              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                _c(
+                  "p",
+                  {
+                    staticClass:
+                      "text-size-16 text-black d-inline-block font-weight-bold"
+                  },
+                  [_vm._v("Hair saloon near me")]
+                ),
+                _vm._v(" "),
+                _c("i", {
+                  staticClass:
+                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3 mt-4 blog-categories" }, [
+              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                _c(
+                  "p",
+                  {
+                    staticClass:
+                      "text-size-16 text-black d-inline-block font-weight-bold"
+                  },
+                  [_vm._v("Hair saloon near me")]
+                ),
+                _vm._v(" "),
+                _c("i", {
+                  staticClass:
+                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3 mt-4 blog-categories" }, [
+              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                _c(
+                  "p",
+                  {
+                    staticClass:
+                      "text-size-16 text-black d-inline-block font-weight-bold"
+                  },
+                  [_vm._v("Hair saloon near me")]
+                ),
+                _vm._v(" "),
+                _c("i", {
+                  staticClass:
+                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3 my-5 blog-categories" }, [
+              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                _c(
+                  "p",
+                  {
+                    staticClass:
+                      "text-size-16 text-black d-inline-block font-weight-bold"
+                  },
+                  [_vm._v("Hair saloon near me")]
+                ),
+                _vm._v(" "),
+                _c("i", {
+                  staticClass:
+                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3 my-5 blog-categories" }, [
+              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                _c(
+                  "p",
+                  {
+                    staticClass:
+                      "text-size-16 text-black d-inline-block font-weight-bold"
+                  },
+                  [_vm._v("Hair saloon near me")]
+                ),
+                _vm._v(" "),
+                _c("i", {
+                  staticClass:
+                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3 my-5 blog-categories" }, [
+              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                _c(
+                  "p",
+                  {
+                    staticClass:
+                      "text-size-16 text-black d-inline-block font-weight-bold"
+                  },
+                  [_vm._v("Hair saloon near me")]
+                ),
+                _vm._v(" "),
+                _c("i", {
+                  staticClass:
+                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3 my-5 blog-categories" }, [
+              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                _c(
+                  "p",
+                  {
+                    staticClass:
+                      "text-size-16 text-black d-inline-block font-weight-bold"
+                  },
+                  [_vm._v("Hair saloon near me")]
+                ),
+                _vm._v(" "),
+                _c("i", {
+                  staticClass:
+                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
+/* globals __VUE_SSR_CONTEXT__ */
+
+// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
+// This module is a runtime utility for cleaner component module output and will
+// be included in the final webpack user bundle.
+
+function normalizeComponent (
+  scriptExports,
+  render,
+  staticRenderFns,
+  functionalTemplate,
+  injectStyles,
+  scopeId,
+  moduleIdentifier, /* server only */
+  shadowMode /* vue-cli only */
+) {
+  // Vue.extend constructor export interop
+  var options = typeof scriptExports === 'function'
+    ? scriptExports.options
+    : scriptExports
+
+  // render functions
+  if (render) {
+    options.render = render
+    options.staticRenderFns = staticRenderFns
+    options._compiled = true
+  }
+
+  // functional template
+  if (functionalTemplate) {
+    options.functional = true
+  }
+
+  // scopedId
+  if (scopeId) {
+    options._scopeId = 'data-v-' + scopeId
+  }
+
+  var hook
+  if (moduleIdentifier) { // server build
+    hook = function (context) {
+      // 2.3 injection
+      context =
+        context || // cached call
+        (this.$vnode && this.$vnode.ssrContext) || // stateful
+        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
+      // 2.2 with runInNewContext: true
+      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
+        context = __VUE_SSR_CONTEXT__
+      }
+      // inject component styles
+      if (injectStyles) {
+        injectStyles.call(this, context)
+      }
+      // register component module identifier for async chunk inferrence
+      if (context && context._registeredComponents) {
+        context._registeredComponents.add(moduleIdentifier)
+      }
+    }
+    // used by ssr in case component is cached and beforeCreate
+    // never gets called
+    options._ssrRegister = hook
+  } else if (injectStyles) {
+    hook = shadowMode
+      ? function () {
+        injectStyles.call(
+          this,
+          (options.functional ? this.parent : this).$root.$options.shadowRoot
+        )
+      }
+      : injectStyles
+  }
+
+  if (hook) {
+    if (options.functional) {
+      // for template-only hot-reload because in that case the render fn doesn't
+      // go through the normalizer
+      options._injectStyles = hook
+      // register for functional component in vue file
+      var originalRender = options.render
+      options.render = function renderWithStyleInjection (h, context) {
+        hook.call(context)
+        return originalRender(h, context)
+      }
+    } else {
+      // inject component registration as beforeCreate hook
+      var existing = options.beforeCreate
+      options.beforeCreate = existing
+        ? [].concat(existing, hook)
+        : [hook]
+    }
+  }
+
+  return {
+    exports: scriptExports,
+    options: options
+  }
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/vue/dist/vue.common.dev.js":
 /*!*************************************************!*\
   !*** ./node_modules/vue/dist/vue.common.dev.js ***!
@@ -31582,10 +44223,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
+/***/ "./resources/js/beautysaloon.js":
+/*!**************************************!*\
+  !*** ./resources/js/beautysaloon.js ***!
+  \**************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -31596,6 +44237,13 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('header-section', __webpack_require__(/*! ./components/frontend/header/beautysaloonComponent.vue */ "./resources/js/components/frontend/header/beautysaloonComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('beauty-slider-section', __webpack_require__(/*! ./components/frontend/beautysaloonpage/beautysliderComponent.vue */ "./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('beauty-booking-section', __webpack_require__(/*! ./components/frontend/beautysaloonpage/beautybookingComponent.vue */ "./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('gallery-section', __webpack_require__(/*! ./components/frontend/beautysaloonpage/galleryComponent.vue */ "./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('footer-section', __webpack_require__(/*! ./components/frontend/footer/footerComponent.vue */ "./resources/js/components/frontend/footer/footerComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('client-reply-section', __webpack_require__(/*! ./components/frontend/beautysaloonpage/clientreplyComponent.vue */ "./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('popularcategories-section', __webpack_require__(/*! ./components/frontend/homepage/popularcategoriesComponent.vue */ "./resources/js/components/frontend/homepage/popularcategoriesComponent.vue")["default"]);
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app'
 });
@@ -31634,26 +44282,497 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _beautybookingComponent_vue_vue_type_template_id_124ed0fc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./beautybookingComponent.vue?vue&type=template&id=124ed0fc& */ "./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue?vue&type=template&id=124ed0fc&");
+/* harmony import */ var _beautybookingComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./beautybookingComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _beautybookingComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _beautybookingComponent_vue_vue_type_template_id_124ed0fc___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _beautybookingComponent_vue_vue_type_template_id_124ed0fc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/***/ "./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_beautybookingComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./beautybookingComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_beautybookingComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue?vue&type=template&id=124ed0fc&":
+/*!*********************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue?vue&type=template&id=124ed0fc& ***!
+  \*********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_beautybookingComponent_vue_vue_type_template_id_124ed0fc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./beautybookingComponent.vue?vue&type=template&id=124ed0fc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/beautybookingComponent.vue?vue&type=template&id=124ed0fc&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_beautybookingComponent_vue_vue_type_template_id_124ed0fc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_beautybookingComponent_vue_vue_type_template_id_124ed0fc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _beautysliderComponent_vue_vue_type_template_id_9af072a4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./beautysliderComponent.vue?vue&type=template&id=9af072a4& */ "./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue?vue&type=template&id=9af072a4&");
+/* harmony import */ var _beautysliderComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./beautysliderComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _beautysliderComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _beautysliderComponent_vue_vue_type_template_id_9af072a4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _beautysliderComponent_vue_vue_type_template_id_9af072a4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_beautysliderComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./beautysliderComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_beautysliderComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue?vue&type=template&id=9af072a4&":
+/*!********************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue?vue&type=template&id=9af072a4& ***!
+  \********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_beautysliderComponent_vue_vue_type_template_id_9af072a4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./beautysliderComponent.vue?vue&type=template&id=9af072a4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/beautysliderComponent.vue?vue&type=template&id=9af072a4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_beautysliderComponent_vue_vue_type_template_id_9af072a4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_beautysliderComponent_vue_vue_type_template_id_9af072a4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _clientreplyComponent_vue_vue_type_template_id_4f37b0c0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./clientreplyComponent.vue?vue&type=template&id=4f37b0c0& */ "./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue?vue&type=template&id=4f37b0c0&");
+/* harmony import */ var _clientreplyComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./clientreplyComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _clientreplyComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _clientreplyComponent_vue_vue_type_template_id_4f37b0c0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _clientreplyComponent_vue_vue_type_template_id_4f37b0c0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_clientreplyComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./clientreplyComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_clientreplyComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue?vue&type=template&id=4f37b0c0&":
+/*!*******************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue?vue&type=template&id=4f37b0c0& ***!
+  \*******************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_clientreplyComponent_vue_vue_type_template_id_4f37b0c0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./clientreplyComponent.vue?vue&type=template&id=4f37b0c0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/clientreplyComponent.vue?vue&type=template&id=4f37b0c0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_clientreplyComponent_vue_vue_type_template_id_4f37b0c0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_clientreplyComponent_vue_vue_type_template_id_4f37b0c0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _galleryComponent_vue_vue_type_template_id_94ddaba6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./galleryComponent.vue?vue&type=template&id=94ddaba6& */ "./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue?vue&type=template&id=94ddaba6&");
+/* harmony import */ var _galleryComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./galleryComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _galleryComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _galleryComponent_vue_vue_type_template_id_94ddaba6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _galleryComponent_vue_vue_type_template_id_94ddaba6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/beautysaloonpage/galleryComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_galleryComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./galleryComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_galleryComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue?vue&type=template&id=94ddaba6&":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue?vue&type=template&id=94ddaba6& ***!
+  \***************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_galleryComponent_vue_vue_type_template_id_94ddaba6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./galleryComponent.vue?vue&type=template&id=94ddaba6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/beautysaloonpage/galleryComponent.vue?vue&type=template&id=94ddaba6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_galleryComponent_vue_vue_type_template_id_94ddaba6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_galleryComponent_vue_vue_type_template_id_94ddaba6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/footer/footerComponent.vue":
+/*!*********************************************************************!*\
+  !*** ./resources/js/components/frontend/footer/footerComponent.vue ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _footerComponent_vue_vue_type_template_id_04d34ed0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footerComponent.vue?vue&type=template&id=04d34ed0& */ "./resources/js/components/frontend/footer/footerComponent.vue?vue&type=template&id=04d34ed0&");
+/* harmony import */ var _footerComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footerComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/footer/footerComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _footerComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _footerComponent_vue_vue_type_template_id_04d34ed0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _footerComponent_vue_vue_type_template_id_04d34ed0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/footer/footerComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/footer/footerComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/frontend/footer/footerComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_footerComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./footerComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/footer/footerComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_footerComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/footer/footerComponent.vue?vue&type=template&id=04d34ed0&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/footer/footerComponent.vue?vue&type=template&id=04d34ed0& ***!
+  \****************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footerComponent_vue_vue_type_template_id_04d34ed0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./footerComponent.vue?vue&type=template&id=04d34ed0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/footer/footerComponent.vue?vue&type=template&id=04d34ed0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footerComponent_vue_vue_type_template_id_04d34ed0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footerComponent_vue_vue_type_template_id_04d34ed0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/header/beautysaloonComponent.vue":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/frontend/header/beautysaloonComponent.vue ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _beautysaloonComponent_vue_vue_type_template_id_086f8ede___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./beautysaloonComponent.vue?vue&type=template&id=086f8ede& */ "./resources/js/components/frontend/header/beautysaloonComponent.vue?vue&type=template&id=086f8ede&");
+/* harmony import */ var _beautysaloonComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./beautysaloonComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/header/beautysaloonComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _beautysaloonComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _beautysaloonComponent_vue_vue_type_template_id_086f8ede___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _beautysaloonComponent_vue_vue_type_template_id_086f8ede___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/header/beautysaloonComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/header/beautysaloonComponent.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/header/beautysaloonComponent.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_beautysaloonComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./beautysaloonComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/header/beautysaloonComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_beautysaloonComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/header/beautysaloonComponent.vue?vue&type=template&id=086f8ede&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/header/beautysaloonComponent.vue?vue&type=template&id=086f8ede& ***!
+  \**********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_beautysaloonComponent_vue_vue_type_template_id_086f8ede___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./beautysaloonComponent.vue?vue&type=template&id=086f8ede& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/header/beautysaloonComponent.vue?vue&type=template&id=086f8ede&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_beautysaloonComponent_vue_vue_type_template_id_086f8ede___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_beautysaloonComponent_vue_vue_type_template_id_086f8ede___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/homepage/popularcategoriesComponent.vue":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/frontend/homepage/popularcategoriesComponent.vue ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _popularcategoriesComponent_vue_vue_type_template_id_9cdc4452___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./popularcategoriesComponent.vue?vue&type=template&id=9cdc4452& */ "./resources/js/components/frontend/homepage/popularcategoriesComponent.vue?vue&type=template&id=9cdc4452&");
+/* harmony import */ var _popularcategoriesComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./popularcategoriesComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/homepage/popularcategoriesComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _popularcategoriesComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _popularcategoriesComponent_vue_vue_type_template_id_9cdc4452___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _popularcategoriesComponent_vue_vue_type_template_id_9cdc4452___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/homepage/popularcategoriesComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/homepage/popularcategoriesComponent.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/homepage/popularcategoriesComponent.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_popularcategoriesComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./popularcategoriesComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/homepage/popularcategoriesComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_popularcategoriesComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/homepage/popularcategoriesComponent.vue?vue&type=template&id=9cdc4452&":
+/*!*****************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/homepage/popularcategoriesComponent.vue?vue&type=template&id=9cdc4452& ***!
+  \*****************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_popularcategoriesComponent_vue_vue_type_template_id_9cdc4452___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./popularcategoriesComponent.vue?vue&type=template&id=9cdc4452& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/homepage/popularcategoriesComponent.vue?vue&type=template&id=9cdc4452&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_popularcategoriesComponent_vue_vue_type_template_id_9cdc4452___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_popularcategoriesComponent_vue_vue_type_template_id_9cdc4452___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ 2:
+/*!********************************************!*\
+  !*** multi ./resources/js/beautysaloon.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\laragon\www\viewlearning\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\viewlearning\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\laragon\www\viewlearning\resources\js\beautysaloon.js */"./resources/js/beautysaloon.js");
 
 
 /***/ })

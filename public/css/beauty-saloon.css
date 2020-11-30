@@ -1,0 +1,619 @@
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../fonts/RedHatDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/RedHatDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Red Hat Display bold';
+    src: url('../fonts/RedHatDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/RedHatDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+{
+    box-sizing: border-box;
+}
+ul{
+	padding:0
+}
+
+ul li{
+	list-style: none;
+}
+img{
+	max-width: 100%;height:auto;outline: none;
+}
+a{
+	text-decoration: none;
+}
+
+body{
+	margin: 0px !important;
+	font-family: 'Red Hat Display';
+}
+:focus{
+	outline: none !important;
+}
+
+/*Start Utilities*/
+.w-5{
+	width:5%;
+}
+.w-10{
+	width:10%;
+}
+.w-15{
+	width:15%;
+}
+.w-20{
+	width:20%;
+}
+.w-30{
+	width:30%;
+}
+.w-33{
+	width:33%;
+}
+.w-35{
+	width:35%;
+}
+.w-40{
+	width:40%;
+}
+.w-45{
+	width:45%;
+}
+.w-55{
+	width:55%;
+}
+.w-60{
+	width:60%;
+}
+.w-65{
+	width:65%;
+}
+.w-70{
+	width:70%;
+}
+.w-80{
+	width:80%;
+}
+.w-85{
+	width:85%;
+}
+.w-90{
+	width:90%;
+}
+.text-size-11{
+    font-size:11px !important;
+}
+.text-size-12{
+	font-size:12px !important;
+}
+.text-size-13{
+	font-size:13px;
+}
+.text-size-14{
+	font-size:14px;
+}
+.text-size-15{
+	font-size:15px;
+}
+.text-size-16{
+	font-size:16px;
+}
+.text-size-17{
+	font-size:17px;
+}
+.text-size-18{
+	font-size:18px;
+}
+.text-size-20{
+	font-size:20px !important;
+}
+.text-size-22{
+	font-size:22px !important;
+}
+.text-size-25{
+	font-size:25px;
+}
+.text-size-30{
+    font-size:30px;
+}
+.text-gold{
+	color:#B59E5C;
+}
+.text-black{
+	color:#000;
+}
+.text-fee{
+	color:#282828;
+}
+.bg-gold{
+	background-color: #B59E5C;
+}
+.bg-time{
+    background-color: #e5e5e5;
+}
+.hair-saloon-btn{
+	padding: 8px 37px;
+}
+.input-bg{
+	background-color: #777777;
+}
+.detail-color{
+    color:#5a5a5a;
+}
+.h-50{
+	height:50px !important;
+}
+.h-37{
+	height:37px !important;
+}
+.box-radius{
+	border-radius:5px;
+}
+.border-sign-bottom{
+    border-bottom:1px solid #777777;
+}
+.border-modal-btn{
+  border:1px solid #777777;  
+}
+.border-radius{
+	border-radius:10px;
+}
+.color-date{
+	color:#777777;
+}
+.bg-slide-address{
+	background-color:#282828;
+}
+.bg-black{
+	background-color:#000;
+}
+.book-padding{
+	padding: 3px 13px;
+}
+.border-bottom{
+	border-bottom:1px solid #282828 !important;
+}
+.client-border{
+    border-bottom:1px solid #c4c4c4 !important;
+}
+.border-top{
+	border-top:1px solid #282828 !important;
+}
+.gold-border {
+    border-bottom: 1px solid #B59E5C;
+}
+.border-white{
+    border:1px solid #fff;
+}
+a:hover{
+	text-decoration: none;
+}
+.clear-btn-padding{
+    padding:8px 56px;
+}
+.box-shadow {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.34);
+}
+/*End Utilities*/
+
+
+
+.input-services .form-control:focus{
+background:none;
+box-shadow:none;
+}
+.input-services input::placeholder{
+	color:#fff;
+}
+.input-services a{
+top: 13px;
+    left: 18px;
+}
+.input-services input{
+border-radius:45px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border-right: 1px solid #D1D1D1 !important;
+/*opacity: 0.7;*/
+}
+.input-services-2 input{
+	border-radius:45px;
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border:0 !important;
+   /* opacity: 0.7;*/
+}
+.input-services .location-icon{
+	top: 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    left: 84%;
+}
+.main-service-input{
+	border: 1px solid #B59E5C;
+    border-radius: 30px;
+}
+
+
+
+.bg-image-beauty-saloon{
+	background: url(../images/bg-image-beauty-saloon.svg) no-repeat left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 545px;
+}
+/*.heading-hair-beauty-saloon{
+    top: 420px;
+    left: 23px;
+}*/
+.beauty-slider .next-icon{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    top: 48%;
+    position: absolute;
+    right: 9%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.beauty-slider .next-icon:before{
+	font-family: FontAwesome !important;
+    content: "\f105  " !important;
+    color: #fff !important;
+    font-size: 50px !important;
+    top: -14px;
+    position: absolute;
+    right: 12px;
+}
+
+.beauty-slider .prev-icon{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    top: 48%;
+    position: absolute;
+    left: 9%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.beauty-slider .prev-icon:after{
+	font-family: FontAwesome !important;
+    content: "\f104  " !important;
+    color: #fff !important;
+    font-size: 50px !important;
+    top:-14px;
+    position: absolute;
+    left: 12px;
+}
+
+.sign-modal-heading h5{
+	border-bottom: 1px solid #777;
+}
+
+.social-icon-btn .facebook-btn{
+background-color:#506AC5;
+}
+.social-icon-btn .gmail-btn{
+background-color:#F12B2B;
+}
+.privacy-policy span{
+	border-bottom:1px solid #777777;
+}
+.cross-btn span{
+	width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 14px;
+}
+.heart-icon a{
+	font-size:50px;
+   /* margin-left: 25%;*/
+}
+.image-slider{
+    top: 80%;
+    left: 10%;
+    z-index: 1;
+}
+.services-heading h2{
+	border-bottom: 1px solid #B59E5C;
+}
+.input-book-service input{
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.34);
+	border-radius: 20px;
+}
+.input-book-service a{
+	top: 9px;
+    left: 18px;
+}
+.form-control:focus{
+	box-shadow:none;
+}
+.input-book-service input::placeholder{
+	color:#000;
+}
+.faq-accordian a:after {
+    content: "\f078" !important;
+    font-size: 18px;
+    float: right;
+    font-family: FontAwesome !important;
+   margin-right: 34px;
+    font-weight: normal;
+}
+
+.faq-accordian a:hover{
+	color:#282828;
+}
+.staff-bg{
+	background-color:#eaeaea;
+}
+
+.staff-image a img{
+	width:65px;
+	height:65px;
+	border-radius:50%;
+}
+.contact-number .call-btn{
+	padding: 2px 17px;
+}
+.awesome-icon .instagram-icon{
+	width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 2px;
+    /*padding: 5px 10px;*/
+}
+
+.awesome-icon .share-icon:hover{
+    color:#B59E5C;;
+}
+.image-layer:after {
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    display: block;
+    width: 100%;
+    content: '';
+    height: 40%;
+    background: linear-gradient(0deg, rgb(0 0 0) 0%, rgb(196 196 196 / 0%) 100%);
+}
+.note-member-signup a {
+    color: #F12B2B;
+}
+.bg-gallery{
+    background-color: #282828;
+}
+.hair-design-detail{
+    min-height:419px;
+}
+.gallery-image-3{
+    margin-top: 13px;
+}
+.show-more-gallery{
+    margin-top:6rem;
+}
+.show-more-gallery a:hover{
+    color: #B59E5C;
+}
+.hair-saloon-categories li {
+    margin-right: 36px;
+}
+.hair-saloon-categories li a {
+    z-index: 1;
+}
+.hair-saloon-categories li a:hover:before {
+    display: block;
+    content: '';
+    background-color: #B59E5C;
+    width: 62px;
+    height: 25px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    left: 0;
+    top: 7px;
+    position: absolute;
+}
+.hair-saloon-categories li .more-btn:hover {
+    background-color: #B59E5C;
+}
+.client-view-rate a{
+    color:#FFC107;
+}
+.client-view-rate{
+border:1px solid #B59E5C ;
+}
+.client-image img{
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.report-btn a{
+  padding: 4px 30px;  
+}
+.client-name a:hover, .staff-name a:hover, .another-service a:hover, 
+.calendar-day a:hover, .home-service a:hover, .clear-confirm-btn a:hover, 
+.hair-cut a:hover{
+    color:#000;
+}
+.replied-box{
+    background-color:#F3F3F3;
+}
+
+
+/* start categorie modal css*/
+.cancel-btn span {
+   border: 1px solid #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 25px;
+}
+.cancel-btn span :focus{
+    color:#fff;
+    opacity:1;
+}
+.categories-modal{
+    max-width:890px;
+}
+.categories-staff-bg{
+    border-radius:50px;
+    border:1px solid #c4c4c4;
+}
+
+.staff-modal .prev-icon:after {
+    font-family: FontAwesome !important;
+    content: "\f104 " !important;
+    left: 10px;
+    top: -2px;
+    position: absolute;
+    font-size: 27px;
+    color: #fff;
+}
+.staff-modal .prev-icon{
+left: 5px;
+    background-color: #B59E5C;
+    width: 35px;
+    height: 35px;
+    top: 45px;
+    border-radius: 50%;
+    position: absolute;
+}
+.staff-modal .next-icon:before {
+    font-family: FontAwesome !important;
+    content: "\f105 " !important;
+    right: 10px;
+    top: -2px;
+    position: absolute;
+    font-size: 27px;
+    color: #fff;
+}
+.staff-modal .next-icon{
+right: 5px;
+    background-color: #B59E5C;
+    width: 35px;
+    height: 35px;
+    top: 45px;
+    border-radius: 50%;
+    position: absolute;
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity:1 !important;
+}
+
+.modal-header a:hover{
+    color: #B59E5C;
+}
+.calendar-day{
+  margin-bottom:6px !important  
+}
+.calendar-day a{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #c4c4c4;
+}
+.calendar-day .date-box{
+   width: 65px;
+    height: 65px;
+  
+
+}
+
+.slider-calendar .slick-prev {
+    left: -108px;
+    width: 35px;
+    height: 35px;
+    background-color: #B59E5C;
+    border-radius: 50%;
+}
+.slider-calendar .slick-next {
+    right: -108px;
+    width: 35px;
+    height: 35px;
+    background-color: #B59E5C;
+    border-radius: 50%;
+}
+.slider-calendar .slick-prev:after{
+font-family: FontAwesome !important;
+    content: "\f104 " !important;
+    color: #fff;
+    font-size: 27px;
+}
+.slider-calendar .slick-next:before{
+font-family: FontAwesome !important;
+    content: "\f105 " !important;
+    color: #fff;
+    font-size: 27px;
+}
+.slider-calendar .slick-next:focus, .slider-calendar .slick-next:hover, 
+.slider-calendar .slick-prev:focus, .slider-calendar .slick-prev:hover{
+    background-color: #B59E5C;
+}
+.active-2{
+   background-color: #B59E5C;
+   color:#fff; 
+}
+.another-service a i{
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+
+
+
+/* end categorie modal css*/
+
+
+/* start confirm detail modal css*/
+.detail-modal{
+    max-width: 735px;
+}
+.radio-btn p{
+    letter-spacing:1px;
+}
+.form-check input{
+    width: 16px;
+    height: 16px;
+    background-color: #00A3FF;
+    border: 1px solid #777;
+}
+
+.term-service h4, .term-service p{
+    letter-spacing:2px;
+}
+
+.forgot-password a {
+    border: 1px solid #777777;
+    border-radius: 30px;
+}
+
+
+
+
+
+/* end confirm detail modal css*/
+

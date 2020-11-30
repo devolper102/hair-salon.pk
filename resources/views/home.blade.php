@@ -34,18 +34,19 @@
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
 <script type="text/javascript">
 	
 	$('.carousel').carousel({
   interval: false,
 });
 
-	$(".signup-btn").click(function(){
-	$("#login-signup-popup").hide();	
-    $("#signin-popup").show();
-    
-  });
+	// $(".signup-btn").click(function(){
+	// $(".abc").hide();	
+ //    $(".ccc").show();
+
+ //  });
+
   
 $(".input-services").click(function(){
   $(".categories-menu").toggle();
@@ -59,6 +60,9 @@ $(window).load(function() {
     $('.categories-menu').hide(); 
     $('.location-menu').hide();
 });
+
+
+
 </script>
 </body>
 </html>

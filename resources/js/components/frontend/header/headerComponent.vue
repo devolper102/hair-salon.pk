@@ -461,7 +461,7 @@
         </button>
         <div class="note-member-signup w-55 m-auto d-inline-block text-center border-sign-bottom pb-1">
         	<span class="color-date text-size-13">Already have an account?</span>
-        	<a class="signup-btn sign-color font-weight-bold text-size-14" data-toggle="modal" data-target="#sigin-popup" 
+        	<a class="sign-account sign-color font-weight-bold text-size-14" data-toggle="modal" data-target="#sigin-popup" 
         	href="javascript:void(0)">
         	sign in
         	</a>

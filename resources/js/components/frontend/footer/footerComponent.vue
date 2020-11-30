@@ -4,18 +4,18 @@
 		<div class="container">
 		<div class="row gold_border">
 	        <div class="col-5">
-                <div class="logo mt-4 mb-lg-5">
+                <div class="logo mt-4 mb-lg-4">
                     <a href="javascript:void(0)">
-                    <img src="images/icon.svg" alt="icon picture">
+                    <img src="images/logo-img.svg" alt="logo-img picture">
                     </a>
-                    <h2 class="text-size-25 text-gold mt-2 logo_border pb-1">Saloon logo</h2>
-                    <h1 class="text-gold text-size-22">Follow us on</h1>
-                    <div class="media_icons mt-4">
+                    </div> 
+                    <div class="media_icons mt-4 mb-3">
+                    	<h1 class="text-gold text-size-22">Follow us on
+                    	</h1>
                         <a class="bg-gold text-black box-radius d-inline-block mr-5" href="jawascript:void(0)"><i class="fa fa-instagram text-size-18" aria-hidden="true"></i></a>
                         <a class="bg-gold text-black box-radius d-inline-block mr-5 facebook-icon" href="jawascript:void(0)"><i class="fa fa-facebook text-size-18" aria-hidden="true"></i></a>
                         <a class="bg-gold text-black box-radius d-inline-block" href="jawascript:void(0)"><i class="fa fa-twitter text-size-18" aria-hidden="true"></i></a>
                     </div>
-                </div> 
 	        </div>
 	        <div class="col-7 mt-5">
 	    	    <ul class="d-block mb-lg-5">
@@ -38,7 +38,7 @@
 	    	    		<a href="" class="text-white">Contact</a>
 	    	    	</li>
 	    	    </ul>
-	    	    <div class="Android_ios float-right mt-lg-5">
+	    	    <div class="Android_ios float-right mt-lg-4">
 	    	    	<a href=""><img src="images/ios.svg" class="d-inline-block"></a>
 	    	        <a href=""><img src="images/android.svg" class="d-inline-block"></a>
 	    	    </div>	
