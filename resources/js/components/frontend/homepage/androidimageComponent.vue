@@ -23,7 +23,7 @@
 						</div>
 						<form>
 							<div class="form-group input-number w-75 float-left mr-3">
-								<input type="number" class="form-control text-size-14 h-37" id="input-phone-number" aria-describedby="numberHelp" placeholder="Your phone number">
+								<input type="number" class="form-control text-size-14 h-37" id="input-phone-number" aria-describedby="numberHelp" placeholder="Your phone number" required>
 							</div>
 							<div class="send-btn">
 								<button class="h-37 bg-gold text-white 
@@ -41,7 +41,7 @@
 				<div class="row mt-4">
 				<div class="col-12">
 					<div class="scroll-down-image w-100 d-inline-block text-center">
-						<a href="javascript:void(0)">
+						<a href="#how-it-is-work-main">
 						<img src="images/scroll-down-image-2.svg" alt="scroll-down-image-2 picture">
 						</a>
 						<p class="text-black text-size-18 font-weight-bold">Scroll down</p>

@@ -4060,6 +4060,75 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "beautybookingComponent"
 });
@@ -29745,83 +29814,55 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "modal-body p-0" }, [
-                  _c("div", { staticClass: "bg-time w-100 d-inline-block" }, [
-                    _c(
-                      "div",
-                      {
-                        staticClass:
-                          "term-service date-shop-name w-100 d-inline-block pl-3 client-border pb-3"
-                      },
-                      [
-                        _c(
-                          "h4",
-                          {
-                            staticClass:
-                              "detail-color mb-0 pt-2 font-weight-bold"
-                          },
-                          [
-                            _vm._v(
-                              "Thursday, 17 September 17 2020, 10:00 AM - 10:30 AM"
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "span",
-                          {
-                            staticClass:
-                              "text-black text-size-14 font-weight-bold"
-                          },
-                          [_vm._v("Shop Name")]
-                        )
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "container" }, [
-                      _c("div", { staticClass: "row pt-2" }, [
-                        _c("div", { staticClass: "col-6" }, [
-                          _c("div", { staticClass: "hair-cut" }, [
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "text-fee font-weight-bold pb-2 d-inline-block",
-                                attrs: { href: "jawascript:void(0)" }
-                              },
-                              [
-                                _vm._v(
-                                  "\n\t            \t\tHaircut\n\t            \t"
-                                )
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "text-fee text-size-14 d-block font-weight-normal",
-                                attrs: { href: "jawascript:void(0)" }
-                              },
-                              [_vm._v("Client Name\n\t            \t\t")]
-                            )
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "col-6" }, [
+                  _c(
+                    "div",
+                    { staticClass: "bg-time w-100 d-inline-block box-shadow" },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "term-service date-shop-name w-100 d-inline-block pl-3 client-border pb-3"
+                        },
+                        [
                           _c(
-                            "div",
-                            { staticClass: "hair-cut float-right text-center" },
+                            "h4",
+                            {
+                              staticClass:
+                                "detail-color mb-0 pt-2 font-weight-bold"
+                            },
                             [
+                              _vm._v(
+                                "Thursday, 17 September 17 2020, 10:00 AM - 10:30 AM"
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "span",
+                            {
+                              staticClass:
+                                "text-black text-size-14 font-weight-bold"
+                            },
+                            [_vm._v("Shop Name")]
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "container" }, [
+                        _c("div", { staticClass: "row pt-2" }, [
+                          _c("div", { staticClass: "col-6" }, [
+                            _c("div", { staticClass: "hair-cut-saloon" }, [
                               _c(
                                 "a",
                                 {
                                   staticClass:
-                                    "text-fee font-weight-bold pb-2 d-inline-block float-right",
+                                    "text-fee font-weight-bold pb-2 d-inline-block",
                                   attrs: { href: "jawascript:void(0)" }
                                 },
                                 [
                                   _vm._v(
-                                    "\n\t            \t\t$25.00\n\t            \t"
+                                    "\n\t            \t\tHaircut\n\t            \t"
                                   )
                                 ]
                               ),
@@ -29830,21 +29871,56 @@ var staticRenderFns = [
                                 "a",
                                 {
                                   staticClass:
-                                    "text-fee text-size-16 d-block font-weight-normal w-75 float-right",
+                                    "text-fee text-size-14 d-block font-weight-normal",
                                   attrs: { href: "jawascript:void(0)" }
                                 },
-                                [
-                                  _vm._v(
-                                    "10:00 AM - 10:30 PM\n\t                "
-                                  )
-                                ]
+                                [_vm._v("Client Name\n\t            \t\t")]
                               )
-                            ]
-                          )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-6" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "hair-cut-saloon float-right text-center"
+                              },
+                              [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass:
+                                      "text-fee font-weight-bold pb-2 d-inline-block float-right",
+                                    attrs: { href: "jawascript:void(0)" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n\t            \t\t$25.00\n\t            \t"
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass:
+                                      "text-fee text-size-16 d-block font-weight-normal w-75 float-right",
+                                    attrs: { href: "jawascript:void(0)" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "10:00 AM - 10:30 PM\n\t                "
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ])
                         ])
                       ])
-                    ])
-                  ]),
+                    ]
+                  ),
                   _vm._v(" "),
                   _c("form", [
                     _c("div", { staticClass: "form-group p-3" }, [
@@ -31113,7 +31189,7 @@ var staticRenderFns = [
                       "a",
                       {
                         staticClass:
-                          "text-white font-weight-bold bg-gold hair-saloon-btn float-left box-radius",
+                          "text-white font-weight-bold bg-gold hair-saloon-btn float-left box-radius text-size-15",
                         attrs: { href: "javascript:void(0)" }
                       },
                       [_vm._v("\n\t\t\t\t\tFor Business\n\t\t\t\t\t")]
@@ -31868,7 +31944,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+    return _c("div", { attrs: { id: "categories-main" } }, [
       _c("div", { staticClass: "categories" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [

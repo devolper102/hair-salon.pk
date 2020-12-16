@@ -959,6 +959,75 @@
 		    			<p class="text-fee font-weight-bold text-size-14 mb-0">Rudolfo</p>
 		    		</div>
 	    		</div>
+	    		<!-- <div class="slider js-slider">
+				    <div class="slider__inner js-slider__inner">
+				    	<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+						<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+						<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+						<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+						<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+						<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+						<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+						<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+						<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+						<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+						<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+						<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+						<div class="slide js-slide">
+						   <a href="javascript:void(0)">
+		    				<img src="images/staff-image.svg" alt="staff-image picture">
+		    			</a>
+						</div>
+				    </div>	
+				</div>		  	 -->
 	    		<div class="contact-bussiness-heading w-100 d-inline-block border-bottom">
 	    			<h5 class="text-fee font-weight-bold text-center">Contact and business hours</h5>
 	    		</div>
@@ -2082,7 +2151,7 @@
         </button>
       </div>
       <div class="modal-body p-0">
-      	<div class="bg-time w-100 d-inline-block">
+      	<div class="bg-time w-100 d-inline-block box-shadow">
       	<div class="term-service date-shop-name w-100 d-inline-block pl-3 client-border pb-3">
 	        <h4 class="detail-color mb-0 pt-2 font-weight-bold">Thursday, 17 September 17 2020, 10:00 AM - 10:30 AM</h4>
 	            <span class="text-black text-size-14 font-weight-bold">Shop Name</span>
@@ -2090,7 +2159,7 @@
 	            <div class="container">
 	            	<div class="row pt-2">
 	            		<div class="col-6">
-	            			<div class="hair-cut">
+	            			<div class="hair-cut-saloon">
 	            	<a class="text-fee font-weight-bold pb-2 d-inline-block" href="jawascript:void(0)">
 	            		Haircut
 	            	</a>
@@ -2099,7 +2168,7 @@
 	            	</div>
 	            </div>
 	            <div class="col-6">
-	            	<div class="hair-cut float-right text-center">
+	            	<div class="hair-cut-saloon float-right text-center">
 	            	<a class="text-fee font-weight-bold pb-2 d-inline-block float-right" 
 	            	href="jawascript:void(0)">
 	            		$25.00

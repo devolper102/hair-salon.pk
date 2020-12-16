@@ -1,184 +1,128 @@
 
 
-@font-face {
-    font-family: 'Red Hat Display';
-    src: url('../fonts/RedHatDisplay-Regular.woff2') format('woff2'),
-        url('../fonts/RedHatDisplay-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
-        url('../fonts/Poppins-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Red Hat Display bold';
-    src: url('../fonts/RedHatDisplay-Bold.woff2') format('woff2'),
-        url('../fonts/RedHatDisplay-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-{
-    box-sizing: border-box;
-}
-ul{
-	padding:0
-}
-
-ul li{
-	list-style: none;
-}
-img{
-	max-width: 100%;height:auto;outline: none;
-}
-a{
-	text-decoration: none;
-}
-
-body{
-	margin: 0px !important;
-	font-family: 'Red Hat Display';
-}
-:focus{
-	outline: none !important;
-}
-
-/*Start Utilities*/
-.w-5{
-	width:5%;
-}
-.w-10{
-	width:10%;
-}
-.w-15{
-	width:15%;
-}
-.w-20{
-	width:20%;
-}
-.w-30{
-	width:30%;
-}
-.w-35{
-	width:35%;
-}
-.w-40{
-	width:40%;
-}
-.w-45{
-	width:45%;
-}
-.w-55{
-	width:55%;
-}
-.w-60{
-	width:60%;
-}
-.w-65{
-	width:65%;
-}
-.w-70{
-	width:70%;
-}
-.w-80{
-	width:80%;
-}
-.w-85{
-	width:85%;
-}
-.w-90{
-	width:90%;
-}
-.text-size-11{
-    font-size:11px !important;
-}
-.text-size-12{
-	font-size:12px !important;
-}
-.text-size-13{
-	font-size:13px;
-}
-.text-size-14{
-	font-size:14px;
-}
-.text-size-15{
-	font-size:15px;
-}
-.text-size-16{
-	font-size:16px;
-}
-.text-size-17{
-	font-size:17px;
-}
-.text-size-18{
-	font-size:18px !important;
-}
-.text-size-20{
-	font-size:20px !important;
-}
-.text-size-22{
-	font-size:22px !important;
-}
-.text-size-25{
-	font-size:25px !important;
-}
-.text-gold{
-	color:#B59E5C;
-}
-.text-black{
-	color:#000;
-}
-.bg-gold{
-	background-color: #B59E5C;
-}
-.hair-saloon-btn{
-	padding: 8px 37px;
-}
-.input-bg{
-	background-color: #777777;
-}
-.h-50{
-	height:50px !important;
-}
-.h-45{
-    height:45px !important;
-}
-.h-37{
-	height:37px !important;
-}
-.box-radius{
-	border-radius:5px;
-}
-.border-radius{
-	border-radius:10px;
-}
-.color-date{
-	color:#777777;
-}
-.bg-slide-address{
-	background-color:#282828;
-}
-.sign-color{
-    color:#F12B2B;
-}
-.border-sign-bottom{
-    border-bottom:1px solid #777777;
-}
-/*End Utilities*/
-
-
 .bussiness-bg-image {
-    background: url(../images/hair-saloon-bg-image.svg) no-repeat left;
+    background: url(../images/bussiness-bg-image.svg) no-repeat left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    min-height:700px;
+}
+.heading-booking-mind h1{
+letter-spacing: 2px;
+    margin-top: 13rem;
+}
+.heading-booking-mind span{
+	border-bottom: 2px solid #B59E5C;
+}	
+.business-mobile-image{
+	margin-top:5rem;
+}
+.bg-business-introduction{
+	background: linear-gradient(0deg, rgb(238 238 238) 43%, rgb(196 196 196 / 38%) 50%);
+padding-top: 4rem;
+}
+
+.bg-image-business-booking{
+background: url(../images/bg-image-business-booking.svg) no-repeat left;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
 }
+.bt-learn-more{
+	margin-top: 32rem;
+}
+
+.bg-business-gradient{
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(196 196 196 / 32%) 100%);
+
+}
+.barber-shop{
+	margin-top: 20px;
+}
+
+.social-icon-btn .facebook-btn {
+    background-color: #506AC5;
+}
+.social-icon-btn .gmail-btn {
+    background-color: #F12B2B;
+}
+.note-member-signup a:hover{
+color: #F12B2B;
+}
+.forgot-password a {
+    border: 1px solid #777777;
+    border-radius: 30px;
+}
+.forgot-password a:hover{
+color: #777777;
+}
+.slider {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  overflow:hidden;
+}
+.slider .is-grabbing {
+	 cursor: e-resize;
+}
+
+.slider__inner {
+  position: relative;
+  top: 25px;
+  left: 0;
+  height: 40vh;
+  pointer-events: none;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 15vw;
+  height: 60vh;
+  padding:10px;
+}
+
+.slide__bg {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+    bottom: 35%;
+    right: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide__title {
+  position: relative;
+  color: #fff;
+  font-size: calc(1rem + 3vw);
+  font-weight: normal;
+  z-index: 2;
+}
+
+.text {
+  position: absolute;
+  color: #666;
+  left: 4rem;
+  bottom: 3rem;
+}
+
+.cursor-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.cursor {
+  position: fixed;
+  top: -30px;
+  left: -30px;
+}
+

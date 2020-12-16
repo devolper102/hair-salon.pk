@@ -25,3 +25,25 @@ Route::get('/beautysaloon', function () {
 Route::get('/business-page', function () {
     return view('/business-page/business');
 });
+
+Route::get('/feature', function () {
+    return view('feature');
+});
+Route::get('/price', function () {
+    return view('price');
+});
+Route::get('/contact-us', function () {
+    return view('contact-us');
+});
+Route::get('/faq', function () {
+    return view('faq');
+});
+Route::get('/hair-saloon', function () {
+    return view('/hair-saloon');
+});
+Route::get('/home2', function () {
+    return view('/home2');
+});
+Route::get('/categories', function () {
+    return view('/categories');
+});

@@ -1,0 +1,57 @@
+
+.pricing-nav .nav-item a:hover {
+    color: #b59e5c;
+}
+
+.login-signup a:hover{
+	color:#000;
+}
+.pricing-heading h3:before {
+    display: block;
+    content: '';
+    width: 90px;
+    height: 25px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    left: 46%;
+    top: 65px;
+    position: absolute;
+    border-bottom: 3px solid #b59e5c;
+}
+.check-icon a{
+color: #24DF4D;
+font-size:35px;
+}
+.free-trial-btn a{
+	padding: 10px 102px;
+}
+.faq-heading h3:before{
+	display: block;
+    content: '';
+   width: 340px;
+    height: 25px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    left: 35%;
+    top: 16px;
+    position: absolute;
+    border-bottom: 3px solid #b59e5c;
+}
+.social-icon-btn .facebook-btn {
+    background-color: #506AC5;
+}
+.social-icon-btn .gmail-btn {
+    background-color: #F12B2B;
+}
+.note-member-signup a:hover{
+color: #F12B2B;
+}
+.forgot-password a {
+    border: 1px solid #777777;
+    border-radius: 30px;
+}
+.forgot-password a:hover{
+color: #777777;
+}

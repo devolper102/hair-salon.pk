@@ -1,5 +1,5 @@
 <template>
-	    <div>
+	    <div id="how-it-is-work-main">
 	    	<div class="how_it_works-section pt-3 pb-3">
 	            <div class="container">
 	        	    <div class="row">

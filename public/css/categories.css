@@ -1,0 +1,129 @@
+
+.input-services .form-control:focus{
+background:none;
+box-shadow:none;
+}
+.input-services input::placeholder{
+	color:#fff;
+}
+.input-services a{
+top: 13px;
+    left: 18px;
+    z-index: 1;
+}
+.input-services input{
+border-radius:45px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border-right: 1px solid #D1D1D1 !important;
+/*opacity: 0.7;*/
+}
+.input-services-2 input{
+	border-radius:45px;
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border:0 !important;
+   /* opacity: 0.7;*/
+}
+.input-services .location-icon{
+	top: 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    left: 84%;
+}
+.main-service-input{
+	border: 2px solid #b59e5c36;
+    border-radius: 30px;
+}
+.note-member-signup a{
+    color:#F12B2B;
+}
+.forgot-password a{
+    border: 1px solid #777777;
+    border-radius: 30px;
+}
+.forgot-password a:hover{
+    color: #777777;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.social-icon-btn .facebook-btn{
+background-color:#506AC5;
+}
+.social-icon-btn .gmail-btn{
+background-color:#F12B2B;
+}
+.cross-btn span {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 14px;
+}
+.categories-search input{
+    border-radius:45px;
+    border:1px solid #282828;
+}
+.categories-search input::placeholder{
+    color:#c4c4c4;
+}
+.categories-search input:focus{
+    border:1px solid #282828;
+}
+
+.categories-search a{
+    left: 20px;
+    top: 14px;
+}
+.categories-search{
+    margin:30px auto 50px;
+}
+.categories-search .location-icon {
+    top: 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    left: 92%;
+}
+
+.categories-name{
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.blog-categories a::before {
+    display: block;
+    content: '';
+    width: 91px;
+    height: 25px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    left: 14px;
+    top: 15px;
+    position: absolute;
+    border-bottom: 5px solid #b59e5c;
+}
+
+
+.header {
+  color: #f1f1f1;
+width: 100%;
+    display: inline-block;
+z-index: 1;
+transition: 5s all ease-in-out;}
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left:0;
+  right:0;
+}
+.beauty-categories-image{
+    cursor:pointer;
+}
+
+

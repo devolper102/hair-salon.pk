@@ -18,19 +18,19 @@
                         <div class="card-body p-3">
                             <h5 class="card-title text-size-15 text-black font-weight-bold">Lorem ipsum .... Some quick example text to build on the card </h5>
                             <p class="card-text text-size-13 font-weight-bold">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="date-time-views w-33 float-left mr-3">
+                            <div class="date-time-views float-left mr-3">
                             	<a class="text-black text-size-13 font-weight-bold" href="jawascript:void(0)">
                             		<i class="fa fa-calendar-o color-date" aria-hidden="true"></i>
                             		Oct 7, 2020
                             	</a>
                             </div>
-                            <div class="date-time-views w-33 float-left mr-3">
+                            <div class="date-time-views float-left mr-3">
                             	<a class="text-black text-size-13 font-weight-bold" href="jawascript:void(0)">
                             		<i class="fa fa-clock-o color-date" aria-hidden="true"></i>
                             		3 min read
                             	</a>
                             </div>
-                            <div class="date-time-views w-33 float-left ml-2">
+                            <div class="date-time-views float-left ml-2">
                             	<a class="text-black text-size-13 font-weight-bold" href="jawascript:void(0)">
                             		<i class="fa fa-eye color-date" aria-hidden="true"></i>
                             		views
@@ -50,19 +50,19 @@
                         <div class="card-body p-3">
                             <h5 class="card-title text-size-15 text-black font-weight-bold">Lorem ipsum .... Some quick example text to build on the card </h5>
                             <p class="card-text text-size-13 font-weight-bold">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="date-time-views w-33 float-left mr-3">
+                            <div class="date-time-views float-left mr-3">
                             	<a class="text-black text-size-13 font-weight-bold" href="jawascript:void(0)">
                             		<i class="fa fa-calendar-o color-date" aria-hidden="true"></i>
                             		Oct 7, 2020
                             	</a>
                             </div>
-                            <div class="date-time-views w-33 float-left mr-3">
+                            <div class="date-time-views float-left mr-3">
                             	<a class="text-black text-size-13 font-weight-bold" href="jawascript:void(0)">
                             		<i class="fa fa-clock-o color-date" aria-hidden="true"></i>
                             		3 min read
                             	</a>
                             </div>
-                            <div class="date-time-views w-33 float-left ml-2">
+                            <div class="date-time-views float-left ml-2">
                             	<a class="text-black text-size-13 font-weight-bold" href="jawascript:void(0)">
                             		<i class="fa fa-eye color-date" aria-hidden="true"></i>
                             		views
@@ -82,19 +82,19 @@
                         <div class="card-body p-3">
                             <h5 class="card-title text-size-15 text-black font-weight-bold">Lorem ipsum .... Some quick example text to build on the card </h5>
                             <p class="card-text text-size-13 font-weight-bold">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="date-time-views w-33 float-left mr-3">
+                            <div class="date-time-views float-left mr-3">
                             	<a class="text-black text-size-13 font-weight-bold" href="jawascript:void(0)">
                             		<i class="fa fa-calendar-o color-date" aria-hidden="true"></i>
                             		Oct 7, 2020
                             	</a>
                             </div>
-                            <div class="date-time-views w-33 float-left mr-3">
+                            <div class="date-time-views float-left mr-3">
                             	<a class="text-black text-size-13 font-weight-bold" href="jawascript:void(0)">
                             		<i class="fa fa-clock-o color-date" aria-hidden="true"></i>
                             		3 min read
                             	</a>
                             </div>
-                            <div class="date-time-views w-33 float-left ml-2">
+                            <div class="date-time-views float-left ml-2">
                             	<a class="text-black text-size-13 font-weight-bold" href="jawascript:void(0)">
                             		<i class="fa fa-eye color-date" aria-hidden="true"></i>
                             		views
@@ -111,7 +111,7 @@
                 <h2 class="text-size-20 font-weight-bold mt-4 show_more_text d-inline-block">SHOW MORE</h2>
             </div>
              <div class="col-12 text-center mt-lg-3">
-             	<a href="javascript:void(0)">
+             	<a href="#client-slider-main">
                 <img src="images/scroll_down_icon.svg">
                 </a>
                 <p class="text-size-16 font-weight-bold">Scroll down</p>

@@ -12,4 +12,14 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+	.js('resources/js/home.js', 'public/js')
+	.js('resources/js/beautysaloon.js', 'public/js')
+	.js('resources/js/bussiness.js', 'public/js')
+	.js('resources/js/feature.js', 'public/js')
+	.js('resources/js/price.js', 'public/js')
+	.js('resources/js/contact-us.js', 'public/js')
+	.js('resources/js/faq.js', 'public/js')
+	.js('resources/js/hairsaloon.js', 'public/js')
+	.js('resources/js/home2.js', 'public/js')
+	.js('resources/js/categories.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');

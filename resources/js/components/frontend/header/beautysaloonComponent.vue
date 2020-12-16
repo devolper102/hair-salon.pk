@@ -49,7 +49,7 @@
 		</div>
 		    <div class="col-2 p-0">
 				<div class="bussiness-btn w-100 d-inline-block">
-					<a class="text-white font-weight-bold bg-gold hair-saloon-btn float-left box-radius" href="javascript:void(0)">
+					<a class="text-white font-weight-bold bg-gold hair-saloon-btn float-left box-radius text-size-15" href="javascript:void(0)">
 					For Business
 					</a>
 				</div>

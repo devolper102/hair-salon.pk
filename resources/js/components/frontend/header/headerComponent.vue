@@ -1,8 +1,10 @@
 <template>
 	<div>
 		<header>	
+			
 <div class="hair-saloon-bg-image w-100 d-inline-block">
 	<div class="container">
+		
 		<div class="row mt-4">
 			<div class="col-7">
 				<div class="logo">
@@ -10,7 +12,6 @@
 					<img src="images/logo-image.svg" alt="logo-image picture">
 					</a>
 					</div>
-
 			</div>
 		    <div class="col-5">
 				<div class="row">
@@ -24,7 +25,7 @@
 					</div>
 					<div class="col-6">
 						<div class="bussiness-btn w-100 d-inline-block">
-							<a class="text-white font-weight-bold bg-gold hair-saloon-btn float-left" href="javascript:void(0)">For Business</a>
+							<a class="text-white font-weight-bold bg-gold hair-saloon-btn float-left text-size-15" href="javascript:void(0)">For Business</a>
 					    </div>
 					</div>
 				</div>
@@ -45,167 +46,170 @@
 			position-relative">
 				<div class="row">
 					<div class="col-6 pr-0">
-						<div class="form-group input-services position-relative w-100 float-right mb-0">
+						<div class="form-group input-services position-relative w-100 float-right mb-0 dropdown">
 							<a class="text-white position-absolute" href="javascript:void(0)">
 							 	<i class="fa fa-search" aria-hidden="true"></i>
-							 	</a>
-							 	<input type="text" class="form-control input-bg text-white pl-5 pr-2 h-50 border-0 text-size-15" id="service-input-text" aria-describedby="emailHelp" placeholder="Book your services...." aria-expanded="true">
-
+							</a>
+						 	<input type="text" class="form-control input-bg text-white pl-5 pr-2 h-50 border-0 
+						 	text-size-15 dropdown-toggle" data-toggle="dropdown" id="service-input-text" aria-describedby="emailHelp" placeholder="Book your services...." aria-expanded="true">
+						 	<div class="dropdown-menu categories-menu p-0 border-0 show" aria-labelledby="dropdownMenuButton" style="position: absolute; transform: translate3d(0, 3px, 0px); top:50px; left:-3px; will-change: transform;" x-placement="top-start">
+								<div class="looking-services bg-time pt-2 pb-2 pl-3 pr-3">
+									<span class="color-date text-size-14">
+										What are you looking for
+									</span>
+							    </div>
+							    <div class="service-box bg-white pt-2 pb-2 pl-3 pr-3 box-shadow">
+									<div class="popular-service w-100 d-inline-block mb-2">
+										<span class="color-date text-size-14">Popular services
+										</span>
+									</div>
+									<div class="hair-cut">
+							    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
+							    			Hair cut
+							    		</a>
+									</div>
+							    	<div class="hair-cut">
+							    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
+							    			Mens hair cut
+							    		</a>
+							    	</div>
+							    	<div class="hair-cut">
+							    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
+							    			Beard trim
+							    		</a>
+							    	</div>
+							    	<div class="hair-cut">
+							    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
+							    			Shave
+							    		</a>
+							    	</div>
+							    	<div class="hair-cut">
+							    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
+							    			Beard trim
+							    		</a>
+							    	</div>
+							    	<div class="hair-cut">
+							    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
+							    			Shave
+							    		</a>
+							    	</div>
+							    	<div class="hair-cut">
+							    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
+							    			Mens hair cut
+							    		</a>
+							    	</div>
+							    	<div class="hair-cut">
+							    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
+							    			Beard trim
+							    		</a>
+							    	</div>
+							    	<div class="hair-cut">
+							    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
+							    			Shave
+							    		</a>
+							    	</div>
+							    	<div class="hair-cut">
+							    		<a class="mb-3 text-size-12 
+							    		color-date" href="javascript:void(0)">
+							    			Beard trim
+							    		</a>
+							    	</div>
+							    	<div class="search-btn w-100 d-inline-block text-center mt-2">
+							    		<a class="text-white bg-gold text-size-14 d-inline-block" href="javascript:void(0)">
+							    			Search
+							    		</a>
+							    	</div>
+							    </div>
+						    </div>
 						</div>
 					</div>
 				    <div class="col-6 pl-0">
-						<div class="form-group input-services input-services-2 position-relative w-100 float-left mb-0">
+						<div class="form-group input-services input-services-2 position-relative w-100 float-left mb-0 dropdown">
 				     	 	<a class="text-white position-absolute" href="javascript:void(0)">
 							<i class="fa fa-map-marker" aria-hidden="true"></i>
 							</a>
-							<input type="text" class="form-control input-bg text-white pl-5 pr-5 h-50 text-size-15" id="service-input-text" aria-describedby="emailHelp" placeholder="Where?" aria-expanded="true">
+							<input type="text" class="form-control input-bg text-white pl-5 pr-5 h-50 text-size-15 dropdown-toggle" id="service-input-text" data-toggle="dropdown" aria-describedby="emailHelp" placeholder="Where?" aria-expanded="true">
 					     	<a class="location-icon text-white bg-gold position-absolute d-inline-block text-center p-1" href="javascript:void(0)">
 				     	 	<i class="fa fa-location-arrow"aria-hidden="true"></i>
 				            </a>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-menu categories-menu p-0 border-0 show" aria-labelledby="dropdownMenuButton" style="position: absolute; transform: translate3d(0, 3px, 0px); top:50px; left:0; will-change: transform;" x-placement="top-start">
-						    	<form>
-						    		<div class="form-group looking-services mb-0">
-						    			 <input type="email" class="form-control border-0 h-45" id="looking-service" aria-describedby="emailHelp" placeholder="What are you looking for ?">
-						    		</div>
-						    	</form>
-						    	<div class="service-box bg-white pt-2 pb-2 pl-3 pr-3">
-						    	<div class="popular-service w-100 d-inline-block mb-2">
-						    		<span class="color-date text-size-14">Popular services</span>
-						    	</div>
-						    	<div class="hair-cut">
-						    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
-						    			Hair cut
-						    		</a>
-						    	</div>
-						    	<div class="hair-cut">
-						    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
-						    			Mens hair cut
-						    		</a>
-						    	</div>
-						    	<div class="hair-cut">
-						    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
-						    			Beard trim
-						    		</a>
-						    	</div>
-						    	<div class="hair-cut">
-						    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
-						    			Shave
-						    		</a>
-						    	</div>
-						    	<div class="hair-cut">
-						    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
-						    			Beard trim
-						    		</a>
-						    	</div>
-						    	<div class="hair-cut">
-						    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
-						    			Shave
-						    		</a>
-						    	</div>
-						    	<div class="hair-cut">
-						    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
-						    			Mens hair cut
-						    		</a>
-						    	</div>
-						    	<div class="hair-cut">
-						    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
-						    			Beard trim
-						    		</a>
-						    	</div>
-						    	<div class="hair-cut">
-						    		<a class="mr-3 mb-3 text-size-12 color-date" href="javascript:void(0)">
-						    			Shave
-						    		</a>
-						    	</div>
-						    	<div class="hair-cut">
-						    		<a class="mb-3 text-size-12 
-						    		color-date" href="javascript:void(0)">
-						    			Beard trim
-						    		</a>
-						    	</div>
-						    	<div class="search-btn w-100 d-inline-block text-center mt-2">
+				            <div class="dropdown-menu location-menu p-0 border-0 show" aria-labelledby="dropdownMenuButton" style="position: absolute; will-change: transform; top:50px; left: 0; transform: translate3d(0px, 3px, 0px);" x-placement="top-start">
+							  	<div class="looking-services bg-time pt-2 pb-2 pl-3 pr-3">
+									<span class="color-date text-size-14">
+										Whare
+									</span>
+						        </div>
+							    <div class="service-box w-100 d-inline-block bg-white pt-2 pb-2 pl-3 pr-3 box-shadow">
+							    	<div class="row border-bottom mb-2">
+							    		<div class="col-6">
+							    			<div class="current-location w-100 d-inline-block 
+							    			ml-4">
+							    				<a class="color-date text-size-14" href="javascript:void(0)">
+							    					<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
+							    					Your current location
+							    				</a>
+							    			</div>
+							    		</div>
+							    		<div class="col-6">
+							    			<div class="search-near-btn w-100 
+							    			d-inline-block">
+							    				<a class="text-white bg-gold text-size-14 float-right" href="javascript:void(0)">
+							    				Search near me
+							    				</a>
+							    			</div>
+							    		</div>
+							    	</div>
+							    	<div class="city-location w-100 
+							    	d-inline-block pb-1 ml-4">
+							    		<a class="color-date text-size-14" href="javascript:void(0)">
+							    			<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
+							    			Lahroe
+							    		</a>
+							    	</div>
+							    	<div class="city-location w-100 
+							    	d-inline-block pb-1 ml-4">
+							    		<a class="color-date text-size-14" href="javascript:void(0)">
+							    			<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
+							    			Gujrat
+							    		</a>
+							    	</div>
+							    	<div class="city-location w-100 
+							    	d-inline-block pb-1 ml-4">
+							    		<a class="color-date text-size-14" href="javascript:void(0)">
+							    			<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
+							    			Gujranwala
+							    		</a>
+							    	</div>
+							    	<div class="city-location w-100 
+							    	d-inline-block pb-1 ml-4">
+							    		<a class="color-date text-size-14" href="javascript:void(0)">
+							    			<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
+							    			Faisalabad
+							    		</a>
+							    	</div>
+							    	<div class="city-location w-100 
+							    	d-inline-block pb-1 ml-4">
+							    		<a class="color-date text-size-14" href="javascript:void(0)">
+							    			<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
+							    			Karachi
+							    		</a>
+							    	</div>
+							    	<div class="city-location w-100 
+							    	d-inline-block pb-1 ml-4">
+							    		<a class="color-date text-size-14" href="javascript:void(0)">
+							    			<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
+							    			Islamabad
+							    		</a>
+							    	</div>
+							    	<div class="search-btn w-100 d-inline-block text-center mt-2 mb-2">
 						    		<a class="text-white bg-gold text-size-14 d-inline-block" href="javascript:void(0)">
 						    			Search
 						    		</a>
-						    	</div>
-						    </div>
-						  </div>
-						  <div class="dropdown-menu location-menu p-0 border-0 show" aria-labelledby="dropdownMenuButton" style="position: absolute; will-change: transform; top:50px; left: 0; transform: translate3d(0px, 3px, 0px);" x-placement="top-start">
-					  	<form>
-    		<div class="form-group looking-services mb-0">
-    			 <input type="email" class="form-control border-0 h-45" id="looking-service" aria-describedby="emailHelp" placeholder="Pakistan">
-    		</div>
-    	            </form>
-					    <div class="service-box w-100 d-inline-block bg-white pt-2 pb-2 pl-3 pr-3">
-					    	<div class="row border-bottom mb-2">
-					    		<div class="col-6">
-					    			<div class="current-location w-100 d-inline-block ml-4">
-					    				<a class="color-date text-size-14" href="javascript:void(0)">
-					    					<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
-					    					Your current location
-					    				</a>
-					    			</div>
-					    		</div>
-					    		<div class="col-6">
-					    			<div class="search-near-btn w-100 d-inline-block">
-					    				<a class="text-white bg-gold text-size-14 float-right" href="javascript:void(0)">
-					    					Search near me
-					    				</a>
-					    			</div>
-					    		</div>
-					    	</div>
-					    	<div class="city-location w-100 
-					    	d-inline-block pb-1 ml-4">
-					    		<a class="color-date text-size-14" href="javascript:void(0)">
-					    			<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
-					    			Lahroe
-					    		</a>
-					    	</div>
-					    	<div class="city-location w-100 
-					    	d-inline-block pb-1 ml-4">
-					    		<a class="color-date text-size-14" href="javascript:void(0)">
-					    			<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
-					    			Gujrat
-					    		</a>
-					    	</div>
-					    	<div class="city-location w-100 
-					    	d-inline-block pb-1 ml-4">
-					    		<a class="color-date text-size-14" href="javascript:void(0)">
-					    			<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
-					    			Gujranwala
-					    		</a>
-					    	</div>
-					    	<div class="city-location w-100 
-					    	d-inline-block pb-1 ml-4">
-					    		<a class="color-date text-size-14" href="javascript:void(0)">
-					    			<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
-					    			Faisalabad
-					    		</a>
-					    	</div>
-					    	<div class="city-location w-100 
-					    	d-inline-block pb-1 ml-4">
-					    		<a class="color-date text-size-14" href="javascript:void(0)">
-					    			<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
-					    			Karachi
-					    		</a>
-					    	</div>
-					    	<div class="city-location w-100 
-					    	d-inline-block pb-1 ml-4">
-					    		<a class="color-date text-size-14" href="javascript:void(0)">
-					    			<i class="fa fa-map-marker mr-2" aria-hidden="true"></i>
-					    			Islamabad
-					    		</a>
-					    	</div>
-					    	<div class="search-btn w-100 d-inline-block text-center mt-2 mb-2">
-				    		<a class="text-white bg-gold text-size-14 d-inline-block" href="javascript:void(0)">
-				    			Search
-				    		</a>
-				    	</div>
-					    </div>
-					  </div>
+						    	    </div>
+							    </div>
+					        </div>
+						</div>
+					</div>
+				</div> 
 			</div>
 		</form>
 		<div class="row">
@@ -224,7 +228,7 @@
 					</div>	
 					<div class="home-service-image w-35 float-left">
 						<a href="javascript:void(0)">
-						<img src="images/home-service-image.svg" alt="home-service-image picture">
+						<img src="images/home-service-image.png" alt="home-service-image picture">
 						</a>
 					</div>
 				</div>
@@ -233,6 +237,7 @@
 				<div class="appointment-box bg-white d-inline-block p-2 w-65 m-auto d-block box-radius">
 					<div class="row">
 						<div class="col-5">
+							
 							<a class="text-black d-block text-size-14 font-weight-bold pb-1" href="javascript:void(0)">
 							Your appointments
 							</a>
@@ -308,7 +313,7 @@
 		<div class="row mt-4">
 			<div class="col-12">
 				<div class="scroll-down-image w-100 d-inline-block text-center">
-					<a href="javascript:void(0)">
+					<a href="#slider-recemmanded-main">
 					<img src="images/scroll-down-image.svg" alt="scroll-down-image picture">
 					</a>
 					<p class="text-white text-size-18">Scroll down</p>
@@ -484,9 +489,10 @@
 
 <script>
 
+
 export default {
   name: "headerComponent",
-  
+	
 };
 
 </script>

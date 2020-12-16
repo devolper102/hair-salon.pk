@@ -1899,6 +1899,828 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-bookingComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/businesspage/business-bookingComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "business-bookingComponent"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-galleryComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/businesspage/business-galleryComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "business-galleryComponent"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-headerComponent.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/businesspage/business-headerComponent.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "business-headerComponent"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-introductionComponent.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/businesspage/business-introductionComponent.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "business-introductionComponent"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "logo-sitenameComponent"
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/footer/footerComponent.vue?vue&type=script&lang=js&":
 /*!******************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/footer/footerComponent.vue?vue&type=script&lang=js& ***!
@@ -19601,6 +20423,1987 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-bookingComponent.vue?vue&type=template&id=09862773&":
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/businesspage/business-bookingComponent.vue?vue&type=template&id=09862773& ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "business-booking-main" } }, [
+      _c("div", { staticClass: "bg-image-business-booking w-100" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-6" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "heading-booking-step w-100 d-inline-block mt-5"
+                },
+                [
+                  _c("h2", { staticClass: "text-black font-weight-bold" }, [
+                    _vm._v(
+                      "SiteName takes the next step in super simple booking."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-black text-size-14" }, [
+                    _vm._v(
+                      "\n\t\t\t\t\t\t\tYour clients are just a Google Search away from their next appointment. Through Reserve with Google, Booksy lets clients easily find your business and book an appointment DIRECTLY from Google Search and Google Maps results.\n\t\t\t\t\t\t"
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-6" }, [
+              _c("div", { staticClass: "bt-learn-more w-50 float-right" }, [
+                _c("h2", { staticClass: "text-black font-weight-bold" }, [
+                  _vm._v(
+                    "\n\t\t\t\t\t\t\tsiteName makes life run smoothly\n\t\t\t\t\t\t"
+                  )
+                ]),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "bg-gold text-white box-radius hair-saloon-btn text-size-15 float-left",
+                    attrs: { href: "jawascript:void(0)" }
+                  },
+                  [_vm._v("\n\t\t\t\t\t\t\tLearn More\n\t\t\t\t\t\t")]
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "scroll-down-image w-100 d-inline-block text-center"
+                },
+                [
+                  _c("a", { attrs: { href: "#business-gallery-main" } }, [
+                    _c("img", {
+                      attrs: {
+                        src: "images/scroll-down-image.svg",
+                        alt: "scroll-down-image picture"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-size-16 text-white mb-2" }, [
+                    _vm._v("\n\t\t\t\t\t\tScroll down")
+                  ])
+                ]
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-galleryComponent.vue?vue&type=template&id=1610951a&":
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/businesspage/business-galleryComponent.vue?vue&type=template&id=1610951a& ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "business-gallery-main" } }, [
+      _c("div", { staticClass: "bg-business-gradient w-100 d-inline-block" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "logo w-100 d-inline-block text-center mt-4 mb-lg-5"
+                },
+                [
+                  _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                    _c("img", {
+                      attrs: { src: "images/icon.svg", alt: "icon picture" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("h3", { staticClass: "text-gold mt-2 font-weight-bold" }, [
+                    _vm._v("BUSINESS WITH US\n\t\t\t\t\t\t")
+                  ])
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-4" }, [
+              _c(
+                "div",
+                { staticClass: "business-gallery-image w-100 d-inline-block" },
+                [
+                  _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                    _c("img", {
+                      attrs: {
+                        src: "images/business-gallery-image.svg",
+                        alt: "business-gallery-image picture"
+                      }
+                    })
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "business-gallery-image w-100 d-inline-block mt-3"
+                },
+                [
+                  _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                    _c("img", {
+                      attrs: {
+                        src: "images/business-gallery-image-4.svg",
+                        alt: "business-gallery-image-4 picture"
+                      }
+                    })
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-5" }, [
+              _c(
+                "div",
+                { staticClass: "business-gallery-image w-100 d-inline-block" },
+                [
+                  _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                    _c("img", {
+                      attrs: {
+                        src: "images/business-gallery-image-2.svg",
+                        alt: "business-gallery-image-2 picture"
+                      }
+                    })
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "business-gallery-image w-100 d-inline-block mt-1"
+                },
+                [
+                  _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                    _c("img", {
+                      attrs: {
+                        src: "images/business-gallery-image-5.svg",
+                        alt: "business-gallery-image-5 picture"
+                      }
+                    })
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3" }, [
+              _c(
+                "div",
+                { staticClass: "business-gallery-image w-100 d-inline-block" },
+                [
+                  _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                    _c("img", {
+                      attrs: {
+                        src: "images/business-gallery-image-3.svg",
+                        alt: "business-gallery-image-3 picture"
+                      }
+                    })
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "business-gallery-image barber-shop w-100 d-inline-block"
+                },
+                [
+                  _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                    _c("img", {
+                      attrs: {
+                        src: "images/business-gallery-image-6.svg",
+                        alt: "business-gallery-image-6 picture"
+                      }
+                    })
+                  ])
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12" }, [
+              _c(
+                "div",
+                { staticClass: "hair-saloon-text w-100 d-inline-block mt-4" },
+                [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "text-black font-weight-bold text-size-16 text-center"
+                    },
+                    [
+                      _vm._v(
+                        "\n\t\t\t\t\t\t\tOver 24,000 professionals around the world use Site name to make their job easier and gain time for things they really love to do.\n\t\t\t\t\t\t"
+                      )
+                    ]
+                  )
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12" }, [
+              _c("div", { staticClass: "slider js-slider" }, [
+                _c("div", { staticClass: "slider__inner js-slider__inner" }, [
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image.svg",
+                          alt: "business-slide-image picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-2.svg",
+                          alt: "business-slide-image-2 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-3.svg",
+                          alt: "business-slide-image-3 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-4.svg",
+                          alt: "business-slide-image-4 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-5.svg",
+                          alt: "business-slide-image-5 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-6.svg",
+                          alt: "business-slide-image-6 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-7.svg",
+                          alt: "business-slide-image-7 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image.svg",
+                          alt: "business-slide-image picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-2.svg",
+                          alt: "business-slide-image-2 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-3.svg",
+                          alt: "business-slide-image-3 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-4.svg",
+                          alt: "business-slide-image-4 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-5.svg",
+                          alt: "business-slide-image-5 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-6.svg",
+                          alt: "business-slide-image-6 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-7.svg",
+                          alt: "business-slide-image-7 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image.svg",
+                          alt: "business-slide-image picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-2.svg",
+                          alt: "business-slide-image-2 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-3.svg",
+                          alt: "business-slide-image-3 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-4.svg",
+                          alt: "business-slide-image-4 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-5.svg",
+                          alt: "business-slide-image-5 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-6.svg",
+                          alt: "business-slide-image-6 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-7.svg",
+                          alt: "business-slide-image-7 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image.svg",
+                          alt: "business-slide-image picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-2.svg",
+                          alt: "business-slide-image-2 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-3.svg",
+                          alt: "business-slide-image-3 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-4.svg",
+                          alt: "business-slide-image-4 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-5.svg",
+                          alt: "business-slide-image-5 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-6.svg",
+                          alt: "business-slide-image-6 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-7.svg",
+                          alt: "business-slide-image-7 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image.svg",
+                          alt: "business-slide-image picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-2.svg",
+                          alt: "business-slide-image-2 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-3.svg",
+                          alt: "business-slide-image-3 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-4.svg",
+                          alt: "business-slide-image-4 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-5.svg",
+                          alt: "business-slide-image-5 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-6.svg",
+                          alt: "business-slide-image-6 picture"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "slide js-slide" }, [
+                    _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/business-slide-image-7.svg",
+                          alt: "business-slide-image-7 picture"
+                        }
+                      })
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-headerComponent.vue?vue&type=template&id=217cbb1e&":
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/businesspage/business-headerComponent.vue?vue&type=template&id=217cbb1e& ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("header", [
+        _c("div", { staticClass: "bussiness-bg-image w-100 d-inline-block" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row mt-4" }, [
+              _c("div", { staticClass: "col-3" }, [
+                _c("div", { staticClass: "logo" }, [
+                  _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                    _c("img", {
+                      attrs: {
+                        src: "images/logo-image.svg",
+                        alt: "logo-image picture"
+                      }
+                    })
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-6" }, [
+                _c(
+                  "nav",
+                  { staticClass: "navbar navbar-expand-lg navbar-light pt-0" },
+                  [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "navbar-toggler",
+                        attrs: {
+                          type: "button",
+                          "data-toggle": "collapse",
+                          "data-target": "#navbarSupportedContent",
+                          "aria-controls": "navbarSupportedContent",
+                          "aria-expanded": "false",
+                          "aria-label": "Toggle navigation"
+                        }
+                      },
+                      [_c("span", { staticClass: "navbar-toggler-icon" })]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "collapse navbar-collapse",
+                        attrs: { id: "navbarSupportedContent" }
+                      },
+                      [
+                        _c("ul", { staticClass: "navbar-nav mr-auto" }, [
+                          _c("li", { staticClass: "nav-item active" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "nav-link text-white mr-4",
+                                attrs: { href: "jawascript:void(0)" }
+                              },
+                              [_vm._v("Features")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("li", { staticClass: "nav-item" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "nav-link text-white mr-4",
+                                attrs: { href: "jawascript:void(0)" }
+                              },
+                              [_vm._v("Pricing")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("li", { staticClass: "nav-item" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "nav-link text-white mr-4",
+                                attrs: { href: "jawascript:void(0)" }
+                              },
+                              [_vm._v("Blog")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("li", { staticClass: "nav-item" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "nav-link text-white mr-4",
+                                attrs: { href: "jawascript:void(0)" }
+                              },
+                              [_vm._v("FAQ")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("li", { staticClass: "nav-item" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "nav-link text-white",
+                                attrs: { href: "jawascript:void(0)" }
+                              },
+                              [_vm._v("More")]
+                            )
+                          ])
+                        ])
+                      ]
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-3" }, [
+                _c("div", { staticClass: "login-signup" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "text-white text-size-16",
+                      attrs: {
+                        href: "javascript:void(0)",
+                        "data-toggle": "modal",
+                        "data-target": "#login-signup-popup"
+                      }
+                    },
+                    [
+                      _c("i", {
+                        staticClass: "fa fa-user mr-2",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v("\n\t\t\t\t\t\t\t\tLogin / Signup\n\t\t\t\t\t\t\t")
+                    ]
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-6" }, [
+                _c(
+                  "div",
+                  { staticClass: "heading-booking-mind w-100 d-inline-block" },
+                  [
+                    _c("h1", { staticClass: "text-white font-weight-bold" }, [
+                      _vm._v("\n\t\t\t\t\t\t\t\tBooking\n\t\t\t\t\t\t\t\t"),
+                      _c("span", { staticClass: "pb-2 d-inline-block" }, [
+                        _vm._v(
+                          "\n\t\t\t\t\t\t\t\t\tPeace of Mind\n\t\t\t\t\t\t\t\t"
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-white text-size-15 mt-3" }, [
+                      _vm._v(
+                        "\n\t\t\t\t\t\t\t\tOne app for you + one app for your clients = Booksy: the easiest system\n\t\t\t\t\t\t\t\tto manage your business, receive online payments and get clients\n\t\t\t\t\t\t\t\tself-booking 24/7.\n\t\t\t\t\t\t\t"
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "works-btn w-100 d-inline-block mt-5" },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "text-white bg-gold font-weight-bold box-radius hair-saloon-btn text-size-15 mr-3 float-left",
+                        attrs: { href: "jawascript:void(0)" }
+                      },
+                      [
+                        _vm._v(
+                          "\n\t\t\t\t\t\t\t\tStart free trial\n\t\t\t\t\t\t\t"
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "text-white font-weight-bold hair-saloon-btn text-size-15 border-gold box-radius float-left",
+                        attrs: { href: "jawascript:void(0)" }
+                      },
+                      [
+                        _vm._v(
+                          "\n\t\t\t\t\t\t\t\tHow it works?\n\t\t\t\t\t\t\t"
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-6" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "business-mobile-image w-100 d-inline-block text-center"
+                  },
+                  [
+                    _c("img", {
+                      attrs: {
+                        src: "images/business-mobile-image.svg",
+                        alt: "business-mobile-image picture"
+                      }
+                    })
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-12" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "scroll-down-image w-100 d-inline-block text-center"
+                  },
+                  [
+                    _c(
+                      "a",
+                      { attrs: { href: "#business-introduction-main" } },
+                      [
+                        _c("img", {
+                          attrs: {
+                            src: "images/scroll-down-image.svg",
+                            alt: "scroll-down-image picture"
+                          }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "text-white text-size-18 mb-0" }, [
+                      _vm._v("Scroll down")
+                    ])
+                  ]
+                )
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "modal fade",
+            attrs: {
+              id: "login-signup-popup",
+              tabindex: "-1",
+              role: "dialog",
+              "aria-labelledby": "exampleModalLabel",
+              "aria-hidden": "true"
+            }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "modal-dialog w-30", attrs: { role: "document" } },
+              [
+                _c("div", { staticClass: "modal-content" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "modal-header sign-modal-heading border-0 pb-0 w-100 d-inline-block"
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close pt-1 cross-btn float-right",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close"
+                          }
+                        },
+                        [
+                          _c(
+                            "span",
+                            {
+                              staticClass: "text-size-15 d-inline-block",
+                              attrs: { "aria-hidden": "true" }
+                            },
+                            [_vm._v("×")]
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        {
+                          staticClass:
+                            "text-gold font-weight-bold mt-1 pb-2 w-100 border-sign-bottom"
+                        },
+                        [_vm._v("SIGN IN\n        ")]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "modal-body pt-0 pb-0" }, [
+                    _c("form", [
+                      _c("div", { staticClass: "form-group input-email" }, [
+                        _c(
+                          "label",
+                          {
+                            staticClass: "color-date text-size-15",
+                            attrs: { for: "InputEmail1" }
+                          },
+                          [_vm._v("Enter you Email\n        \t\t")]
+                        ),
+                        _vm._v(" "),
+                        _c("input", {
+                          staticClass: "form-control text-size-14",
+                          attrs: {
+                            type: "email",
+                            id: "InputEmail1",
+                            "aria-describedby": "emailHelp",
+                            placeholder: ""
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "or-text" }, [
+                      _c(
+                        "p",
+                        {
+                          staticClass:
+                            "text-black font-weight-bold text-size-16 text-center mb-0"
+                        },
+                        [_vm._v("OR")]
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "modal-footer border-0 social-icon-btn" },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass:
+                            "facebook-btn w-100 box-radius text-white border-0 text-size-14 p-2",
+                          attrs: { type: "button" }
+                        },
+                        [_vm._v("FACEBOOK")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass:
+                            "gmail-btn w-100 box-radius text-white border-0 text-size-14 p-2",
+                          attrs: { type: "button" }
+                        },
+                        [_vm._v("GMAIL\n        ")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "note-member-signup w-40 m-auto d-inline-block text-center mt-3 border-sign-bottom pb-1"
+                        },
+                        [
+                          _c(
+                            "span",
+                            { staticClass: "color-date text-size-13" },
+                            [_vm._v("Not a member?")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "signup-btn sign-color font-weight-bold text-size-14",
+                              attrs: {
+                                "data-toggle": "modal",
+                                "data-target": "#sigin-popup",
+                                href: "javascript:void(0)"
+                              }
+                            },
+                            [_vm._v("\n        \tsign up\n        \t")]
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "privacy-policy w-100 d-inline-block \n        text-center mt-3"
+                        },
+                        [
+                          _c(
+                            "span",
+                            {
+                              staticClass:
+                                "color-date text-size-15 pb-1 border-sign-bottom"
+                            },
+                            [_vm._v("privacy policy\n        \t")]
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ])
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "modal fade",
+            attrs: {
+              id: "sigin-popup",
+              tabindex: "-1",
+              role: "dialog",
+              "aria-labelledby": "exampleModalLabel",
+              "aria-hidden": "true"
+            }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "modal-dialog w-30", attrs: { role: "document" } },
+              [
+                _c("div", { staticClass: "modal-content" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "modal-header sign-modal-heading border-0 pb-0 w-100 d-inline-block"
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close pt-1 cross-btn float-right",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close"
+                          }
+                        },
+                        [
+                          _c(
+                            "span",
+                            {
+                              staticClass: "text-size-15 d-inline-block",
+                              attrs: { "aria-hidden": "true" }
+                            },
+                            [_vm._v("×")]
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        {
+                          staticClass:
+                            "text-gold font-weight-bold mt-1 pb-2 w-100 border-sign-bottom"
+                        },
+                        [_vm._v("SIGN IN\n        ")]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "modal-body pt-0 pb-0" }, [
+                    _c("form", [
+                      _c("div", { staticClass: "form-group input-email" }, [
+                        _c(
+                          "label",
+                          {
+                            staticClass: "color-date text-size-15",
+                            attrs: { for: "InputEmail1" }
+                          },
+                          [_vm._v("Password\n        \t\t")]
+                        ),
+                        _vm._v(" "),
+                        _c("input", {
+                          staticClass: "form-control text-size-14",
+                          attrs: {
+                            type: "password",
+                            id: "InputPassword",
+                            "aria-describedby": "emailHelp",
+                            placeholder: ""
+                          }
+                        })
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "modal-footer border-0 social-icon-btn pt-0"
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "forgot-password w-100 d-inline-block mb-4"
+                        },
+                        [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "color-date text-size-11 font-weight-bold float-right\n      \t\tpt-1 pb-1 pl-3 pr-3",
+                              attrs: { href: "javascript:void(0)" }
+                            },
+                            [_vm._v("Forget password?")]
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "note-member-signup w-55 m-auto d-inline-block text-center border-sign-bottom pb-1"
+                        },
+                        [
+                          _c(
+                            "span",
+                            { staticClass: "color-date text-size-13" },
+                            [_vm._v("Already have an account?")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "sign-color font-weight-bold text-size-14",
+                              attrs: {
+                                href: "javascript:void(0)",
+                                "data-toggle": "modal",
+                                "data-target": "#signup-popup"
+                              }
+                            },
+                            [_vm._v("\n        \tsign in\n        \t")]
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "privacy-policy w-100 d-inline-block \n        text-center mt-3"
+                        },
+                        [
+                          _c(
+                            "span",
+                            {
+                              staticClass:
+                                "color-date text-size-15 pb-1 border-sign-bottom"
+                            },
+                            [_vm._v("privacy policy\n        \t")]
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ])
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "modal fade",
+            attrs: {
+              id: "signup-popup",
+              tabindex: "-1",
+              role: "dialog",
+              "aria-labelledby": "exampleModalLabel",
+              "aria-hidden": "true"
+            }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "modal-dialog w-30", attrs: { role: "document" } },
+              [
+                _c("div", { staticClass: "modal-content" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "modal-header sign-modal-heading border-0 pb-0 w-100 d-inline-block"
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "close pt-1 cross-btn float-right",
+                          attrs: {
+                            type: "button",
+                            "data-dismiss": "modal",
+                            "aria-label": "Close"
+                          }
+                        },
+                        [
+                          _c(
+                            "span",
+                            {
+                              staticClass: "text-size-15 d-inline-block",
+                              attrs: { "aria-hidden": "true" }
+                            },
+                            [_vm._v("×")]
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h5",
+                        {
+                          staticClass:
+                            "text-gold font-weight-bold mt-1 pb-2 w-100 border-sign-bottom"
+                        },
+                        [_vm._v("SIGN UP\n        ")]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "modal-body pt-0 pb-0" }, [
+                    _c("form", [
+                      _c(
+                        "div",
+                        { staticClass: "form-group input-email mb-2" },
+                        [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "color-date text-size-15",
+                              attrs: { for: "InputEmail1" }
+                            },
+                            [_vm._v("Enter you Email\n        \t\t")]
+                          ),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control text-size-14",
+                            attrs: {
+                              type: "email",
+                              id: "InputEmail1-2",
+                              "aria-describedby": "emailHelp",
+                              placeholder: ""
+                            }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "form-group input-email mb-2" },
+                        [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "color-date text-size-15",
+                              attrs: { for: "InputEmail1" }
+                            },
+                            [_vm._v("Password\n        \t\t")]
+                          ),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control text-size-14",
+                            attrs: {
+                              type: "password",
+                              id: "InputPassword-2",
+                              "aria-describedby": "emailHelp",
+                              placeholder: ""
+                            }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "form-group input-email mb-2" },
+                        [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "color-date text-size-15",
+                              attrs: { for: "InputEmail1" }
+                            },
+                            [_vm._v("Re-enter password\n        \t\t")]
+                          ),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control text-size-14",
+                            attrs: {
+                              type: "password",
+                              id: "InputPassword-3",
+                              "aria-describedby": "emailHelp",
+                              placeholder: ""
+                            }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("select", { staticClass: "form-control mt-3" }, [
+                        _c("option", [
+                          _vm._v("\n        \t\t\tClient\n        \t\t")
+                        ]),
+                        _vm._v(" "),
+                        _c("option", [
+                          _vm._v("\n        \t\t\tCustomer\n        \t\t")
+                        ]),
+                        _vm._v(" "),
+                        _c("option", [
+                          _vm._v("\n        \t\t\tHair Cutting\n        \t\t")
+                        ]),
+                        _vm._v(" "),
+                        _c("option", [
+                          _vm._v("\n        \t\t\tShaving\n        \t\t")
+                        ]),
+                        _vm._v(" "),
+                        _c("option", [
+                          _vm._v("\n        \t\t\tTind\n        \t\t")
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "or-text mt-3" }, [
+                      _c(
+                        "p",
+                        {
+                          staticClass:
+                            "text-black font-weight-bold text-size-16 text-center mb-0"
+                        },
+                        [_vm._v("OR")]
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "modal-footer border-0 social-icon-btn" },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass:
+                            "facebook-btn w-100 box-radius text-white border-0 text-size-14 p-2",
+                          attrs: { type: "button" }
+                        },
+                        [_vm._v("FACEBOOK")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass:
+                            "gmail-btn w-100 box-radius text-white border-0 text-size-14 p-2 mb-3",
+                          attrs: { type: "button" }
+                        },
+                        [_vm._v("GMAIL\n        ")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "note-member-signup w-55 m-auto d-inline-block text-center border-sign-bottom pb-1"
+                        },
+                        [
+                          _c(
+                            "span",
+                            { staticClass: "color-date text-size-13" },
+                            [_vm._v("Already have an account?")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "sign-account sign-color font-weight-bold text-size-14",
+                              attrs: {
+                                "data-toggle": "modal",
+                                "data-target": "#sigin-popup",
+                                href: "javascript:void(0)"
+                              }
+                            },
+                            [_vm._v("\n        \tsign in\n        \t")]
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "privacy-policy w-100 d-inline-block \n        text-center mt-3"
+                        },
+                        [
+                          _c(
+                            "span",
+                            {
+                              staticClass:
+                                "color-date text-size-15 pb-1 border-sign-bottom"
+                            },
+                            [_vm._v("privacy policy\n        \t")]
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ])
+              ]
+            )
+          ]
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-introductionComponent.vue?vue&type=template&id=17947178&":
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/businesspage/business-introductionComponent.vue?vue&type=template&id=17947178& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "business-introduction-main" } }, [
+      _c("div", { staticClass: "business-mobile-image w-100 d-inline-block" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-4" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "take-appointment w-100 \n\t\t\t\t\td-inline-block"
+                },
+                [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-2" }, [
+                      _c("div", { staticClass: "appointment-image" }, [
+                        _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                          _c("img", {
+                            attrs: {
+                              src: "images/appointment-icon.svg",
+                              alt: "appointment-icon picture"
+                            }
+                          })
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-10 pl-0" }, [
+                      _c("div", { staticClass: "appointment-detail" }, [
+                        _c(
+                          "h6",
+                          { staticClass: "text-gold font-weight-bold" },
+                          [_vm._v("Take appointments anywhere, anytime")]
+                        ),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "text-black text-size-14" }, [
+                          _vm._v(
+                            "\n\t\t\t\t\t\t\t\t\t\tt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'\n\t\t\t\t\t\t\t\t\t"
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-4" }, [
+              _c(
+                "div",
+                { staticClass: "take-appointment w-100 d-inline-block" },
+                [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-2" }, [
+                      _c("div", { staticClass: "appointment-image" }, [
+                        _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                          _c("img", {
+                            attrs: {
+                              src: "images/calendar-icon.svg",
+                              alt: "calendar-icon picture"
+                            }
+                          })
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-10 pl-0" }, [
+                      _c("div", { staticClass: "appointment-detail" }, [
+                        _c(
+                          "h6",
+                          { staticClass: "text-gold font-weight-bold" },
+                          [_vm._v("Calendar management")]
+                        ),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "text-black text-size-14" }, [
+                          _vm._v(
+                            "\n\t\t\t\t\t\t\t\t\t\tt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'\n\t\t\t\t\t\t\t\t\t"
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-4" }, [
+              _c(
+                "div",
+                { staticClass: "take-appointment w-100 d-inline-block" },
+                [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-2" }, [
+                      _c("div", { staticClass: "appointment-image" }, [
+                        _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                          _c("img", {
+                            attrs: {
+                              src: "images/client-icon.svg",
+                              alt: "client-icon picture"
+                            }
+                          })
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-10 pl-0" }, [
+                      _c("div", { staticClass: "appointment-detail" }, [
+                        _c(
+                          "h6",
+                          { staticClass: "text-gold font-weight-bold" },
+                          [_vm._v("Client management")]
+                        ),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "text-black text-size-14" }, [
+                          _vm._v(
+                            "\n\t\t\t\t\t\t\t\t\t\tt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'\n\t\t\t\t\t\t\t\t\t"
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]
+              )
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "bg-business-introduction w-100 d-inline-block" },
+        [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "take-appointment w-100 d-inline-block" },
+                  [
+                    _c("div", { staticClass: "row" }, [
+                      _c("div", { staticClass: "col-2" }, [
+                        _c("div", { staticClass: "appointment-image" }, [
+                          _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                            _c("img", {
+                              attrs: {
+                                src: "images/tools-icon.svg",
+                                alt: "tools-icon picture"
+                              }
+                            })
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-10 pl-0" }, [
+                        _c("div", { staticClass: "appointment-detail" }, [
+                          _c(
+                            "h6",
+                            { staticClass: "text-gold font-weight-bold" },
+                            [_vm._v("Marketing & loyalty tools")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "p",
+                            {
+                              staticClass:
+                                "text-black \n\t\t\t\t\t\t\t\t\ttext-size-14"
+                            },
+                            [
+                              _vm._v(
+                                "\n\t\t\t\t\t\t\t\t\t\tt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'\n\t\t\t\t\t\t\t\t\t"
+                              )
+                            ]
+                          )
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "take-appointment w-100 d-inline-block" },
+                  [
+                    _c("div", { staticClass: "row" }, [
+                      _c("div", { staticClass: "col-2" }, [
+                        _c("div", { staticClass: "appointment-image" }, [
+                          _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                            _c("img", {
+                              attrs: {
+                                src: "images/scale-icon.svg",
+                                alt: "scale-icon picture"
+                              }
+                            })
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-10 pl-0" }, [
+                        _c("div", { staticClass: "appointment-detail" }, [
+                          _c(
+                            "h6",
+                            { staticClass: "text-gold font-weight-bold" },
+                            [_vm._v("Proactive Point of Sale")]
+                          ),
+                          _vm._v(" "),
+                          _c("p", { staticClass: "text-black text-size-14" }, [
+                            _vm._v(
+                              "\n\t\t\t\t\t\t\t\t\t\tt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'\n\t\t\t\t\t\t\t\t\t"
+                            )
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-4" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "take-appointment w-100 \n\t\t\t\t\td-inline-block"
+                  },
+                  [
+                    _c("div", { staticClass: "row" }, [
+                      _c("div", { staticClass: "col-2" }, [
+                        _c("div", { staticClass: "appointment-image" }, [
+                          _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                            _c("img", {
+                              attrs: {
+                                src: "images/management-icon.svg",
+                                alt: "management-icon picture"
+                              }
+                            })
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-10 pl-0" }, [
+                        _c("div", { staticClass: "appointment-detail" }, [
+                          _c(
+                            "h6",
+                            { staticClass: "text-gold font-weight-bold" },
+                            [_vm._v("Business management")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "p",
+                            {
+                              staticClass:
+                                "text-black \n\t\t\t\t\t\t\t\t\ttext-size-14"
+                            },
+                            [
+                              _vm._v(
+                                "\n\t\t\t\t\t\t\t\t\t\tt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'\n\t\t\t\t\t\t\t\t\t"
+                              )
+                            ]
+                          )
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-12" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "scroll-down-image w-100 d-inline-block text-center mt-5"
+                  },
+                  [
+                    _c("a", { attrs: { href: "#business-booking-main" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "images/scroll-down-image-2.svg",
+                          alt: "scroll-down-image-2 picture"
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "text-black font-weight-bold text-size-18 mb-0"
+                      },
+                      [_vm._v("Scroll down")]
+                    )
+                  ]
+                )
+              ])
+            ])
+          ])
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue?vue&type=template&id=086ff737&":
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue?vue&type=template&id=086ff737& ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "bg-gold w-100 d-inline-block" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row mt-4" }, [
+            _c("div", { staticClass: "col-7" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-2" }, [
+                  _c(
+                    "div",
+                    { staticClass: "bg-site-logo w-100 d-inline-block" },
+                    [
+                      _c("a", { attrs: { href: "jawascript:void(0)" } }, [
+                        _c("img", {
+                          attrs: {
+                            src: "images/site-logo-icon.svg",
+                            alt: "site-logo-icon picture"
+                          }
+                        })
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-10 pl-0" }, [
+                  _c(
+                    "div",
+                    { staticClass: "heading-site-name w-100 d-inline-block" },
+                    [
+                      _c("h3", { staticClass: "text-black" }, [
+                        _vm._v(
+                          "\n\t\t\t\t\t\t\t\t\tNEW TO SITE NAME?\n\t\t\t\t\t\t\t\t"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          staticClass:
+                            "text-white text-size-14 \n\t\t\t\t\t\t\t\tw-75"
+                        },
+                        [
+                          _vm._v(
+                            "\n\t\t\t\t\t\t\t\t\tStart exploring Booksy for businesses and discover why people are throwing their paper calendars away!\n\t\t\t\t\t\t\t\t"
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-5 mt-3" }, [
+              _c("div", { staticClass: "works-btn w-80 m-auto d-block" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-white bg-slide-address font-weight-bold box-radius hair-saloon-btn text-size-15 mr-3 float-left border-slider",
+                    attrs: { href: "jawascript:void(0)" }
+                  },
+                  [_vm._v("\n\t\t\t\t\t\t\tStart free trial\n\t\t\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "text-white font-weight-bold hair-saloon-btn text-size-15 border-slider box-radius float-left",
+                    attrs: { href: "jawascript:void(0)" }
+                  },
+                  [_vm._v("\n\t\t\t\t\t\t\tHow it works?\n\t\t\t\t\t\t")]
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/footer/footerComponent.vue?vue&type=template&id=04d34ed0&":
 /*!**********************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/footer/footerComponent.vue?vue&type=template&id=04d34ed0& ***!
@@ -32024,10 +34827,359 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('footer-section', __webpack_require__(/*! ./components/frontend/footer/footerComponent.vue */ "./resources/js/components/frontend/footer/footerComponent.vue")["default"]);
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('bussiness-section', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module './components/frontend/bussinesspage/bussiness-sectionComponent.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('business-section', __webpack_require__(/*! ./components/frontend/businesspage/business-headerComponent.vue */ "./resources/js/components/frontend/businesspage/business-headerComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('business-introduction-section', __webpack_require__(/*! ./components/frontend/businesspage/business-introductionComponent.vue */ "./resources/js/components/frontend/businesspage/business-introductionComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('business-booking-section', __webpack_require__(/*! ./components/frontend/businesspage/business-bookingComponent.vue */ "./resources/js/components/frontend/businesspage/business-bookingComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('business-gallery-section', __webpack_require__(/*! ./components/frontend/businesspage/business-galleryComponent.vue */ "./resources/js/components/frontend/businesspage/business-galleryComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('logo-sitename-section', __webpack_require__(/*! ./components/frontend/businesspage/logo-sitenameComponent.vue */ "./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue")["default"]);
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app'
 });
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/business-bookingComponent.vue":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/business-bookingComponent.vue ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _business_bookingComponent_vue_vue_type_template_id_09862773___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./business-bookingComponent.vue?vue&type=template&id=09862773& */ "./resources/js/components/frontend/businesspage/business-bookingComponent.vue?vue&type=template&id=09862773&");
+/* harmony import */ var _business_bookingComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./business-bookingComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/businesspage/business-bookingComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _business_bookingComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _business_bookingComponent_vue_vue_type_template_id_09862773___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _business_bookingComponent_vue_vue_type_template_id_09862773___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/businesspage/business-bookingComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/business-bookingComponent.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/business-bookingComponent.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_business_bookingComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./business-bookingComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-bookingComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_business_bookingComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/business-bookingComponent.vue?vue&type=template&id=09862773&":
+/*!********************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/business-bookingComponent.vue?vue&type=template&id=09862773& ***!
+  \********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_business_bookingComponent_vue_vue_type_template_id_09862773___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./business-bookingComponent.vue?vue&type=template&id=09862773& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-bookingComponent.vue?vue&type=template&id=09862773&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_business_bookingComponent_vue_vue_type_template_id_09862773___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_business_bookingComponent_vue_vue_type_template_id_09862773___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/business-galleryComponent.vue":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/business-galleryComponent.vue ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _business_galleryComponent_vue_vue_type_template_id_1610951a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./business-galleryComponent.vue?vue&type=template&id=1610951a& */ "./resources/js/components/frontend/businesspage/business-galleryComponent.vue?vue&type=template&id=1610951a&");
+/* harmony import */ var _business_galleryComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./business-galleryComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/businesspage/business-galleryComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _business_galleryComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _business_galleryComponent_vue_vue_type_template_id_1610951a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _business_galleryComponent_vue_vue_type_template_id_1610951a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/businesspage/business-galleryComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/business-galleryComponent.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/business-galleryComponent.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_business_galleryComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./business-galleryComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-galleryComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_business_galleryComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/business-galleryComponent.vue?vue&type=template&id=1610951a&":
+/*!********************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/business-galleryComponent.vue?vue&type=template&id=1610951a& ***!
+  \********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_business_galleryComponent_vue_vue_type_template_id_1610951a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./business-galleryComponent.vue?vue&type=template&id=1610951a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-galleryComponent.vue?vue&type=template&id=1610951a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_business_galleryComponent_vue_vue_type_template_id_1610951a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_business_galleryComponent_vue_vue_type_template_id_1610951a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/business-headerComponent.vue":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/business-headerComponent.vue ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _business_headerComponent_vue_vue_type_template_id_217cbb1e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./business-headerComponent.vue?vue&type=template&id=217cbb1e& */ "./resources/js/components/frontend/businesspage/business-headerComponent.vue?vue&type=template&id=217cbb1e&");
+/* harmony import */ var _business_headerComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./business-headerComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/businesspage/business-headerComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _business_headerComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _business_headerComponent_vue_vue_type_template_id_217cbb1e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _business_headerComponent_vue_vue_type_template_id_217cbb1e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/businesspage/business-headerComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/business-headerComponent.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/business-headerComponent.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_business_headerComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./business-headerComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-headerComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_business_headerComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/business-headerComponent.vue?vue&type=template&id=217cbb1e&":
+/*!*******************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/business-headerComponent.vue?vue&type=template&id=217cbb1e& ***!
+  \*******************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_business_headerComponent_vue_vue_type_template_id_217cbb1e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./business-headerComponent.vue?vue&type=template&id=217cbb1e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-headerComponent.vue?vue&type=template&id=217cbb1e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_business_headerComponent_vue_vue_type_template_id_217cbb1e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_business_headerComponent_vue_vue_type_template_id_217cbb1e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/business-introductionComponent.vue":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/business-introductionComponent.vue ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _business_introductionComponent_vue_vue_type_template_id_17947178___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./business-introductionComponent.vue?vue&type=template&id=17947178& */ "./resources/js/components/frontend/businesspage/business-introductionComponent.vue?vue&type=template&id=17947178&");
+/* harmony import */ var _business_introductionComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./business-introductionComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/businesspage/business-introductionComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _business_introductionComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _business_introductionComponent_vue_vue_type_template_id_17947178___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _business_introductionComponent_vue_vue_type_template_id_17947178___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/businesspage/business-introductionComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/business-introductionComponent.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/business-introductionComponent.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_business_introductionComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./business-introductionComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-introductionComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_business_introductionComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/business-introductionComponent.vue?vue&type=template&id=17947178&":
+/*!*************************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/business-introductionComponent.vue?vue&type=template&id=17947178& ***!
+  \*************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_business_introductionComponent_vue_vue_type_template_id_17947178___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./business-introductionComponent.vue?vue&type=template&id=17947178& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/business-introductionComponent.vue?vue&type=template&id=17947178&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_business_introductionComponent_vue_vue_type_template_id_17947178___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_business_introductionComponent_vue_vue_type_template_id_17947178___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _logo_sitenameComponent_vue_vue_type_template_id_086ff737___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./logo-sitenameComponent.vue?vue&type=template&id=086ff737& */ "./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue?vue&type=template&id=086ff737&");
+/* harmony import */ var _logo_sitenameComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logo-sitenameComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _logo_sitenameComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _logo_sitenameComponent_vue_vue_type_template_id_086ff737___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _logo_sitenameComponent_vue_vue_type_template_id_086ff737___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/businesspage/logo-sitenameComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_logo_sitenameComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./logo-sitenameComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_logo_sitenameComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue?vue&type=template&id=086ff737&":
+/*!*****************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue?vue&type=template&id=086ff737& ***!
+  \*****************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_logo_sitenameComponent_vue_vue_type_template_id_086ff737___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./logo-sitenameComponent.vue?vue&type=template&id=086ff737& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/businesspage/logo-sitenameComponent.vue?vue&type=template&id=086ff737&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_logo_sitenameComponent_vue_vue_type_template_id_086ff737___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_logo_sitenameComponent_vue_vue_type_template_id_086ff737___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 

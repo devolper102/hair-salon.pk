@@ -2461,6 +2461,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "headerComponent"
 });
@@ -2685,6 +2690,15 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -21186,7 +21200,7 @@ var staticRenderFns = [
                             "a",
                             {
                               staticClass:
-                                "text-white font-weight-bold bg-gold hair-saloon-btn float-left",
+                                "text-white font-weight-bold bg-gold hair-saloon-btn float-left text-size-15",
                               attrs: { href: "javascript:void(0)" }
                             },
                             [_vm._v("For Business")]
@@ -21232,7 +21246,7 @@ var staticRenderFns = [
                           "div",
                           {
                             staticClass:
-                              "form-group input-services position-relative w-100 float-right mb-0"
+                              "form-group input-services position-relative w-100 float-right mb-0 dropdown"
                           },
                           [
                             _c(
@@ -21251,15 +21265,273 @@ var staticRenderFns = [
                             _vm._v(" "),
                             _c("input", {
                               staticClass:
-                                "form-control input-bg text-white pl-5 pr-2 h-50 border-0 text-size-15",
+                                "form-control input-bg text-white pl-5 pr-2 h-50 border-0 \n\t\t\t\t\t\t \ttext-size-15 dropdown-toggle",
                               attrs: {
                                 type: "text",
+                                "data-toggle": "dropdown",
                                 id: "service-input-text",
                                 "aria-describedby": "emailHelp",
                                 placeholder: "Book your services....",
                                 "aria-expanded": "true"
                               }
-                            })
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "dropdown-menu categories-menu p-0 border-0 show",
+                                staticStyle: {
+                                  position: "absolute",
+                                  transform: "translate3d(0, 3px, 0px)",
+                                  top: "50px",
+                                  left: "-3px",
+                                  "will-change": "transform"
+                                },
+                                attrs: {
+                                  "aria-labelledby": "dropdownMenuButton",
+                                  "x-placement": "top-start"
+                                }
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "looking-services bg-time pt-2 pb-2 pl-3 pr-3"
+                                  },
+                                  [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass: "color-date text-size-14"
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t\t\t\tWhat are you looking for\n\t\t\t\t\t\t\t\t\t"
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "service-box bg-white pt-2 pb-2 pl-3 pr-3 box-shadow"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "popular-service w-100 d-inline-block mb-2"
+                                      },
+                                      [
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass:
+                                              "color-date text-size-14"
+                                          },
+                                          [
+                                            _vm._v(
+                                              "Popular services\n\t\t\t\t\t\t\t\t\t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "hair-cut" }, [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "mr-3 mb-3 text-size-12 color-date",
+                                          attrs: { href: "javascript:void(0)" }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n\t\t\t\t\t\t\t    \t\t\tHair cut\n\t\t\t\t\t\t\t    \t\t"
+                                          )
+                                        ]
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "hair-cut" }, [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "mr-3 mb-3 text-size-12 color-date",
+                                          attrs: { href: "javascript:void(0)" }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n\t\t\t\t\t\t\t    \t\t\tMens hair cut\n\t\t\t\t\t\t\t    \t\t"
+                                          )
+                                        ]
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "hair-cut" }, [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "mr-3 mb-3 text-size-12 color-date",
+                                          attrs: { href: "javascript:void(0)" }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n\t\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t\t    \t\t"
+                                          )
+                                        ]
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "hair-cut" }, [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "mr-3 mb-3 text-size-12 color-date",
+                                          attrs: { href: "javascript:void(0)" }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n\t\t\t\t\t\t\t    \t\t\tShave\n\t\t\t\t\t\t\t    \t\t"
+                                          )
+                                        ]
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "hair-cut" }, [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "mr-3 mb-3 text-size-12 color-date",
+                                          attrs: { href: "javascript:void(0)" }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n\t\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t\t    \t\t"
+                                          )
+                                        ]
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "hair-cut" }, [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "mr-3 mb-3 text-size-12 color-date",
+                                          attrs: { href: "javascript:void(0)" }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n\t\t\t\t\t\t\t    \t\t\tShave\n\t\t\t\t\t\t\t    \t\t"
+                                          )
+                                        ]
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "hair-cut" }, [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "mr-3 mb-3 text-size-12 color-date",
+                                          attrs: { href: "javascript:void(0)" }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n\t\t\t\t\t\t\t    \t\t\tMens hair cut\n\t\t\t\t\t\t\t    \t\t"
+                                          )
+                                        ]
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "hair-cut" }, [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "mr-3 mb-3 text-size-12 color-date",
+                                          attrs: { href: "javascript:void(0)" }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n\t\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t\t    \t\t"
+                                          )
+                                        ]
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "hair-cut" }, [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "mr-3 mb-3 text-size-12 color-date",
+                                          attrs: { href: "javascript:void(0)" }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n\t\t\t\t\t\t\t    \t\t\tShave\n\t\t\t\t\t\t\t    \t\t"
+                                          )
+                                        ]
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "hair-cut" }, [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "mb-3 text-size-12 \n\t\t\t\t\t\t\t    \t\tcolor-date",
+                                          attrs: { href: "javascript:void(0)" }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n\t\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t\t    \t\t"
+                                          )
+                                        ]
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "search-btn w-100 d-inline-block text-center mt-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-white bg-gold text-size-14 d-inline-block",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tSearch\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
                           ]
                         )
                       ]),
@@ -21269,7 +21541,7 @@ var staticRenderFns = [
                           "div",
                           {
                             staticClass:
-                              "form-group input-services input-services-2 position-relative w-100 float-left mb-0"
+                              "form-group input-services input-services-2 position-relative w-100 float-left mb-0 dropdown"
                           },
                           [
                             _c(
@@ -21288,10 +21560,11 @@ var staticRenderFns = [
                             _vm._v(" "),
                             _c("input", {
                               staticClass:
-                                "form-control input-bg text-white pl-5 pr-5 h-50 text-size-15",
+                                "form-control input-bg text-white pl-5 pr-5 h-50 text-size-15 dropdown-toggle",
                               attrs: {
                                 type: "text",
                                 id: "service-input-text",
+                                "data-toggle": "dropdown",
                                 "aria-describedby": "emailHelp",
                                 placeholder: "Where?",
                                 "aria-expanded": "true"
@@ -21311,543 +21584,333 @@ var staticRenderFns = [
                                   attrs: { "aria-hidden": "true" }
                                 })
                               ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "dropdown-menu location-menu p-0 border-0 show",
+                                staticStyle: {
+                                  position: "absolute",
+                                  "will-change": "transform",
+                                  top: "50px",
+                                  left: "0",
+                                  transform: "translate3d(0px, 3px, 0px)"
+                                },
+                                attrs: {
+                                  "aria-labelledby": "dropdownMenuButton",
+                                  "x-placement": "top-start"
+                                }
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "looking-services bg-time pt-2 pb-2 pl-3 pr-3"
+                                  },
+                                  [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass: "color-date text-size-14"
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n\t\t\t\t\t\t\t\t\t\tWhare\n\t\t\t\t\t\t\t\t\t"
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "service-box w-100 d-inline-block bg-white pt-2 pb-2 pl-3 pr-3 box-shadow"
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      { staticClass: "row border-bottom mb-2" },
+                                      [
+                                        _c("div", { staticClass: "col-6" }, [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "current-location w-100 d-inline-block \n\t\t\t\t\t\t\t    \t\t\tml-4"
+                                            },
+                                            [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "color-date text-size-14",
+                                                  attrs: {
+                                                    href: "javascript:void(0)"
+                                                  }
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "fa fa-map-marker mr-2",
+                                                    attrs: {
+                                                      "aria-hidden": "true"
+                                                    }
+                                                  }),
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t    \t\t\t\t\tYour current location\n\t\t\t\t\t\t\t    \t\t\t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("div", { staticClass: "col-6" }, [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "search-near-btn w-100 \n\t\t\t\t\t\t\t    \t\t\td-inline-block"
+                                            },
+                                            [
+                                              _c(
+                                                "a",
+                                                {
+                                                  staticClass:
+                                                    "text-white bg-gold text-size-14 float-right",
+                                                  attrs: {
+                                                    href: "javascript:void(0)"
+                                                  }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n\t\t\t\t\t\t\t    \t\t\t\tSearch near me\n\t\t\t\t\t\t\t    \t\t\t\t"
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ])
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "color-date text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-map-marker mr-2",
+                                              attrs: { "aria-hidden": "true" }
+                                            }),
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tLahroe\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "color-date text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-map-marker mr-2",
+                                              attrs: { "aria-hidden": "true" }
+                                            }),
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tGujrat\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "color-date text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-map-marker mr-2",
+                                              attrs: { "aria-hidden": "true" }
+                                            }),
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tGujranwala\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "color-date text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-map-marker mr-2",
+                                              attrs: { "aria-hidden": "true" }
+                                            }),
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tFaisalabad\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "color-date text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-map-marker mr-2",
+                                              attrs: { "aria-hidden": "true" }
+                                            }),
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tKarachi\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "color-date text-size-14",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "fa fa-map-marker mr-2",
+                                              attrs: { "aria-hidden": "true" }
+                                            }),
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tIslamabad\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "search-btn w-100 d-inline-block text-center mt-2 mb-2"
+                                      },
+                                      [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "text-white bg-gold text-size-14 d-inline-block",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t    \t\t\tSearch\n\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]
                             )
                           ]
                         )
                       ])
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass:
-                          "dropdown-menu categories-menu p-0 border-0 show",
-                        staticStyle: {
-                          position: "absolute",
-                          transform: "translate3d(0, 3px, 0px)",
-                          top: "50px",
-                          left: "0",
-                          "will-change": "transform"
-                        },
-                        attrs: {
-                          "aria-labelledby": "dropdownMenuButton",
-                          "x-placement": "top-start"
-                        }
-                      },
-                      [
-                        _c("form", [
-                          _c(
-                            "div",
-                            { staticClass: "form-group looking-services mb-0" },
-                            [
-                              _c("input", {
-                                staticClass: "form-control border-0 h-45",
-                                attrs: {
-                                  type: "email",
-                                  id: "looking-service",
-                                  "aria-describedby": "emailHelp",
-                                  placeholder: "What are you looking for ?"
-                                }
-                              })
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "service-box bg-white pt-2 pb-2 pl-3 pr-3"
-                          },
-                          [
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "popular-service w-100 d-inline-block mb-2"
-                              },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "color-date text-size-14" },
-                                  [_vm._v("Popular services")]
-                                )
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "hair-cut" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass:
-                                    "mr-3 mb-3 text-size-12 color-date",
-                                  attrs: { href: "javascript:void(0)" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n\t\t\t\t\t\t    \t\t\tHair cut\n\t\t\t\t\t\t    \t\t"
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "hair-cut" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass:
-                                    "mr-3 mb-3 text-size-12 color-date",
-                                  attrs: { href: "javascript:void(0)" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n\t\t\t\t\t\t    \t\t\tMens hair cut\n\t\t\t\t\t\t    \t\t"
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "hair-cut" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass:
-                                    "mr-3 mb-3 text-size-12 color-date",
-                                  attrs: { href: "javascript:void(0)" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t    \t\t"
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "hair-cut" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass:
-                                    "mr-3 mb-3 text-size-12 color-date",
-                                  attrs: { href: "javascript:void(0)" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n\t\t\t\t\t\t    \t\t\tShave\n\t\t\t\t\t\t    \t\t"
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "hair-cut" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass:
-                                    "mr-3 mb-3 text-size-12 color-date",
-                                  attrs: { href: "javascript:void(0)" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t    \t\t"
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "hair-cut" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass:
-                                    "mr-3 mb-3 text-size-12 color-date",
-                                  attrs: { href: "javascript:void(0)" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n\t\t\t\t\t\t    \t\t\tShave\n\t\t\t\t\t\t    \t\t"
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "hair-cut" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass:
-                                    "mr-3 mb-3 text-size-12 color-date",
-                                  attrs: { href: "javascript:void(0)" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n\t\t\t\t\t\t    \t\t\tMens hair cut\n\t\t\t\t\t\t    \t\t"
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "hair-cut" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass:
-                                    "mr-3 mb-3 text-size-12 color-date",
-                                  attrs: { href: "javascript:void(0)" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t    \t\t"
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "hair-cut" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass:
-                                    "mr-3 mb-3 text-size-12 color-date",
-                                  attrs: { href: "javascript:void(0)" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n\t\t\t\t\t\t    \t\t\tShave\n\t\t\t\t\t\t    \t\t"
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "hair-cut" }, [
-                              _c(
-                                "a",
-                                {
-                                  staticClass:
-                                    "mb-3 text-size-12 \n\t\t\t\t\t\t    \t\tcolor-date",
-                                  attrs: { href: "javascript:void(0)" }
-                                },
-                                [
-                                  _vm._v(
-                                    "\n\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t    \t\t"
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "search-btn w-100 d-inline-block text-center mt-2"
-                              },
-                              [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "text-white bg-gold text-size-14 d-inline-block",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n\t\t\t\t\t\t    \t\t\tSearch\n\t\t\t\t\t\t    \t\t"
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ]
-                        )
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass:
-                          "dropdown-menu location-menu p-0 border-0 show",
-                        staticStyle: {
-                          position: "absolute",
-                          "will-change": "transform",
-                          top: "50px",
-                          left: "0",
-                          transform: "translate3d(0px, 3px, 0px)"
-                        },
-                        attrs: {
-                          "aria-labelledby": "dropdownMenuButton",
-                          "x-placement": "top-start"
-                        }
-                      },
-                      [
-                        _c("form", [
-                          _c(
-                            "div",
-                            { staticClass: "form-group looking-services mb-0" },
-                            [
-                              _c("input", {
-                                staticClass: "form-control border-0 h-45",
-                                attrs: {
-                                  type: "email",
-                                  id: "looking-service",
-                                  "aria-describedby": "emailHelp",
-                                  placeholder: "Pakistan"
-                                }
-                              })
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "service-box w-100 d-inline-block bg-white pt-2 pb-2 pl-3 pr-3"
-                          },
-                          [
-                            _c(
-                              "div",
-                              { staticClass: "row border-bottom mb-2" },
-                              [
-                                _c("div", { staticClass: "col-6" }, [
-                                  _c(
-                                    "div",
-                                    {
-                                      staticClass:
-                                        "current-location w-100 d-inline-block ml-4"
-                                    },
-                                    [
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "color-date text-size-14",
-                                          attrs: { href: "javascript:void(0)" }
-                                        },
-                                        [
-                                          _c("i", {
-                                            staticClass:
-                                              "fa fa-map-marker mr-2",
-                                            attrs: { "aria-hidden": "true" }
-                                          }),
-                                          _vm._v(
-                                            "\n\t\t\t\t\t    \t\t\t\t\tYour current location\n\t\t\t\t\t    \t\t\t\t"
-                                          )
-                                        ]
-                                      )
-                                    ]
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "col-6" }, [
-                                  _c(
-                                    "div",
-                                    {
-                                      staticClass:
-                                        "search-near-btn w-100 d-inline-block"
-                                    },
-                                    [
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "text-white bg-gold text-size-14 float-right",
-                                          attrs: { href: "javascript:void(0)" }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n\t\t\t\t\t    \t\t\t\t\tSearch near me\n\t\t\t\t\t    \t\t\t\t"
-                                          )
-                                        ]
-                                      )
-                                    ]
-                                  )
-                                ])
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "city-location w-100 \n\t\t\t\t\t    \td-inline-block pb-1 ml-4"
-                              },
-                              [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass: "color-date text-size-14",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [
-                                    _c("i", {
-                                      staticClass: "fa fa-map-marker mr-2",
-                                      attrs: { "aria-hidden": "true" }
-                                    }),
-                                    _vm._v(
-                                      "\n\t\t\t\t\t    \t\t\tLahroe\n\t\t\t\t\t    \t\t"
-                                    )
-                                  ]
-                                )
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "city-location w-100 \n\t\t\t\t\t    \td-inline-block pb-1 ml-4"
-                              },
-                              [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass: "color-date text-size-14",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [
-                                    _c("i", {
-                                      staticClass: "fa fa-map-marker mr-2",
-                                      attrs: { "aria-hidden": "true" }
-                                    }),
-                                    _vm._v(
-                                      "\n\t\t\t\t\t    \t\t\tGujrat\n\t\t\t\t\t    \t\t"
-                                    )
-                                  ]
-                                )
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "city-location w-100 \n\t\t\t\t\t    \td-inline-block pb-1 ml-4"
-                              },
-                              [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass: "color-date text-size-14",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [
-                                    _c("i", {
-                                      staticClass: "fa fa-map-marker mr-2",
-                                      attrs: { "aria-hidden": "true" }
-                                    }),
-                                    _vm._v(
-                                      "\n\t\t\t\t\t    \t\t\tGujranwala\n\t\t\t\t\t    \t\t"
-                                    )
-                                  ]
-                                )
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "city-location w-100 \n\t\t\t\t\t    \td-inline-block pb-1 ml-4"
-                              },
-                              [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass: "color-date text-size-14",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [
-                                    _c("i", {
-                                      staticClass: "fa fa-map-marker mr-2",
-                                      attrs: { "aria-hidden": "true" }
-                                    }),
-                                    _vm._v(
-                                      "\n\t\t\t\t\t    \t\t\tFaisalabad\n\t\t\t\t\t    \t\t"
-                                    )
-                                  ]
-                                )
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "city-location w-100 \n\t\t\t\t\t    \td-inline-block pb-1 ml-4"
-                              },
-                              [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass: "color-date text-size-14",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [
-                                    _c("i", {
-                                      staticClass: "fa fa-map-marker mr-2",
-                                      attrs: { "aria-hidden": "true" }
-                                    }),
-                                    _vm._v(
-                                      "\n\t\t\t\t\t    \t\t\tKarachi\n\t\t\t\t\t    \t\t"
-                                    )
-                                  ]
-                                )
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "city-location w-100 \n\t\t\t\t\t    \td-inline-block pb-1 ml-4"
-                              },
-                              [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass: "color-date text-size-14",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [
-                                    _c("i", {
-                                      staticClass: "fa fa-map-marker mr-2",
-                                      attrs: { "aria-hidden": "true" }
-                                    }),
-                                    _vm._v(
-                                      "\n\t\t\t\t\t    \t\t\tIslamabad\n\t\t\t\t\t    \t\t"
-                                    )
-                                  ]
-                                )
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "search-btn w-100 d-inline-block text-center mt-2 mb-2"
-                              },
-                              [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "text-white bg-gold text-size-14 d-inline-block",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n\t\t\t\t    \t\t\tSearch\n\t\t\t\t    \t\t"
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ]
-                        )
-                      ]
-                    )
+                    ])
                   ]
                 )
               ]),
@@ -21900,7 +21963,7 @@ var staticRenderFns = [
                           _c("a", { attrs: { href: "javascript:void(0)" } }, [
                             _c("img", {
                               attrs: {
-                                src: "images/home-service-image.svg",
+                                src: "images/home-service-image.png",
                                 alt: "home-service-image picture"
                               }
                             })
@@ -22189,7 +22252,7 @@ var staticRenderFns = [
                         "scroll-down-image w-100 d-inline-block text-center"
                     },
                     [
-                      _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                      _c("a", { attrs: { href: "#slider-recemmanded-main" } }, [
                         _c("img", {
                           attrs: {
                             src: "images/scroll-down-image.svg",
@@ -22911,7 +22974,8 @@ var staticRenderFns = [
                           type: "number",
                           id: "input-phone-number",
                           "aria-describedby": "numberHelp",
-                          placeholder: "Your phone number"
+                          placeholder: "Your phone number",
+                          required: ""
                         }
                       })
                     ]
@@ -22952,7 +23016,7 @@ var staticRenderFns = [
                       "scroll-down-image w-100 d-inline-block text-center"
                   },
                   [
-                    _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                    _c("a", { attrs: { href: "#how-it-is-work-main" } }, [
                       _c("img", {
                         attrs: {
                           src: "images/scroll-down-image-2.svg",
@@ -23062,7 +23126,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "date-time-views w-33 float-left mr-3" },
+                      { staticClass: "date-time-views float-left mr-3" },
                       [
                         _c(
                           "a",
@@ -23086,7 +23150,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "date-time-views w-33 float-left mr-3" },
+                      { staticClass: "date-time-views float-left mr-3" },
                       [
                         _c(
                           "a",
@@ -23110,7 +23174,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "date-time-views w-33 float-left ml-2" },
+                      { staticClass: "date-time-views float-left ml-2" },
                       [
                         _c(
                           "a",
@@ -23193,7 +23257,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "date-time-views w-33 float-left mr-3" },
+                      { staticClass: "date-time-views float-left mr-3" },
                       [
                         _c(
                           "a",
@@ -23217,7 +23281,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "date-time-views w-33 float-left mr-3" },
+                      { staticClass: "date-time-views float-left mr-3" },
                       [
                         _c(
                           "a",
@@ -23241,7 +23305,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "date-time-views w-33 float-left ml-2" },
+                      { staticClass: "date-time-views float-left ml-2" },
                       [
                         _c(
                           "a",
@@ -23324,7 +23388,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "date-time-views w-33 float-left mr-3" },
+                      { staticClass: "date-time-views float-left mr-3" },
                       [
                         _c(
                           "a",
@@ -23348,7 +23412,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "date-time-views w-33 float-left mr-3" },
+                      { staticClass: "date-time-views float-left mr-3" },
                       [
                         _c(
                           "a",
@@ -23372,7 +23436,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "date-time-views w-33 float-left ml-2" },
+                      { staticClass: "date-time-views float-left ml-2" },
                       [
                         _c(
                           "a",
@@ -23428,7 +23492,7 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-12 text-center mt-lg-3" }, [
-              _c("a", { attrs: { href: "javascript:void(0)" } }, [
+              _c("a", { attrs: { href: "#client-slider-main" } }, [
                 _c("img", { attrs: { src: "images/scroll_down_icon.svg" } })
               ]),
               _vm._v(" "),
@@ -23470,7 +23534,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+    return _c("div", { attrs: { id: "client-slider-main" } }, [
       _c("div", { staticClass: "client_Reviews" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
@@ -23528,19 +23592,36 @@ var staticRenderFns = [
                           attrs: { src: "images/line.svg" }
                         }),
                         _vm._v(" "),
-                        _c("blockquote", [
-                          _c(
-                            "p",
-                            {
-                              staticClass: "text-size-14 text-white mt-5 w-70"
-                            },
-                            [
-                              _vm._v(
-                                " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel placerat lacus, tempor consequat justo. Quisque lacinia, ante non efficitur dapibus, nibh libero pellentesque dui, quis tristique ante metus non elit. Phasellus molestie ante id maximus tempor. Maecenas laoreet at lorem vel porta. Fusce vitae ante ac massa interdum facilisis eget pretium leo. Aenean efficitur felis est, pharetra tristique urna laoreet id. Integer a velit eget metus vehicula neque. "
-                              )
-                            ]
-                          )
-                        ])
+                        _c(
+                          "div",
+                          { staticClass: "slider-text position-relative" },
+                          [
+                            _c(
+                              "span",
+                              { staticClass: "text-gold style-icon" },
+                              [_vm._v('\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t')]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass:
+                                  "text-size-14 text-white \n\t        \t                w-70 mt-5"
+                              },
+                              [
+                                _vm._v(
+                                  "\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t"
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "span",
+                              { staticClass: "text-gold style-icon-2" },
+                              [_vm._v('\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t')]
+                            )
+                          ]
+                        )
                       ])
                     ])
                   ])
@@ -23613,7 +23694,7 @@ var staticRenderFns = [
           ),
           _vm._v(" "),
           _c("div", { staticClass: "col-12 text-center mt-lg-3 pb-2" }, [
-            _c("a", { attrs: { href: "javascript:void(0)" } }, [
+            _c("a", { attrs: { href: "#categories-main" } }, [
               _c("img", {
                 attrs: {
                   src: "images/scroll_down_icon_white.svg",
@@ -23659,7 +23740,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+    return _c("div", { attrs: { id: "how-it-is-work-main" } }, [
       _c("div", { staticClass: "how_it_works-section pt-3 pb-3" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
@@ -23777,7 +23858,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+    return _c("div", { attrs: { id: "categories-main" } }, [
       _c("div", { staticClass: "categories" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
@@ -23980,7 +24061,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+    return _c("div", { attrs: { id: "slider-recemmanded-main" } }, [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-12 mt-3" }, [
@@ -24089,7 +24170,7 @@ var staticRenderFns = [
                                   },
                                   [
                                     _c("i", {
-                                      staticClass: "fa fa-heart-o",
+                                      staticClass: "fa fa-heart",
                                       attrs: { "aria-hidden": "true" }
                                     })
                                   ]

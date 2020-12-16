@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div id="slider-recemmanded-main">
 		<div class="container">
 		<div class="row">
 			<div class="col-12 mt-3">
@@ -35,7 +35,7 @@
 						<div class="bg-hair-saloon-address w-100 d-block bg-slide-address p-2">
 							<a class="text-gold float-right text-size-25" 
 							href="javascript:void(0)">
-								<i class="fa fa-heart-o" aria-hidden="true"></i>
+								<i class="fa fa-heart" aria-hidden="true"></i>
 							</a>
 							<span class="text-gold d-inline-block font-weight-bold text-size-15">
 								Luxe Barber & Shave Lounge

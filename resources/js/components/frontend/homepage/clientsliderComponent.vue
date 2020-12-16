@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div id="client-slider-main">
 		<div class="client_Reviews">
 	<div class="container">
 	    <div class="row">
@@ -25,10 +25,19 @@
 	        	            <div class="mt-5">
 	        	                <p class="text-gold text-size-20 font-weight-bold mb-0 Name">MABLE PAYLE</p>
 	        	                <img src="images/line.svg" class="d-inline-block img_line">
-	        	                <blockquote>
-	        	                <p class="text-size-14 text-white mt-5 w-70"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel placerat lacus, tempor consequat justo. Quisque lacinia, ante non efficitur dapibus, nibh libero pellentesque dui, quis tristique ante metus non elit. Phasellus molestie ante id maximus tempor. Maecenas laoreet at lorem vel porta. Fusce vitae ante ac massa interdum facilisis eget pretium leo. Aenean efficitur felis est, pharetra tristique urna laoreet id. Integer a velit eget metus vehicula neque. </p>
-	        	                </blockquote>
-	        	                
+	        	                <div class="slider-text position-relative">
+							<span class="text-gold style-icon">
+								"
+							</span>
+							  <p class="text-size-14 text-white 
+	        	                w-70 mt-5">
+								For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.
+								For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.
+							</p>
+							<span class="text-gold style-icon-2">
+								"
+							</span>
+						</div>
 	                        </div>
 	                    </div>	
 	                </div>
@@ -58,7 +67,7 @@
             </a>
     </div>
         <div class="col-12 text-center mt-lg-3 pb-2">
-           <a href="javascript:void(0)">
+           <a href="#categories-main">
             <img src="images/scroll_down_icon_white.svg" alt="scroll_down_icon_white picture">
             </a>
             <p class="text-size-16 text-white">Scroll down</p>
