@@ -11,7 +11,7 @@
                 </div>
             </div><div class="row justify-content-md-center">
 			
-            <div class="col-lg-4 pl-5 pr-5 col-sm-12">   
+            <div class="col-lg-4 pl-lg-5 pr-lg-5 col-12 col-sm-12">   
                 <div class="blogs">
                     <div class="card">
                         <img class="card-img-top" src="images/blogs_images_1.svg" alt="Card image cap">
@@ -43,8 +43,8 @@
                     </div>  
                 </div>
             </div>
-            <div class="col-lg-4 pl-5 pr-5 col-sm-12">   
-                <div class="blogs">
+            <div class="col-lg-4 pl-lg-5 pr-lg-5 col-12 col-sm-12">   
+                <div class="blogs mt-lg-0 mt-4">
                     <div class="card">
                         <img class="card-img-top" src="images/blogs_images_2.svg" alt="Card image cap">
                         <div class="card-body p-3">
@@ -75,8 +75,8 @@
                     </div>  
                 </div>
             </div>
-            <div class="col-lg-4 pl-5 pr-5 col-sm-12">   
-                <div class="blogs">
+            <div class="col-lg-4 pl-lg-5 pr-lg-5 col-12 col-sm-12">   
+                <div class="blogs mt-lg-0 mt-4">
                     <div class="card">
                         <img class="card-img-top" src="images/blogs_images_3.svg" alt="Card image cap">
                         <div class="card-body p-3">

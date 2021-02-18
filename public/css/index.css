@@ -10,7 +10,7 @@
 	background-color: #282828;
 }
 
-.gold_border{
+.gold-border{
    
    border-bottom: 1px solid #B59E5C;
 }
@@ -19,7 +19,7 @@
 	font-family: Red Hat Display;
 }
 
-.media_icons a{
+.media-icons a{
     padding: 5px 10px
 }
 .media_icons a:hover{

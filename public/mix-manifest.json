@@ -1,4 +1,14 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/js/beautysaloon.js": "/js/beautysaloon.js",
+    "/js/bussiness.js": "/js/bussiness.js",
+    "/js/categories.js": "/js/categories.js",
+    "/js/contact-us.js": "/js/contact-us.js",
+    "/js/faq.js": "/js/faq.js",
+    "/js/feature.js": "/js/feature.js",
+    "/js/hairsaloon.js": "/js/hairsaloon.js",
+    "/js/home.js": "/js/home.js",
+    "/js/home2.js": "/js/home2.js",
+    "/js/price.js": "/js/price.js"
 }

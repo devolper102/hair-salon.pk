@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/utility.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
@@ -42,26 +43,26 @@
 //   interval: false,
 // });
 
-	// $(".signup-btn").click(function(){
-	// $(".abc").hide();	
- //    $(".ccc").show();
+	$(".signup-btn").click(function(){
+	$(".abc").hide();	
+    $(".ccc").show();
 
- //  });
+  });
 
   
-// $(".input-services").click(function(){
-//   $(".categories-menu").toggle();
-// });
+$(".input-services").click(function(){
+  $(".categories-menu").toggle();
+});
 
-// $(".input-services-2").click(function(){
-//   $(".location-menu").toggle();
-//   $(".categories-menu").hide();
-// });
+$(".input-services-2").click(function(){
+  $(".location-menu").toggle();
+  $(".categories-menu").hide();
+});
 
-// $(window).load(function() {
-//     $('.categories-menu').hide(); 
-//     $('.location-menu').hide();
-// });
+$(window).load(function() {
+    $('.categories-menu').hide(); 
+    $('.location-menu').hide();
+});
 
 
 </script>

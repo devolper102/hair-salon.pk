@@ -15,6 +15,9 @@
 background:0;
 box-shadow:none;
 }
+.hair-saloon-slider {
+    cursor: pointer;
+}
 .input-services input::placeholder{
     color:#fff !important;
 }
@@ -150,42 +153,35 @@ color: #777777;
     border-radius: 20px;
 }
 
-.hair-saloon-slider .next-icon{
-    background-color:#B59E5C;
-    width: 50px;
+.VueCarousel-navigation-prev{
+    left: 20px !important;
+    background-color: #B59E5C !important;
+    width: 60px;
     height: 40px;
     display: inline-block;
-    top: 48%;
-    position: absolute;
-    right: -42px;
-}
-.hair-saloon-slider .next-icon:before{
-    font-family: FontAwesome !important;
-    content: "\f061  " !important;
     color: #fff !important;
-    font-size: 25px !important;
-    top: 0px;
-    position: absolute;
-    right: 9px;
+    font-size: 25px;
+    border-radius: 4px;
 }
-
-.hair-saloon-slider .prev-icon{
-    background-color:#B59E5C;
-    width: 50px;
+.VueCarousel-navigation-next{
+    right: 20px !important;
+    background-color: #B59E5C !important;
+    width: 60px;
     height: 40px;
     display: inline-block;
-    top: 48%;
-    position: absolute;
-    left: -42px;
-}
-.hair-saloon-slider .prev-icon:after{
-    font-family: FontAwesome !important;
-    content: "\f060 " !important;
     color: #fff !important;
-    font-size: 25px !important;
-    top:0px;
+    font-size: 25px;
+    border-radius: 4px;
+}
+.VueCarousel-navigation-prev i{
+    top: 8px;
+    left: 13px;
     position: absolute;
-    left: 8px;
+}
+.VueCarousel-navigation-next i{
+    top: 8px;
+    right: 20px;
+    position: absolute;
 }
 .reviews-text {
     background: rgba(0,0,0,0.6);
@@ -207,3 +203,50 @@ color: #777777;
 .view-all-services-btn a{
 padding: 1px 40px;
 }
+.categories-menu{
+    width:558px;
+    box-shadow: 6px -9px 13px rgba(0, 0, 0, 0.34);
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
+.looking-services{
+border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
+.blog-categories a::before {
+    display: block;
+    content: '';
+    width: 91px;
+    height: 25px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    left: 14px;
+    top: 15px;
+    position: absolute;
+    border-bottom: 5px solid #b59e5c;
+}
+
+/* Start viewmap Modal css */
+.map-view-modal{
+    width:895px;
+    left: -180px;
+}
+.map-view p{
+    margin-bottom:9px;
+}
+/*.map-view{
+min-height: 164px;
+}*/
+.map-view-box{
+    overflow: hidden;
+    border-top: 1px solid #B59E5C;
+    margin-left: 15px;
+}
+
+.map-view-scroll{
+    overflow-y: scroll;
+    height: 93vh;
+}
+
+/* End viewmap Modal css */

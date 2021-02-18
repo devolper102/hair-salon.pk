@@ -4,14 +4,14 @@
 	position-relative">
 			<div class="container-fluid">
 				<div class="row mt-5">
-					<div class="col-6 mt-5">
+					<div class="col-lg-6 col-12 mt-5">
 						<div class="mobile-image w-100 d-inline-block text-center">
 							<img class="img-fluid" src="images/mobile-image.svg" 
 							alt="mobile-image picture">
 						</div>
 					</div>
 
-					<div class="col-4">
+					<div class="col-lg-4 col-12">
 						<div class="logo-image">
 							<a href="javascript:void(0)">
 							<img src="images/logo-img.svg" alt="logo-image picture">

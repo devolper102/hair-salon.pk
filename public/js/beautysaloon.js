@@ -30827,8 +30827,8 @@ var staticRenderFns = [
     return _c("div", [
       _c("footer", { staticClass: "footer-bg" }, [
         _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row gold_border" }, [
-            _c("div", { staticClass: "col-5" }, [
+          _c("div", { staticClass: "row gold-border" }, [
+            _c("div", { staticClass: "col-lg-5 col-12" }, [
               _c("div", { staticClass: "logo mt-4 mb-lg-4" }, [
                 _c("a", { attrs: { href: "javascript:void(0)" } }, [
                   _c("img", {
@@ -30840,7 +30840,7 @@ var staticRenderFns = [
                 ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "media_icons mt-4 mb-3" }, [
+              _c("div", { staticClass: "media-icons mt-4 mb-3" }, [
                 _c("h1", { staticClass: "text-gold text-size-22" }, [
                   _vm._v("Follow us on\n                    \t")
                 ]),
@@ -30891,110 +30891,117 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-7 mt-5" }, [
-              _c("ul", { staticClass: "d-block mb-lg-5" }, [
-                _c(
-                  "li",
-                  {
-                    staticClass:
-                      "d-inline-block px-lg-3 text-size-14 font-weight-bold"
-                  },
-                  [
-                    _c(
-                      "a",
-                      { staticClass: "text-white", attrs: { href: "" } },
-                      [_vm._v("Blog")]
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  {
-                    staticClass:
-                      "d-inline-block px-lg-3 text-size-14 font-weight-bold"
-                  },
-                  [
-                    _c(
-                      "a",
-                      { staticClass: "text-white", attrs: { href: "" } },
-                      [_vm._v("About us")]
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  {
-                    staticClass:
-                      "d-inline-block px-lg-3 text-size-14 font-weight-bold"
-                  },
-                  [
-                    _c(
-                      "a",
-                      { staticClass: "text-white", attrs: { href: "" } },
-                      [_vm._v("Privacy policy")]
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  {
-                    staticClass:
-                      "d-inline-block px-lg-3 text-size-14 font-weight-bold"
-                  },
-                  [
-                    _c(
-                      "a",
-                      { staticClass: "text-white", attrs: { href: "" } },
-                      [_vm._v("Term of Service")]
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  {
-                    staticClass:
-                      "d-inline-block px-lg-3 text-size-14 font-weight-bold"
-                  },
-                  [
-                    _c(
-                      "a",
-                      { staticClass: "text-white", attrs: { href: "" } },
-                      [_vm._v("Careers")]
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  {
-                    staticClass:
-                      "d-inline-block px-lg-3 text-size-14 font-weight-bold"
-                  },
-                  [
-                    _c(
-                      "a",
-                      { staticClass: "text-white", attrs: { href: "" } },
-                      [_vm._v("Contact")]
-                    )
-                  ]
-                )
-              ]),
+            _c("div", { staticClass: "col-lg-7 col-12 mt-5" }, [
+              _c(
+                "ul",
+                {
+                  staticClass:
+                    "about-contact-section w-100 d-inline-block mb-lg-5"
+                },
+                [
+                  _c(
+                    "li",
+                    {
+                      staticClass:
+                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
+                    },
+                    [
+                      _c(
+                        "a",
+                        { staticClass: "text-white", attrs: { href: "" } },
+                        [_vm._v("Blog")]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    {
+                      staticClass:
+                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
+                    },
+                    [
+                      _c(
+                        "a",
+                        { staticClass: "text-white", attrs: { href: "" } },
+                        [_vm._v("About us")]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    {
+                      staticClass:
+                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
+                    },
+                    [
+                      _c(
+                        "a",
+                        { staticClass: "text-white", attrs: { href: "" } },
+                        [_vm._v("Privacy policy")]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    {
+                      staticClass:
+                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
+                    },
+                    [
+                      _c(
+                        "a",
+                        { staticClass: "text-white", attrs: { href: "" } },
+                        [_vm._v("Term of Service")]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    {
+                      staticClass:
+                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
+                    },
+                    [
+                      _c(
+                        "a",
+                        { staticClass: "text-white", attrs: { href: "" } },
+                        [_vm._v("Careers")]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "li",
+                    {
+                      staticClass:
+                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
+                    },
+                    [
+                      _c(
+                        "a",
+                        { staticClass: "text-white", attrs: { href: "" } },
+                        [_vm._v("Contact")]
+                      )
+                    ]
+                  )
+                ]
+              ),
               _vm._v(" "),
-              _c("div", { staticClass: "Android_ios float-right mt-lg-4" }, [
-                _c("a", { attrs: { href: "" } }, [
+              _c("div", { staticClass: "android-ios float-right mt-lg-4" }, [
+                _c("a", { attrs: { href: "javascript:void(0)" } }, [
                   _c("img", {
                     staticClass: "d-inline-block",
                     attrs: { src: "images/ios.svg" }
                   })
                 ]),
                 _vm._v(" "),
-                _c("a", { attrs: { href: "" } }, [
+                _c("a", { attrs: { href: "javascript:void(0)" } }, [
                   _c("img", {
-                    staticClass: "d-inline-block",
+                    staticClass: "d-inline-block mt-lg-0 mt-4",
                     attrs: { src: "images/android.svg" }
                   })
                 ])
@@ -31956,13 +31963,15 @@ var staticRenderFns = [
                   })
                 ]),
                 _vm._v(" "),
-                _c("h2", { staticClass: "text-size-33 text-gold mt-2" }, [
-                  _vm._v("MOST POPULAR CATEGORIES  NEARBY")
-                ])
+                _c(
+                  "h2",
+                  { staticClass: "text-size-33 text-gold mt-2 text-xs-28" },
+                  [_vm._v("MOST POPULAR CATEGORIES  NEARBY")]
+                )
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-3 mt-4 blog-categories" }, [
+            _c("div", { staticClass: "col-lg-3 col-12 mt-4 blog-categories" }, [
               _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
                 _c(
                   "p",
@@ -31981,7 +31990,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-3 mt-4 blog-categories" }, [
+            _c("div", { staticClass: "col-lg-3 col-12 mt-4 blog-categories" }, [
               _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
                 _c(
                   "p",
@@ -32000,7 +32009,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-3 mt-4 blog-categories" }, [
+            _c("div", { staticClass: "col-lg-3 col-12 mt-4 blog-categories" }, [
               _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
                 _c(
                   "p",
@@ -32019,7 +32028,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-3 mt-4 blog-categories" }, [
+            _c("div", { staticClass: "col-lg-3 col-12 mt-4 blog-categories" }, [
               _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
                 _c(
                   "p",
@@ -32038,7 +32047,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-3 my-5 blog-categories" }, [
+            _c("div", { staticClass: "col-lg-3 col-12 my-5 blog-categories" }, [
               _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
                 _c(
                   "p",
@@ -32057,7 +32066,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-3 my-5 blog-categories" }, [
+            _c("div", { staticClass: "col-lg-3 col-12 my-5 blog-categories" }, [
               _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
                 _c(
                   "p",
@@ -32076,7 +32085,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-3 my-5 blog-categories" }, [
+            _c("div", { staticClass: "col-lg-3 col-12 my-5 blog-categories" }, [
               _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
                 _c(
                   "p",
@@ -32095,7 +32104,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-3 my-5 blog-categories" }, [
+            _c("div", { staticClass: "col-lg-3 col-12 my-5 blog-categories" }, [
               _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
                 _c(
                   "p",

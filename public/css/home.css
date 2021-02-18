@@ -110,43 +110,46 @@ opacity: 0.7;
     height: 45px;
 }
 
-.hair-saloon-slider .next-icon{
-	background-color:#B59E5C;
-    width: 50px;
+.hair-saloon-slider .VueCarousel-navigation-prev{
+    left: 20px !important;
+    background-color: #B59E5C !important;
+    width: 60px;
     height: 40px;
     display: inline-block;
-    top: 48%;
-    position: absolute;
-    right: -42px;
-}
-.hair-saloon-slider .next-icon:before{
-	font-family: FontAwesome !important;
-    content: "\f061  " !important;
     color: #fff !important;
-    font-size: 25px !important;
-    top: 0px;
+    font-size: 25px;
+    border-radius: 4px;
+}
+.hair-saloon-slider .VueCarousel-navigation-next{
+    right: 20px !important;
+    background-color: #B59E5C !important;
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    color: #fff !important;
+    font-size: 25px;
+    border-radius: 4px;
+}
+.hair-saloon-slider .VueCarousel-navigation-prev i{
+    top: 8px;
+    left: 13px;
     position: absolute;
-    right: 9px;
+}
+.hair-saloon-slider .VueCarousel-navigation-next i{
+    top: 8px;
+    right: 20px;
+    position: absolute;
+}
+.client-review-slider .VueCarousel-navigation-prev, 
+.client-review-slider .VueCarousel-navigation-next{
+    background-color: transparent !important;
+}
+.client-review-slider .VueCarousel-navigation-prev i, 
+.client-review-slider .VueCarousel-navigation-next i{
+    font-size:115px;
+    color:#B59E5C;
 }
 
-.hair-saloon-slider .prev-icon{
-	background-color:#B59E5C;
-    width: 50px;
-    height: 40px;
-    display: inline-block;
-    top: 48%;
-    position: absolute;
-    left: -42px;
-}
-.hair-saloon-slider .prev-icon:after{
-	font-family: FontAwesome !important;
-    content: "\f060 " !important;
-    color: #fff !important;
-    font-size: 25px !important;
-    top:0px;
-    position: absolute;
-    left: 8px;
-}
 .bg-gradient{
   background: linear-gradient(0deg, rgba(234,223,198,0.9812967423297444) 1%, rgba(255,255,255,1) 55%);
 
@@ -266,6 +269,12 @@ background-color:#F12B2B;
 }
 .categories-menu, .location-menu{
     width:498px;
+border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
+.looking-services{
+border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
 }
 .heading-home-service a{
     padding:4px 38px;
@@ -282,7 +291,10 @@ background-color:#F12B2B;
 .clear-confirm-btn .confirm-button{
     margin-right:30px;
 }
-
+.looking-services{
+border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
 .slider-text .style-icon{
     left: -57px;
     top: -70px;

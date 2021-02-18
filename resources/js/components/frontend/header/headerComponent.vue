@@ -3,28 +3,28 @@
 		<header>	
 			
 <div class="hair-saloon-bg-image w-100 d-inline-block">
-	<div class="container">
 		
+	<div class="container">
 		<div class="row mt-4">
-			<div class="col-7">
+			<div class="col-lg-7 col-12">
 				<div class="logo">
 					<a href="javascript:void(0)">
 					<img src="images/logo-image.svg" alt="logo-image picture">
 					</a>
 					</div>
 			</div>
-		    <div class="col-5">
+		    <div class="col-lg-5 col-12">
 				<div class="row">
-					<div class="col-6">
-						<div class="login-signup float-right mt-2">
+					<div class="col-lg-6 col-12">
+						<div class="login-signup float-lg-right mt-2">
 							<a class="text-white text-size-16" href="javascript:void(0)" data-toggle="modal" data-target="#login-signup-popup">
 						    <i class="fa fa-user mr-2" aria-hidden="true"></i>
 								Login / Signup
 							</a>
 						</div>
 					</div>
-					<div class="col-6">
-						<div class="bussiness-btn w-100 d-inline-block">
+					<div class="col-lg-6 col-12">
+						<div class="bussiness-btn w-100 d-inline-block mt-lg-0 mt-3">
 							<a class="text-white font-weight-bold bg-gold hair-saloon-btn float-left text-size-15" href="javascript:void(0)">For Business</a>
 					    </div>
 					</div>
@@ -35,7 +35,7 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="banner-heading w-100 d-inline-block text-center">
-					<h1 class="text-white">CLASSY & 
+					<h1 class="text-white text-xs-28">CLASSY & 
 						<span class="pb-2 d-inline-block">FABULOUS</span>
 					</h1>
 				</div>
@@ -43,16 +43,16 @@
 		</div>
 		<form>
 			<div class="main-service-input w-45 d-block 
-			position-relative">
+			position-relative w-xs-100 w-sm-100 w-md-100">
 				<div class="row">
-					<div class="col-6 pr-0">
+					<div class="col-lg-6 col-12 pr-lg-0">
 						<div class="form-group input-services position-relative w-100 float-right mb-0 dropdown">
 							<a class="text-white position-absolute" href="javascript:void(0)">
 							 	<i class="fa fa-search" aria-hidden="true"></i>
 							</a>
 						 	<input type="text" class="form-control input-bg text-white pl-5 pr-2 h-50 border-0 
 						 	text-size-15 dropdown-toggle" data-toggle="dropdown" id="service-input-text" aria-describedby="emailHelp" placeholder="Book your services...." aria-expanded="true">
-						 	<div class="dropdown-menu categories-menu p-0 border-0 show" aria-labelledby="dropdownMenuButton" style="position: absolute; transform: translate3d(0, 3px, 0px); top:50px; left:-3px; will-change: transform;" x-placement="top-start">
+						 	<div class="dropdown-menu categories-menu bg-time p-0 border-0 show" aria-labelledby="dropdownMenuButton" style="position: absolute; transform: translate3d(0, 3px, 0px); top:50px; left:-3px; will-change: transform;" x-placement="top-start">
 								<div class="looking-services bg-time pt-2 pb-2 pl-3 pr-3">
 									<span class="color-date text-size-14">
 										What are you looking for
@@ -123,8 +123,8 @@
 						    </div>
 						</div>
 					</div>
-				    <div class="col-6 pl-0">
-						<div class="form-group input-services input-services-2 position-relative w-100 float-left mb-0 dropdown">
+				    <div class="col-lg-6 col-12 pl-lg-0">
+						<div class="form-group input-services input-services-2 position-relative w-100 float-left mb-0 dropdown mt-lg-0 mt-3 pb-lg-0 pb-5">
 				     	 	<a class="text-white position-absolute" href="javascript:void(0)">
 							<i class="fa fa-map-marker" aria-hidden="true"></i>
 							</a>
@@ -132,7 +132,7 @@
 					     	<a class="location-icon text-white bg-gold position-absolute d-inline-block text-center p-1" href="javascript:void(0)">
 				     	 	<i class="fa fa-location-arrow"aria-hidden="true"></i>
 				            </a>
-				            <div class="dropdown-menu location-menu p-0 border-0 show" aria-labelledby="dropdownMenuButton" style="position: absolute; will-change: transform; top:50px; left: 0; transform: translate3d(0px, 3px, 0px);" x-placement="top-start">
+				            <div class="dropdown-menu location-menu bg-time p-0 border-0 show" aria-labelledby="dropdownMenuButton" style="position: absolute; will-change: transform; top:50px; left: 0; transform: translate3d(0px, 3px, 0px);" x-placement="top-start">
 							  	<div class="looking-services bg-time pt-2 pb-2 pl-3 pr-3">
 									<span class="color-date text-size-14">
 										Whare
@@ -213,8 +213,8 @@
 			</div>
 		</form>
 		<div class="row">
-			<div class="col-6 mt-3">
-				<div class="home-service-box bg-white border-radius w-65 d-inline-block p-2">
+			<div class="col-lg-6 col-12 mt-3">
+				<div class="home-service-box bg-white border-radius w-65 d-inline-block p-2 w-xs-100 w-sm-100 w-md-100">
 					<div class="heading-home-service w-65 float-left">
 						<h4 class="text-gold font-weight-bold mb-1">Home Service
 						</h4>
@@ -233,8 +233,9 @@
 					</div>
 				</div>
 			</div>
-		    <div class="col-6 mt-3">
-				<div class="appointment-box bg-white d-inline-block p-2 w-65 m-auto d-block box-radius">
+		    <div class="col-lg-6 col-12 mt-3">
+				<div class="appointment-box bg-white d-inline-block p-2 w-65 m-auto d-block box-radius w-xs-100 w-sm-100 
+				w-md-100">
 					<div class="row">
 						<div class="col-5">
 							
@@ -408,7 +409,7 @@
     </div>
   </div>
 </div>
-<!-- End login-signin-popup  -->
+<!-- End-signin-popup  -->
 
 <!-- Start login-signup-popup  -->
 <div class="modal fade" id="signup-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -481,6 +482,8 @@
   </div>
 </div>
 <!-- End login-signup-popup  -->
+
+
 
 </div>
 </header>

@@ -1,0 +1,103 @@
+@media (max-width: 991px){
+/*Start utilities*/	
+.w-md-25{width: 25%;}
+.w-md-50{width: 50%;}
+.w-md-75{width: 75%!important;}
+.w-md-100{width: 100%!important;}
+.text-md-13{
+	font-size: 13px !important
+}
+.text-md-14{
+	font-size: 14px !important
+}
+.text-md-12{
+	font-size: 12px !important
+}
+.text-md-10{
+	font-size: 10px !important
+}
+.text-md-20{
+	font-size: 20px !important
+}
+.text-md-30{
+	font-size: 30px !important
+}
+/*End utilities*/
+
+
+}
+
+
+@media (max-width: 767px){
+/*Start utilities*/	
+.w-sm-25{width: 25% !important;}
+.w-sm-50{width: 50% !important;}
+.w-sm-75{width: 75% !important;}
+.w-sm-100{width: 100% !important;}
+/*End utilities*/
+
+
+
+
+}
+
+
+@media (max-width: 576px){
+/*Start utilities*/
+.w-xs-25{width: 25% !important;}
+.w-xs-50{width: 50% !important;}
+.w-xs-75{width: 75% !important;}
+.w-xs-100{width: 100% !important;}
+.text-xs-15 {
+font-size: 15px;
+}
+.text-xs-13 {
+	font-size: 13px;
+}
+.text-xs-14 {
+	font-size: 14px;
+}
+.text-xs-11 {
+	font-size: 11px;
+}
+.text-xs-20 {
+	font-size: 20px !important;
+}
+.text-xs-25{
+	font-size: 25px!important;
+}
+.text-xs-28{
+	font-size: 28px!important;
+}
+/*End utilities*/
+.banner-heading h1{
+	margin-top:2rem;
+}
+.main-service-input{
+	border:0;
+	margin-top:10px;
+}
+.input-services input, .input-services-2 input{
+    border-radius: 45px;
+}
+.logo-image {
+    margin-top: 2rem;
+}
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 320px){
+
+
+
+
+
+}
+
