@@ -1962,6 +1962,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "footerComponent"
 });
@@ -1977,6 +1978,40 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2669,15 +2704,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "blogpostComponent"
 });
@@ -2693,6 +2719,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-carousel */ "./node_modules/vue-carousel/dist/vue-carousel.min.js");
+/* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_carousel__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -2870,8 +2900,36 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_carousel__WEBPACK_IMPORTED_MODULE_1___default.a);
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "clientsliderComponent"
+  name: "clientsliderComponent",
+  components: {
+    Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_1__["Carousel"],
+    Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_1__["Slide"]
+  }
 });
 
 /***/ }),
@@ -21165,7 +21223,7 @@ var staticRenderFns = [
       _c("footer", { staticClass: "footer-bg" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row gold-border" }, [
-            _c("div", { staticClass: "col-lg-5 col-12" }, [
+            _c("div", { staticClass: "col-lg-5 col-12 col-md-5" }, [
               _c("div", { staticClass: "logo mt-4 mb-lg-4" }, [
                 _c("a", { attrs: { href: "javascript:void(0)" } }, [
                   _c("img", {
@@ -21228,122 +21286,137 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-lg-7 col-12 mt-5" }, [
-              _c(
-                "ul",
-                {
-                  staticClass:
-                    "about-contact-section w-100 d-inline-block mb-lg-5"
-                },
-                [
-                  _c(
-                    "li",
-                    {
-                      staticClass:
-                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
-                    },
-                    [
-                      _c(
-                        "a",
-                        { staticClass: "text-white", attrs: { href: "" } },
-                        [_vm._v("Blog")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      staticClass:
-                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
-                    },
-                    [
-                      _c(
-                        "a",
-                        { staticClass: "text-white", attrs: { href: "" } },
-                        [_vm._v("About us")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      staticClass:
-                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
-                    },
-                    [
-                      _c(
-                        "a",
-                        { staticClass: "text-white", attrs: { href: "" } },
-                        [_vm._v("Privacy policy")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      staticClass:
-                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
-                    },
-                    [
-                      _c(
-                        "a",
-                        { staticClass: "text-white", attrs: { href: "" } },
-                        [_vm._v("Term of Service")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      staticClass:
-                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
-                    },
-                    [
-                      _c(
-                        "a",
-                        { staticClass: "text-white", attrs: { href: "" } },
-                        [_vm._v("Careers")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      staticClass:
-                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
-                    },
-                    [
-                      _c(
-                        "a",
-                        { staticClass: "text-white", attrs: { href: "" } },
-                        [_vm._v("Contact")]
-                      )
-                    ]
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "android-ios float-right mt-lg-4" }, [
-                _c("a", { attrs: { href: "javascript:void(0)" } }, [
-                  _c("img", {
-                    staticClass: "d-inline-block",
-                    attrs: { src: "images/ios.svg" }
-                  })
-                ]),
+            _c(
+              "div",
+              { staticClass: "col-lg-7 col-12 mt-lg-5 mt-4 col-md-7" },
+              [
+                _c(
+                  "ul",
+                  {
+                    staticClass:
+                      "about-contact-section w-100 d-inline-block mb-lg-5 p-0"
+                  },
+                  [
+                    _c(
+                      "li",
+                      {
+                        staticClass:
+                          "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
+                      },
+                      [
+                        _c(
+                          "a",
+                          { staticClass: "text-white", attrs: { href: "" } },
+                          [_vm._v("Blog")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        staticClass:
+                          "d-inline-block pr-lg-4 pl-4 text-size-14 font-weight-bold"
+                      },
+                      [
+                        _c(
+                          "a",
+                          { staticClass: "text-white", attrs: { href: "" } },
+                          [_vm._v("About us")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        staticClass:
+                          "d-inline-block pr-lg-4 pl-4 text-size-14 font-weight-bold"
+                      },
+                      [
+                        _c(
+                          "a",
+                          { staticClass: "text-white", attrs: { href: "" } },
+                          [_vm._v("Privacy policy")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        staticClass:
+                          "d-inline-block pr-lg-4 pl-4 text-size-14 font-weight-bold"
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "text-white mt-xs-4 mt-md-4",
+                            attrs: { href: "" }
+                          },
+                          [_vm._v("Term of Service")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        staticClass:
+                          "d-inline-block pr-4 pl-4 text-size-14 font-weight-bold mt-xs-4 mt-md-4"
+                      },
+                      [
+                        _c(
+                          "a",
+                          { staticClass: "text-white", attrs: { href: "" } },
+                          [_vm._v("Careers")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        staticClass:
+                          "d-inline-block pr-lg-4 text-size-14 font-weight-bold mt-xs-4 mt-md-4"
+                      },
+                      [
+                        _c(
+                          "a",
+                          { staticClass: "text-white", attrs: { href: "" } },
+                          [_vm._v("Contact")]
+                        )
+                      ]
+                    )
+                  ]
+                ),
                 _vm._v(" "),
-                _c("a", { attrs: { href: "javascript:void(0)" } }, [
-                  _c("img", {
-                    staticClass: "d-inline-block mt-lg-0 mt-4",
-                    attrs: { src: "images/android.svg" }
-                  })
-                ])
-              ])
-            ])
+                _c(
+                  "div",
+                  {
+                    staticClass: "android-ios float-right mt-lg-4 mb-lg-0 mb-3"
+                  },
+                  [
+                    _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                      _c("img", {
+                        staticClass:
+                          "d-inline-block mt-lg-0 mt-xs-4 mt-sm-4 \n\t    \t    \t\tmt-md-4",
+                        attrs: { src: "images/ios.svg" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                      _c("img", {
+                        staticClass:
+                          "d-inline-block mt-lg-0 mt-xs-4 mt-sm-4 mt-md-4",
+                        attrs: { src: "images/android.svg" }
+                      })
+                    ])
+                  ]
+                )
+              ]
+            )
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "text-center text-white pt-3 pb-1" }, [
@@ -21389,6 +21462,181 @@ var staticRenderFns = [
           { staticClass: "hair-saloon-bg-image w-100 d-inline-block" },
           [
             _c("div", { staticClass: "container" }, [
+              _c("div", { staticClass: "row mt-3" }, [
+                _c("div", { staticClass: "col-12" }, [
+                  _c(
+                    "nav",
+                    {
+                      staticClass:
+                        "navbar navbar-expand-lg navbar-light \n\t\t\t\tpl-0 pr-0 d-lg-none d-block"
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "navbar-toggler bg-white text-size-33",
+                          attrs: {
+                            type: "button",
+                            "data-toggle": "collapse",
+                            "data-target": "#navbarSupportedContent",
+                            "aria-controls": "navbarSupportedContent",
+                            "aria-expanded": "false",
+                            "aria-label": "Toggle navigation"
+                          }
+                        },
+                        [_c("span", { staticClass: "navbar-toggler-icon" })]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass: "collapse navbar-collapse",
+                          attrs: { id: "navbarSupportedContent" }
+                        },
+                        [
+                          _c(
+                            "ul",
+                            {
+                              staticClass:
+                                "navbar-nav hair-saloon-categories w-100 float-left"
+                            },
+                            [
+                              _c("li", { staticClass: "nav-item" }, [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass:
+                                      "nav-link text-white position-relative",
+                                    attrs: { href: "javascript:void(0)" }
+                                  },
+                                  [_vm._v("Hair Salon ")]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", { staticClass: "nav-item" }, [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass:
+                                      "nav-link text-white position-relative",
+                                    attrs: { href: "javascript:void(0)" }
+                                  },
+                                  [_vm._v("Barbershop")]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", { staticClass: "nav-item" }, [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass:
+                                      "nav-link text-white position-relative",
+                                    attrs: { href: "javascript:void(0)" }
+                                  },
+                                  [_vm._v("Nail Salon")]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", { staticClass: "nav-item" }, [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass:
+                                      "nav-link text-white position-relative",
+                                    attrs: { href: "javascript:void(0)" }
+                                  },
+                                  [_vm._v("Beauty Salon")]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", { staticClass: "nav-item" }, [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass:
+                                      "nav-link text-white position-relative",
+                                    attrs: { href: "javascript:void(0)" }
+                                  },
+                                  [_vm._v("Eye Brows & Lashes")]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", { staticClass: "nav-item" }, [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass:
+                                      "nav-link text-white position-relative",
+                                    attrs: { href: "javascript:void(0)" }
+                                  },
+                                  [_vm._v("Massage")]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", { staticClass: "nav-item" }, [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass:
+                                      "nav-link text-white position-relative",
+                                    attrs: { href: "javascript:void(0)" }
+                                  },
+                                  [_vm._v("Makeup Artist")]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", { staticClass: "nav-item" }, [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "text-white text-size-16",
+                                    attrs: {
+                                      href: "javascript:void(0)",
+                                      "data-toggle": "modal",
+                                      "data-target": "#login-signup-popup"
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "fa fa-user mr-2",
+                                      attrs: { "aria-hidden": "true" }
+                                    }),
+                                    _vm._v(
+                                      "\n\t\t\t\t\t\t\t\tLogin / Signup\n\t\t\t\t\t\t\t"
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", { staticClass: "nav-item" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "bussiness-btn w-100 d-inline-block mt-lg-2 mt-3"
+                                  },
+                                  [
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass:
+                                          "text-white font-weight-bold bg-gold hair-saloon-btn float-left text-size-15",
+                                        attrs: { href: "javascript:void(0)" }
+                                      },
+                                      [_vm._v("For Business")]
+                                    )
+                                  ]
+                                )
+                              ])
+                            ]
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
               _c("div", { staticClass: "row mt-4" }, [
                 _c("div", { staticClass: "col-lg-7 col-12" }, [
                   _c("div", { staticClass: "logo" }, [
@@ -21408,7 +21656,10 @@ var staticRenderFns = [
                     _c("div", { staticClass: "col-lg-6 col-12" }, [
                       _c(
                         "div",
-                        { staticClass: "login-signup float-lg-right mt-2" },
+                        {
+                          staticClass:
+                            "login-signup float-lg-right mt-2 d-lg-block d-none"
+                        },
                         [
                           _c(
                             "a",
@@ -21434,26 +21685,30 @@ var staticRenderFns = [
                       )
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-lg-6 col-12" }, [
-                      _c(
-                        "div",
-                        {
-                          staticClass:
-                            "bussiness-btn w-100 d-inline-block mt-lg-0 mt-3"
-                        },
-                        [
-                          _c(
-                            "a",
-                            {
-                              staticClass:
-                                "text-white font-weight-bold bg-gold hair-saloon-btn float-left text-size-15",
-                              attrs: { href: "javascript:void(0)" }
-                            },
-                            [_vm._v("For Business")]
-                          )
-                        ]
-                      )
-                    ])
+                    _c(
+                      "div",
+                      { staticClass: "col-lg-6 col-12 d-lg-block d-none" },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "bussiness-btn w-100 d-inline-block mt-lg-0 mt-3"
+                          },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-white font-weight-bold bg-gold hair-saloon-btn float-left text-size-15",
+                                attrs: { href: "javascript:void(0)" }
+                              },
+                              [_vm._v("For Business")]
+                            )
+                          ]
+                        )
+                      ]
+                    )
                   ])
                 ])
               ]),
@@ -21487,682 +21742,712 @@ var staticRenderFns = [
                   },
                   [
                     _c("div", { staticClass: "row" }, [
-                      _c("div", { staticClass: "col-lg-6 col-12 pr-lg-0" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "form-group input-services position-relative w-100 float-right mb-0 dropdown"
-                          },
-                          [
-                            _c(
-                              "a",
-                              {
-                                staticClass: "text-white position-absolute",
-                                attrs: { href: "javascript:void(0)" }
-                              },
-                              [
-                                _c("i", {
-                                  staticClass: "fa fa-search",
-                                  attrs: { "aria-hidden": "true" }
-                                })
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c("input", {
+                      _c(
+                        "div",
+                        { staticClass: "col-lg-6 col-12 col-md-6 pr-lg-0" },
+                        [
+                          _c(
+                            "div",
+                            {
                               staticClass:
-                                "form-control input-bg text-white pl-5 pr-2 h-50 border-0 \n\t\t\t\t\t\t \ttext-size-15 dropdown-toggle",
-                              attrs: {
-                                type: "text",
-                                "data-toggle": "dropdown",
-                                id: "service-input-text",
-                                "aria-describedby": "emailHelp",
-                                placeholder: "Book your services....",
-                                "aria-expanded": "true"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "dropdown-menu categories-menu bg-time p-0 border-0 show",
-                                staticStyle: {
-                                  position: "absolute",
-                                  transform: "translate3d(0, 3px, 0px)",
-                                  top: "50px",
-                                  left: "-3px",
-                                  "will-change": "transform"
+                                "form-group input-services position-relative w-100 float-right mb-0 dropdown"
+                            },
+                            [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "text-white position-absolute",
+                                  attrs: { href: "javascript:void(0)" }
                                 },
+                                [
+                                  _c("i", {
+                                    staticClass: "fa fa-search",
+                                    attrs: { "aria-hidden": "true" }
+                                  })
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass:
+                                  "form-control input-bg text-white pl-5 pr-2 h-50 border-0 \n\t\t\t\t\t\t \ttext-size-15 dropdown-toggle",
                                 attrs: {
-                                  "aria-labelledby": "dropdownMenuButton",
-                                  "x-placement": "top-start"
+                                  type: "text",
+                                  "data-toggle": "dropdown",
+                                  id: "service-input-text",
+                                  "aria-describedby": "emailHelp",
+                                  placeholder: "Book your services....",
+                                  "aria-expanded": "true"
                                 }
-                              },
-                              [
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "looking-services bg-time pt-2 pb-2 pl-3 pr-3"
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "dropdown-menu categories-menu bg-time p-0 border-0 show",
+                                  staticStyle: {
+                                    position: "absolute",
+                                    transform: "translate3d(0, 3px, 0px)",
+                                    top: "50px",
+                                    left: "-3px",
+                                    "will-change": "transform"
                                   },
-                                  [
-                                    _c(
-                                      "span",
-                                      {
-                                        staticClass: "color-date text-size-14"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n\t\t\t\t\t\t\t\t\t\tWhat are you looking for\n\t\t\t\t\t\t\t\t\t"
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "service-box bg-white pt-2 pb-2 pl-3 pr-3 box-shadow"
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "popular-service w-100 d-inline-block mb-2"
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "color-date text-size-14"
-                                          },
-                                          [
-                                            _vm._v(
-                                              "Popular services\n\t\t\t\t\t\t\t\t\t\t"
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "hair-cut" }, [
+                                  attrs: {
+                                    "aria-labelledby": "dropdownMenuButton",
+                                    "x-placement": "top-start"
+                                  }
+                                },
+                                [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "looking-services bg-time pt-2 pb-2 pl-3 pr-3"
+                                    },
+                                    [
                                       _c(
-                                        "a",
+                                        "span",
                                         {
-                                          staticClass:
-                                            "mr-3 mb-3 text-size-12 color-date",
-                                          attrs: { href: "javascript:void(0)" }
+                                          staticClass: "color-date text-size-14"
                                         },
                                         [
                                           _vm._v(
-                                            "\n\t\t\t\t\t\t\t    \t\t\tHair cut\n\t\t\t\t\t\t\t    \t\t"
+                                            "\n\t\t\t\t\t\t\t\t\t\tWhat are you looking for\n\t\t\t\t\t\t\t\t\t"
                                           )
                                         ]
                                       )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "hair-cut" }, [
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "service-box bg-white pt-2 pb-2 pl-3 pr-3 box-shadow"
+                                    },
+                                    [
                                       _c(
-                                        "a",
+                                        "div",
                                         {
                                           staticClass:
-                                            "mr-3 mb-3 text-size-12 color-date",
-                                          attrs: { href: "javascript:void(0)" }
+                                            "popular-service w-100 d-inline-block mb-2"
                                         },
                                         [
-                                          _vm._v(
-                                            "\n\t\t\t\t\t\t\t    \t\t\tMens hair cut\n\t\t\t\t\t\t\t    \t\t"
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "color-date text-size-14"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "Popular services\n\t\t\t\t\t\t\t\t\t\t"
+                                              )
+                                            ]
                                           )
                                         ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "hair-cut" }, [
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "mr-3 mb-3 text-size-12 color-date",
-                                          attrs: { href: "javascript:void(0)" }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n\t\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t\t    \t\t"
-                                          )
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "hair-cut" }, [
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "mr-3 mb-3 text-size-12 color-date",
-                                          attrs: { href: "javascript:void(0)" }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n\t\t\t\t\t\t\t    \t\t\tShave\n\t\t\t\t\t\t\t    \t\t"
-                                          )
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "hair-cut" }, [
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "mr-3 mb-3 text-size-12 color-date",
-                                          attrs: { href: "javascript:void(0)" }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n\t\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t\t    \t\t"
-                                          )
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "hair-cut" }, [
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "mr-3 mb-3 text-size-12 color-date",
-                                          attrs: { href: "javascript:void(0)" }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n\t\t\t\t\t\t\t    \t\t\tShave\n\t\t\t\t\t\t\t    \t\t"
-                                          )
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "hair-cut" }, [
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "mr-3 mb-3 text-size-12 color-date",
-                                          attrs: { href: "javascript:void(0)" }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n\t\t\t\t\t\t\t    \t\t\tMens hair cut\n\t\t\t\t\t\t\t    \t\t"
-                                          )
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "hair-cut" }, [
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "mr-3 mb-3 text-size-12 color-date",
-                                          attrs: { href: "javascript:void(0)" }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n\t\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t\t    \t\t"
-                                          )
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "hair-cut" }, [
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "mr-3 mb-3 text-size-12 color-date",
-                                          attrs: { href: "javascript:void(0)" }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n\t\t\t\t\t\t\t    \t\t\tShave\n\t\t\t\t\t\t\t    \t\t"
-                                          )
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("div", { staticClass: "hair-cut" }, [
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "mb-3 text-size-12 \n\t\t\t\t\t\t\t    \t\tcolor-date",
-                                          attrs: { href: "javascript:void(0)" }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n\t\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t\t    \t\t"
-                                          )
-                                        ]
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "search-btn w-100 d-inline-block text-center mt-2"
-                                      },
-                                      [
+                                      ),
+                                      _vm._v(" "),
+                                      _c("div", { staticClass: "hair-cut" }, [
                                         _c(
                                           "a",
                                           {
                                             staticClass:
-                                              "text-white bg-gold text-size-14 d-inline-block",
+                                              "mr-3 mb-3 text-size-12 color-date",
                                             attrs: {
                                               href: "javascript:void(0)"
                                             }
                                           },
                                           [
                                             _vm._v(
-                                              "\n\t\t\t\t\t\t\t    \t\t\tSearch\n\t\t\t\t\t\t\t    \t\t"
+                                              "\n\t\t\t\t\t\t\t    \t\t\tHair cut\n\t\t\t\t\t\t\t    \t\t"
                                             )
                                           ]
                                         )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ]
-                        )
-                      ]),
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", { staticClass: "hair-cut" }, [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "mr-3 mb-3 text-size-12 color-date",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tMens hair cut\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", { staticClass: "hair-cut" }, [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "mr-3 mb-3 text-size-12 color-date",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", { staticClass: "hair-cut" }, [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "mr-3 mb-3 text-size-12 color-date",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tShave\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", { staticClass: "hair-cut" }, [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "mr-3 mb-3 text-size-12 color-date",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", { staticClass: "hair-cut" }, [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "mr-3 mb-3 text-size-12 color-date",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tShave\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", { staticClass: "hair-cut" }, [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "mr-3 mb-3 text-size-12 color-date",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tMens hair cut\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", { staticClass: "hair-cut" }, [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "mr-3 mb-3 text-size-12 color-date",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", { staticClass: "hair-cut" }, [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "mr-3 mb-3 text-size-12 color-date",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tShave\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("div", { staticClass: "hair-cut" }, [
+                                        _c(
+                                          "a",
+                                          {
+                                            staticClass:
+                                              "mb-3 text-size-12 \n\t\t\t\t\t\t\t    \t\tcolor-date",
+                                            attrs: {
+                                              href: "javascript:void(0)"
+                                            }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n\t\t\t\t\t\t\t    \t\t\tBeard trim\n\t\t\t\t\t\t\t    \t\t"
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "search-btn w-100 d-inline-block text-center mt-2"
+                                        },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "text-white bg-gold text-size-14 d-inline-block",
+                                              attrs: {
+                                                href: "javascript:void(0)"
+                                              }
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n\t\t\t\t\t\t\t    \t\t\tSearch\n\t\t\t\t\t\t\t    \t\t"
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ]
+                      ),
                       _vm._v(" "),
-                      _c("div", { staticClass: "col-lg-6 col-12 pl-lg-0" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "form-group input-services input-services-2 position-relative w-100 float-left mb-0 dropdown mt-lg-0 mt-3 pb-lg-0 pb-5"
-                          },
-                          [
-                            _c(
-                              "a",
-                              {
-                                staticClass: "text-white position-absolute",
-                                attrs: { href: "javascript:void(0)" }
-                              },
-                              [
-                                _c("i", {
-                                  staticClass: "fa fa-map-marker",
-                                  attrs: { "aria-hidden": "true" }
-                                })
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c("input", {
+                      _c(
+                        "div",
+                        { staticClass: "col-lg-6 col-12 col-md-6 pl-lg-0" },
+                        [
+                          _c(
+                            "div",
+                            {
                               staticClass:
-                                "form-control input-bg text-white pl-5 pr-5 h-50 text-size-15 dropdown-toggle",
-                              attrs: {
-                                type: "text",
-                                id: "service-input-text",
-                                "data-toggle": "dropdown",
-                                "aria-describedby": "emailHelp",
-                                placeholder: "Where?",
-                                "aria-expanded": "true"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "location-icon text-white bg-gold position-absolute d-inline-block text-center p-1",
-                                attrs: { href: "javascript:void(0)" }
-                              },
-                              [
-                                _c("i", {
-                                  staticClass: "fa fa-location-arrow",
-                                  attrs: { "aria-hidden": "true" }
-                                })
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "dropdown-menu location-menu bg-time p-0 border-0 show",
-                                staticStyle: {
-                                  position: "absolute",
-                                  "will-change": "transform",
-                                  top: "50px",
-                                  left: "0",
-                                  transform: "translate3d(0px, 3px, 0px)"
+                                "form-group input-services input-services-2 position-relative w-100 float-left mb-0 dropdown mt-xs-3 mt-sm-3 mt-md-0 pb-lg-0 pb-5"
+                            },
+                            [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "text-white position-absolute",
+                                  attrs: { href: "javascript:void(0)" }
                                 },
+                                [
+                                  _c("i", {
+                                    staticClass: "fa fa-map-marker",
+                                    attrs: { "aria-hidden": "true" }
+                                  })
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass:
+                                  "form-control input-bg text-white pl-5 pr-5 h-50 text-size-15 dropdown-toggle",
                                 attrs: {
-                                  "aria-labelledby": "dropdownMenuButton",
-                                  "x-placement": "top-start"
+                                  type: "text",
+                                  id: "service-input-text",
+                                  "data-toggle": "dropdown",
+                                  "aria-describedby": "emailHelp",
+                                  placeholder: "Where?",
+                                  "aria-expanded": "true"
                                 }
-                              },
-                              [
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "looking-services bg-time pt-2 pb-2 pl-3 pr-3"
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "location-icon text-white bg-gold position-absolute d-inline-block text-center p-1",
+                                  attrs: { href: "javascript:void(0)" }
+                                },
+                                [
+                                  _c("i", {
+                                    staticClass: "fa fa-location-arrow",
+                                    attrs: { "aria-hidden": "true" }
+                                  })
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "dropdown-menu location-menu bg-time p-0 border-0 show",
+                                  staticStyle: {
+                                    position: "absolute",
+                                    "will-change": "transform",
+                                    top: "50px",
+                                    left: "0",
+                                    transform: "translate3d(0px, 3px, 0px)"
                                   },
-                                  [
-                                    _c(
-                                      "span",
-                                      {
-                                        staticClass: "color-date text-size-14"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n\t\t\t\t\t\t\t\t\t\tWhare\n\t\t\t\t\t\t\t\t\t"
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "service-box w-100 d-inline-block bg-white pt-2 pb-2 pl-3 pr-3 box-shadow"
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      { staticClass: "row border-bottom mb-2" },
-                                      [
-                                        _c("div", { staticClass: "col-6" }, [
-                                          _c(
-                                            "div",
-                                            {
-                                              staticClass:
-                                                "current-location w-100 d-inline-block \n\t\t\t\t\t\t\t    \t\t\tml-4"
-                                            },
-                                            [
-                                              _c(
-                                                "a",
-                                                {
-                                                  staticClass:
-                                                    "color-date text-size-14",
-                                                  attrs: {
-                                                    href: "javascript:void(0)"
-                                                  }
-                                                },
-                                                [
-                                                  _c("i", {
+                                  attrs: {
+                                    "aria-labelledby": "dropdownMenuButton",
+                                    "x-placement": "top-start"
+                                  }
+                                },
+                                [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "looking-services bg-time pt-2 pb-2 pl-3 pr-3"
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass: "color-date text-size-14"
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n\t\t\t\t\t\t\t\t\t\tWhare\n\t\t\t\t\t\t\t\t\t"
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "service-box w-100 d-inline-block bg-white pt-2 pb-2 pl-3 pr-3 box-shadow"
+                                    },
+                                    [
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass: "row border-bottom mb-2"
+                                        },
+                                        [
+                                          _c("div", { staticClass: "col-6" }, [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass:
+                                                  "current-location w-100 d-inline-block \n\t\t\t\t\t\t\t    \t\t\tml-4"
+                                              },
+                                              [
+                                                _c(
+                                                  "a",
+                                                  {
                                                     staticClass:
-                                                      "fa fa-map-marker mr-2",
+                                                      "color-date text-size-14",
                                                     attrs: {
-                                                      "aria-hidden": "true"
+                                                      href: "javascript:void(0)"
                                                     }
-                                                  }),
-                                                  _vm._v(
-                                                    "\n\t\t\t\t\t\t\t    \t\t\t\t\tYour current location\n\t\t\t\t\t\t\t    \t\t\t\t"
-                                                  )
-                                                ]
-                                              )
-                                            ]
-                                          )
-                                        ]),
-                                        _vm._v(" "),
-                                        _c("div", { staticClass: "col-6" }, [
+                                                  },
+                                                  [
+                                                    _c("i", {
+                                                      staticClass:
+                                                        "fa fa-map-marker mr-2",
+                                                      attrs: {
+                                                        "aria-hidden": "true"
+                                                      }
+                                                    }),
+                                                    _vm._v(
+                                                      "\n\t\t\t\t\t\t\t    \t\t\t\t\tYour current location\n\t\t\t\t\t\t\t    \t\t\t\t"
+                                                    )
+                                                  ]
+                                                )
+                                              ]
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("div", { staticClass: "col-6" }, [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass:
+                                                  "search-near-btn w-100 \n\t\t\t\t\t\t\t    \t\t\td-inline-block"
+                                              },
+                                              [
+                                                _c(
+                                                  "a",
+                                                  {
+                                                    staticClass:
+                                                      "text-white bg-gold text-size-14 float-right",
+                                                    attrs: {
+                                                      href: "javascript:void(0)"
+                                                    }
+                                                  },
+                                                  [
+                                                    _vm._v(
+                                                      "\n\t\t\t\t\t\t\t    \t\t\t\tSearch near me\n\t\t\t\t\t\t\t    \t\t\t\t"
+                                                    )
+                                                  ]
+                                                )
+                                              ]
+                                            )
+                                          ])
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
+                                        },
+                                        [
                                           _c(
-                                            "div",
+                                            "a",
                                             {
                                               staticClass:
-                                                "search-near-btn w-100 \n\t\t\t\t\t\t\t    \t\t\td-inline-block"
+                                                "color-date text-size-14",
+                                              attrs: {
+                                                href: "javascript:void(0)"
+                                              }
                                             },
                                             [
-                                              _c(
-                                                "a",
-                                                {
-                                                  staticClass:
-                                                    "text-white bg-gold text-size-14 float-right",
-                                                  attrs: {
-                                                    href: "javascript:void(0)"
-                                                  }
-                                                },
-                                                [
-                                                  _vm._v(
-                                                    "\n\t\t\t\t\t\t\t    \t\t\t\tSearch near me\n\t\t\t\t\t\t\t    \t\t\t\t"
-                                                  )
-                                                ]
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-map-marker mr-2",
+                                                attrs: { "aria-hidden": "true" }
+                                              }),
+                                              _vm._v(
+                                                "\n\t\t\t\t\t\t\t    \t\t\tLahroe\n\t\t\t\t\t\t\t    \t\t"
                                               )
                                             ]
                                           )
-                                        ])
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
-                                      },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "color-date text-size-14",
-                                            attrs: {
-                                              href: "javascript:void(0)"
-                                            }
-                                          },
-                                          [
-                                            _c("i", {
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
+                                        },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
                                               staticClass:
-                                                "fa fa-map-marker mr-2",
-                                              attrs: { "aria-hidden": "true" }
-                                            }),
-                                            _vm._v(
-                                              "\n\t\t\t\t\t\t\t    \t\t\tLahroe\n\t\t\t\t\t\t\t    \t\t"
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
-                                      },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "color-date text-size-14",
-                                            attrs: {
-                                              href: "javascript:void(0)"
-                                            }
-                                          },
-                                          [
-                                            _c("i", {
+                                                "color-date text-size-14",
+                                              attrs: {
+                                                href: "javascript:void(0)"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-map-marker mr-2",
+                                                attrs: { "aria-hidden": "true" }
+                                              }),
+                                              _vm._v(
+                                                "\n\t\t\t\t\t\t\t    \t\t\tGujrat\n\t\t\t\t\t\t\t    \t\t"
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
+                                        },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
                                               staticClass:
-                                                "fa fa-map-marker mr-2",
-                                              attrs: { "aria-hidden": "true" }
-                                            }),
-                                            _vm._v(
-                                              "\n\t\t\t\t\t\t\t    \t\t\tGujrat\n\t\t\t\t\t\t\t    \t\t"
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
-                                      },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "color-date text-size-14",
-                                            attrs: {
-                                              href: "javascript:void(0)"
-                                            }
-                                          },
-                                          [
-                                            _c("i", {
+                                                "color-date text-size-14",
+                                              attrs: {
+                                                href: "javascript:void(0)"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-map-marker mr-2",
+                                                attrs: { "aria-hidden": "true" }
+                                              }),
+                                              _vm._v(
+                                                "\n\t\t\t\t\t\t\t    \t\t\tGujranwala\n\t\t\t\t\t\t\t    \t\t"
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
+                                        },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
                                               staticClass:
-                                                "fa fa-map-marker mr-2",
-                                              attrs: { "aria-hidden": "true" }
-                                            }),
-                                            _vm._v(
-                                              "\n\t\t\t\t\t\t\t    \t\t\tGujranwala\n\t\t\t\t\t\t\t    \t\t"
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
-                                      },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "color-date text-size-14",
-                                            attrs: {
-                                              href: "javascript:void(0)"
-                                            }
-                                          },
-                                          [
-                                            _c("i", {
+                                                "color-date text-size-14",
+                                              attrs: {
+                                                href: "javascript:void(0)"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-map-marker mr-2",
+                                                attrs: { "aria-hidden": "true" }
+                                              }),
+                                              _vm._v(
+                                                "\n\t\t\t\t\t\t\t    \t\t\tFaisalabad\n\t\t\t\t\t\t\t    \t\t"
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
+                                        },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
                                               staticClass:
-                                                "fa fa-map-marker mr-2",
-                                              attrs: { "aria-hidden": "true" }
-                                            }),
-                                            _vm._v(
-                                              "\n\t\t\t\t\t\t\t    \t\t\tFaisalabad\n\t\t\t\t\t\t\t    \t\t"
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
-                                      },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "color-date text-size-14",
-                                            attrs: {
-                                              href: "javascript:void(0)"
-                                            }
-                                          },
-                                          [
-                                            _c("i", {
+                                                "color-date text-size-14",
+                                              attrs: {
+                                                href: "javascript:void(0)"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-map-marker mr-2",
+                                                attrs: { "aria-hidden": "true" }
+                                              }),
+                                              _vm._v(
+                                                "\n\t\t\t\t\t\t\t    \t\t\tKarachi\n\t\t\t\t\t\t\t    \t\t"
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
+                                        },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
                                               staticClass:
-                                                "fa fa-map-marker mr-2",
-                                              attrs: { "aria-hidden": "true" }
-                                            }),
-                                            _vm._v(
-                                              "\n\t\t\t\t\t\t\t    \t\t\tKarachi\n\t\t\t\t\t\t\t    \t\t"
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "city-location w-100 \n\t\t\t\t\t\t\t    \td-inline-block pb-1 ml-4"
-                                      },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "color-date text-size-14",
-                                            attrs: {
-                                              href: "javascript:void(0)"
-                                            }
-                                          },
-                                          [
-                                            _c("i", {
+                                                "color-date text-size-14",
+                                              attrs: {
+                                                href: "javascript:void(0)"
+                                              }
+                                            },
+                                            [
+                                              _c("i", {
+                                                staticClass:
+                                                  "fa fa-map-marker mr-2",
+                                                attrs: { "aria-hidden": "true" }
+                                              }),
+                                              _vm._v(
+                                                "\n\t\t\t\t\t\t\t    \t\t\tIslamabad\n\t\t\t\t\t\t\t    \t\t"
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "search-btn w-100 d-inline-block text-center mt-2 mb-2"
+                                        },
+                                        [
+                                          _c(
+                                            "a",
+                                            {
                                               staticClass:
-                                                "fa fa-map-marker mr-2",
-                                              attrs: { "aria-hidden": "true" }
-                                            }),
-                                            _vm._v(
-                                              "\n\t\t\t\t\t\t\t    \t\t\tIslamabad\n\t\t\t\t\t\t\t    \t\t"
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "search-btn w-100 d-inline-block text-center mt-2 mb-2"
-                                      },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "text-white bg-gold text-size-14 d-inline-block",
-                                            attrs: {
-                                              href: "javascript:void(0)"
-                                            }
-                                          },
-                                          [
-                                            _vm._v(
-                                              "\n\t\t\t\t\t\t    \t\t\tSearch\n\t\t\t\t\t\t    \t\t"
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ]
-                        )
-                      ])
+                                                "text-white bg-gold text-size-14 d-inline-block",
+                                              attrs: {
+                                                href: "javascript:void(0)"
+                                              }
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n\t\t\t\t\t\t    \t\t\tSearch\n\t\t\t\t\t\t    \t\t"
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ]
+                      )
                     ])
                   ]
                 )
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col-lg-6 col-12 mt-3" }, [
+                _c("div", { staticClass: "col-lg-6 col-12 col-md-6 mt-3" }, [
                   _c(
                     "div",
                     {
@@ -22220,12 +22505,12 @@ var staticRenderFns = [
                   )
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "col-lg-6 col-12 mt-3" }, [
+                _c("div", { staticClass: "col-lg-6 col-12 col-md-6 mt-3" }, [
                   _c(
                     "div",
                     {
                       staticClass:
-                        "appointment-box bg-white d-inline-block p-2 w-65 m-auto d-block box-radius w-xs-100 w-sm-100 \n\t\t\t\tw-md-100"
+                        "appointment-box bg-white d-inline-block p-2 w-65 m-auto d-block border-radius w-xs-100 w-sm-100 \n\t\t\t\tw-md-100"
                     },
                     [
                       _c("div", { staticClass: "row" }, [
@@ -22350,140 +22635,95 @@ var staticRenderFns = [
               _c("div", { staticClass: "row mt-3" }, [
                 _c("div", { staticClass: "col-12" }, [
                   _c(
-                    "nav",
+                    "ul",
                     {
                       staticClass:
-                        "navbar navbar-expand-lg navbar-light \n\t\t\t\tpl-0 pr-0"
+                        "navbar-nav hair-saloon-categories w-100 flex-row d-lg-block d-none"
                     },
                     [
-                      _c(
-                        "button",
-                        {
-                          staticClass: "navbar-toggler",
-                          attrs: {
-                            type: "button",
-                            "data-toggle": "collapse",
-                            "data-target": "#navbarSupportedContent",
-                            "aria-controls": "navbarSupportedContent",
-                            "aria-expanded": "false",
-                            "aria-label": "Toggle navigation"
-                          }
-                        },
-                        [_c("span", { staticClass: "navbar-toggler-icon" })]
-                      ),
+                      _c("li", { staticClass: "nav-item float-left" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "nav-link text-white position-relative",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Hair Salon ")]
+                        )
+                      ]),
                       _vm._v(" "),
-                      _c(
-                        "div",
-                        {
-                          staticClass: "collapse navbar-collapse",
-                          attrs: { id: "navbarSupportedContent" }
-                        },
-                        [
-                          _c(
-                            "ul",
-                            {
-                              staticClass:
-                                "navbar-nav hair-saloon-categories w-100 float-left"
-                            },
-                            [
-                              _c("li", { staticClass: "nav-item" }, [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "nav-link text-white position-relative",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_vm._v("Hair Salon ")]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("li", { staticClass: "nav-item" }, [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "nav-link text-white position-relative",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_vm._v("Barbershop")]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("li", { staticClass: "nav-item" }, [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "nav-link text-white position-relative",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_vm._v("Nail Salon")]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("li", { staticClass: "nav-item" }, [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "nav-link text-white position-relative",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_vm._v("Beauty Salon")]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("li", { staticClass: "nav-item" }, [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "nav-link text-white position-relative",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_vm._v("Eye Brows & Lashes")]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("li", { staticClass: "nav-item" }, [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "nav-link text-white position-relative",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_vm._v("Massage")]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("li", { staticClass: "nav-item" }, [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "nav-link text-white position-relative",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_vm._v("Makeup Artist")]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("li", { staticClass: "nav-item" }, [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass: "nav-link text-white more-btn",
-                                    attrs: { href: "javascript:void(0)" }
-                                  },
-                                  [_vm._v("More")]
-                                )
-                              ])
-                            ]
-                          )
-                        ]
-                      )
+                      _c("li", { staticClass: "nav-item float-left" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "nav-link text-white position-relative",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Barbershop")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "nav-item float-left" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "nav-link text-white position-relative",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Nail Salon")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "nav-item float-left" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "nav-link text-white position-relative",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Beauty Salon")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "nav-item float-left" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "nav-link text-white position-relative",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Eye Brows & Lashes")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "nav-item float-left" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "nav-link text-white position-relative",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Massage")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "nav-item float-left" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "nav-link text-white position-relative",
+                            attrs: { href: "javascript:void(0)" }
+                          },
+                          [_vm._v("Makeup Artist")]
+                        )
+                      ])
                     ]
                   )
                 ])
@@ -23215,7 +23455,7 @@ var staticRenderFns = [
                     },
                     [
                       _c("input", {
-                        staticClass: "form-control text-size-14 h-37",
+                        staticClass: "form-control text-size-14 h-40",
                         attrs: {
                           type: "number",
                           id: "input-phone-number",
@@ -23241,15 +23481,22 @@ var staticRenderFns = [
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "col-2 pr-0" }, [
-                _c("div", { staticClass: "bg-beauty-image w-100 float-left" }, [
-                  _c("img", {
-                    staticClass: "img-fluid float-right",
-                    attrs: {
-                      src: "images/bg-beauty-image.svg",
-                      alt: "bg-beauty-image picture"
-                    }
-                  })
-                ])
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "bg-beauty-image w-100 float-left d-lg-block d-none"
+                  },
+                  [
+                    _c("img", {
+                      staticClass: "img-fluid float-right",
+                      attrs: {
+                        src: "images/bg-beauty-image.svg",
+                        alt: "bg-beauty-image picture"
+                      }
+                    })
+                  ]
+                )
               ])
             ]),
             _vm._v(" "),
@@ -23375,13 +23622,16 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "div",
-                        { staticClass: "date-time-views float-left mr-3" },
+                        {
+                          staticClass:
+                            "date-time-views float-left \n                            w-100 text-center"
+                        },
                         [
                           _c(
                             "a",
                             {
                               staticClass:
-                                "text-black text-size-13 font-weight-bold",
+                                "text-black text-size-13 font-weight-bold mr-3 float-md-left float-sm-left mt-sm-1 mt-md-1",
                               attrs: { href: "jawascript:void(0)" }
                             },
                             [
@@ -23393,19 +23643,13 @@ var staticRenderFns = [
                                 "\n                            \t\tOct 7, 2020\n                            \t"
                               )
                             ]
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "date-time-views float-left mr-3" },
-                        [
+                          ),
+                          _vm._v(" "),
                           _c(
                             "a",
                             {
                               staticClass:
-                                "text-black text-size-13 font-weight-bold",
+                                "text-black text-size-13 font-weight-bold mr-3",
                               attrs: { href: "jawascript:void(0)" }
                             },
                             [
@@ -23414,22 +23658,16 @@ var staticRenderFns = [
                                 attrs: { "aria-hidden": "true" }
                               }),
                               _vm._v(
-                                "\n                            \t\t3 min read\n                            \t"
+                                "\n                                    3 min read\n                                "
                               )
                             ]
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "date-time-views float-left ml-2" },
-                        [
+                          ),
+                          _vm._v(" "),
                           _c(
                             "a",
                             {
                               staticClass:
-                                "text-black text-size-13 font-weight-bold",
+                                "text-black text-size-13 font-weight-bold float-md-right float-sm-right mt-sm-1 mt-md-1",
                               attrs: { href: "jawascript:void(0)" }
                             },
                             [
@@ -23438,7 +23676,7 @@ var staticRenderFns = [
                                 attrs: { "aria-hidden": "true" }
                               }),
                               _vm._v(
-                                "\n                            \t\tviews\n                            \t"
+                                "\n                                    views\n                                "
                               )
                             ]
                           )
@@ -23510,13 +23748,16 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "div",
-                        { staticClass: "date-time-views float-left mr-3" },
+                        {
+                          staticClass:
+                            "date-time-views float-left \n                            w-100 text-center"
+                        },
                         [
                           _c(
                             "a",
                             {
                               staticClass:
-                                "text-black text-size-13 font-weight-bold",
+                                "text-black text-size-13 font-weight-bold mr-3 float-md-left float-sm-left mt-sm-1 mt-md-1",
                               attrs: { href: "jawascript:void(0)" }
                             },
                             [
@@ -23528,19 +23769,13 @@ var staticRenderFns = [
                                 "\n                            \t\tOct 7, 2020\n                            \t"
                               )
                             ]
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "date-time-views float-left mr-3" },
-                        [
+                          ),
+                          _vm._v(" "),
                           _c(
                             "a",
                             {
                               staticClass:
-                                "text-black text-size-13 font-weight-bold",
+                                "text-black text-size-13 font-weight-bold mr-3",
                               attrs: { href: "jawascript:void(0)" }
                             },
                             [
@@ -23549,22 +23784,16 @@ var staticRenderFns = [
                                 attrs: { "aria-hidden": "true" }
                               }),
                               _vm._v(
-                                "\n                            \t\t3 min read\n                            \t"
+                                "\n                                    3 min read\n                                "
                               )
                             ]
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "date-time-views float-left ml-2" },
-                        [
+                          ),
+                          _vm._v(" "),
                           _c(
                             "a",
                             {
                               staticClass:
-                                "text-black text-size-13 font-weight-bold",
+                                "text-black text-size-13 font-weight-bold float-md-right float-sm-right mt-sm-1 mt-md-1",
                               attrs: { href: "jawascript:void(0)" }
                             },
                             [
@@ -23573,7 +23802,7 @@ var staticRenderFns = [
                                 attrs: { "aria-hidden": "true" }
                               }),
                               _vm._v(
-                                "\n                            \t\tviews\n                            \t"
+                                "\n                                    views\n                                "
                               )
                             ]
                           )
@@ -23645,13 +23874,16 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "div",
-                        { staticClass: "date-time-views float-left mr-3" },
+                        {
+                          staticClass:
+                            "date-time-views float-left \n                            w-100 text-center"
+                        },
                         [
                           _c(
                             "a",
                             {
                               staticClass:
-                                "text-black text-size-13 font-weight-bold",
+                                "text-black text-size-13 font-weight-bold mr-3 float-md-left float-sm-left mt-sm-1 mt-md-1",
                               attrs: { href: "jawascript:void(0)" }
                             },
                             [
@@ -23663,19 +23895,13 @@ var staticRenderFns = [
                                 "\n                            \t\tOct 7, 2020\n                            \t"
                               )
                             ]
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "date-time-views float-left mr-3" },
-                        [
+                          ),
+                          _vm._v(" "),
                           _c(
                             "a",
                             {
                               staticClass:
-                                "text-black text-size-13 font-weight-bold",
+                                "text-black text-size-13 font-weight-bold mr-3",
                               attrs: { href: "jawascript:void(0)" }
                             },
                             [
@@ -23684,22 +23910,16 @@ var staticRenderFns = [
                                 attrs: { "aria-hidden": "true" }
                               }),
                               _vm._v(
-                                "\n                            \t\t3 min read\n                            \t"
+                                "\n                                    3 min read\n                                "
                               )
                             ]
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "date-time-views float-left ml-2" },
-                        [
+                          ),
+                          _vm._v(" "),
                           _c(
                             "a",
                             {
                               staticClass:
-                                "text-black text-size-13 font-weight-bold",
+                                "text-black text-size-13 font-weight-bold float-md-right float-sm-right mt-sm-1 mt-md-1",
                               attrs: { href: "jawascript:void(0)" }
                             },
                             [
@@ -23708,7 +23928,7 @@ var staticRenderFns = [
                                 attrs: { "aria-hidden": "true" }
                               }),
                               _vm._v(
-                                "\n                            \t\tviews\n                            \t"
+                                "\n                                    views\n                                "
                               )
                             ]
                           )
@@ -23823,11 +24043,12 @@ var render = function() {
                               "div",
                               {
                                 staticClass:
-                                  "slider_img w-xs-100 w-sm-100 w-md-100"
+                                  "client-slider-image w-xs-100 w-sm-100 w-md-100"
                               },
                               [
                                 _c("img", {
-                                  staticClass: "slider_image img-fluid",
+                                  staticClass:
+                                    "slider_image img-fluid w-sm-100 \n\t\t   \t    \t            w-md-100",
                                   attrs: { src: "images/slider_images.svg" }
                                 })
                               ]
@@ -23836,60 +24057,77 @@ var render = function() {
                         ),
                         _vm._v(" "),
                         _c("div", { staticClass: "col-lg-7 col-12" }, [
-                          _c("div", { staticClass: "mt-5" }, [
-                            _c(
-                              "p",
-                              {
-                                staticClass:
-                                  "text-gold text-size-20 font-weight-bold mb-0 Name"
-                              },
-                              [_vm._v("MABLE PAYLE")]
-                            ),
-                            _vm._v(" "),
-                            _c("img", {
-                              staticClass: "d-inline-block img_line",
-                              attrs: { src: "images/line.svg" }
-                            }),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "slider-text position-relative" },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "text-gold style-icon" },
-                                  [
-                                    _vm._v(
-                                      '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "p",
-                                  {
-                                    staticClass:
-                                      "text-size-14 text-white \n\t        \t                w-70 mt-5"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t"
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "span",
-                                  { staticClass: "text-gold style-icon-2" },
-                                  [
-                                    _vm._v(
-                                      '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ])
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "mt-lg-5 mt-4 w-100 \n\t        \t            d-inline-block"
+                            },
+                            [
+                              _c(
+                                "p",
+                                {
+                                  staticClass:
+                                    "text-gold text-size-20 font-weight-bold mb-0 text-lg-left text-center"
+                                },
+                                [_vm._v("MABLE PAYLE")]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "d-lg-block d-none" }, [
+                                _c("img", {
+                                  staticClass: "d-inline-block img_line",
+                                  attrs: { src: "images/line.svg" }
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "slider-text position-relative"
+                                },
+                                [
+                                  _c(
+                                    "span",
+                                    {
+                                      staticClass:
+                                        "text-gold style-icon d-lg-block d-none"
+                                    },
+                                    [
+                                      _vm._v(
+                                        '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "p",
+                                    {
+                                      staticClass:
+                                        "text-size-14 text-white \n\t        \t                w-70 mt-lg-5 mt-3 w-xs-100 w-sm-100 w-md-100"
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t"
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "span",
+                                    {
+                                      staticClass:
+                                        "text-gold style-icon-2 d-lg-block d-none"
+                                    },
+                                    [
+                                      _vm._v(
+                                        '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
                         ])
                       ])
                     ]),
@@ -23907,11 +24145,12 @@ var render = function() {
                               "div",
                               {
                                 staticClass:
-                                  "slider_img w-xs-100 w-sm-100 w-md-100"
+                                  "client-slider-image w-xs-100 w-sm-100 w-md-100"
                               },
                               [
                                 _c("img", {
-                                  staticClass: "slider_image img-fluid",
+                                  staticClass:
+                                    "slider_image img-fluid w-sm-100 \n\t\t   \t    \t            w-md-100",
                                   attrs: { src: "images/slider_images.svg" }
                                 })
                               ]
@@ -23920,60 +24159,77 @@ var render = function() {
                         ),
                         _vm._v(" "),
                         _c("div", { staticClass: "col-lg-7 col-12" }, [
-                          _c("div", { staticClass: "mt-5" }, [
-                            _c(
-                              "p",
-                              {
-                                staticClass:
-                                  "text-gold text-size-20 font-weight-bold mb-0 Name"
-                              },
-                              [_vm._v("MABLE PAYLE")]
-                            ),
-                            _vm._v(" "),
-                            _c("img", {
-                              staticClass: "d-inline-block img_line",
-                              attrs: { src: "images/line.svg" }
-                            }),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "slider-text position-relative" },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "text-gold style-icon" },
-                                  [
-                                    _vm._v(
-                                      '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "p",
-                                  {
-                                    staticClass:
-                                      "text-size-14 text-white \n\t        \t                w-70 mt-5"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t"
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "span",
-                                  { staticClass: "text-gold style-icon-2" },
-                                  [
-                                    _vm._v(
-                                      '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ])
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "mt-lg-5 mt-4 w-100 \n\t        \t            d-inline-block"
+                            },
+                            [
+                              _c(
+                                "p",
+                                {
+                                  staticClass:
+                                    "text-gold text-size-20 font-weight-bold mb-0 text-lg-left text-center"
+                                },
+                                [_vm._v("MABLE PAYLE")]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "d-lg-block d-none" }, [
+                                _c("img", {
+                                  staticClass: "d-inline-block img_line",
+                                  attrs: { src: "images/line.svg" }
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "slider-text position-relative"
+                                },
+                                [
+                                  _c(
+                                    "span",
+                                    {
+                                      staticClass:
+                                        "text-gold style-icon d-lg-block d-none"
+                                    },
+                                    [
+                                      _vm._v(
+                                        '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "p",
+                                    {
+                                      staticClass:
+                                        "text-size-14 text-white \n\t        \t                w-70 mt-lg-5 mt-3 w-xs-100 w-sm-100 w-md-100"
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t"
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "span",
+                                    {
+                                      staticClass:
+                                        "text-gold style-icon-2 d-lg-block d-none"
+                                    },
+                                    [
+                                      _vm._v(
+                                        '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
                         ])
                       ])
                     ]),
@@ -23991,11 +24247,12 @@ var render = function() {
                               "div",
                               {
                                 staticClass:
-                                  "slider_img w-xs-100 w-sm-100 w-md-100"
+                                  "client-slider-image w-xs-100 w-sm-100 w-md-100"
                               },
                               [
                                 _c("img", {
-                                  staticClass: "slider_image img-fluid",
+                                  staticClass:
+                                    "slider_image img-fluid w-sm-100 \n\t\t   \t    \t            w-md-100",
                                   attrs: { src: "images/slider_images.svg" }
                                 })
                               ]
@@ -24004,60 +24261,77 @@ var render = function() {
                         ),
                         _vm._v(" "),
                         _c("div", { staticClass: "col-lg-7 col-12" }, [
-                          _c("div", { staticClass: "mt-5" }, [
-                            _c(
-                              "p",
-                              {
-                                staticClass:
-                                  "text-gold text-size-20 font-weight-bold mb-0 Name"
-                              },
-                              [_vm._v("MABLE PAYLE")]
-                            ),
-                            _vm._v(" "),
-                            _c("img", {
-                              staticClass: "d-inline-block img_line",
-                              attrs: { src: "images/line.svg" }
-                            }),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "slider-text position-relative" },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "text-gold style-icon" },
-                                  [
-                                    _vm._v(
-                                      '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "p",
-                                  {
-                                    staticClass:
-                                      "text-size-14 text-white \n\t        \t                w-70 mt-5"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t"
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "span",
-                                  { staticClass: "text-gold style-icon-2" },
-                                  [
-                                    _vm._v(
-                                      '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ])
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "mt-lg-5 mt-4 w-100 \n\t        \t            d-inline-block"
+                            },
+                            [
+                              _c(
+                                "p",
+                                {
+                                  staticClass:
+                                    "text-gold text-size-20 font-weight-bold mb-0 text-lg-left text-center"
+                                },
+                                [_vm._v("MABLE PAYLE")]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "d-lg-block d-none" }, [
+                                _c("img", {
+                                  staticClass: "d-inline-block img_line",
+                                  attrs: { src: "images/line.svg" }
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "slider-text position-relative"
+                                },
+                                [
+                                  _c(
+                                    "span",
+                                    {
+                                      staticClass:
+                                        "text-gold style-icon d-lg-block d-none"
+                                    },
+                                    [
+                                      _vm._v(
+                                        '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "p",
+                                    {
+                                      staticClass:
+                                        "text-size-14 text-white \n\t        \t                w-70 mt-lg-5 mt-3 w-xs-100 w-sm-100 w-md-100"
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t"
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "span",
+                                    {
+                                      staticClass:
+                                        "text-gold style-icon-2 d-lg-block d-none"
+                                    },
+                                    [
+                                      _vm._v(
+                                        '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
                         ])
                       ])
                     ]),
@@ -24075,11 +24349,12 @@ var render = function() {
                               "div",
                               {
                                 staticClass:
-                                  "slider_img w-xs-100 w-sm-100 w-md-100"
+                                  "client-slider-image w-xs-100 w-sm-100 w-md-100"
                               },
                               [
                                 _c("img", {
-                                  staticClass: "slider_image img-fluid",
+                                  staticClass:
+                                    "slider_image img-fluid w-sm-100 \n\t\t   \t    \t            w-md-100",
                                   attrs: { src: "images/slider_images.svg" }
                                 })
                               ]
@@ -24088,60 +24363,77 @@ var render = function() {
                         ),
                         _vm._v(" "),
                         _c("div", { staticClass: "col-lg-7 col-12" }, [
-                          _c("div", { staticClass: "mt-5" }, [
-                            _c(
-                              "p",
-                              {
-                                staticClass:
-                                  "text-gold text-size-20 font-weight-bold mb-0 Name"
-                              },
-                              [_vm._v("MABLE PAYLE")]
-                            ),
-                            _vm._v(" "),
-                            _c("img", {
-                              staticClass: "d-inline-block img_line",
-                              attrs: { src: "images/line.svg" }
-                            }),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "slider-text position-relative" },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "text-gold style-icon" },
-                                  [
-                                    _vm._v(
-                                      '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "p",
-                                  {
-                                    staticClass:
-                                      "text-size-14 text-white \n\t        \t                w-70 mt-5"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t"
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "span",
-                                  { staticClass: "text-gold style-icon-2" },
-                                  [
-                                    _vm._v(
-                                      '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ])
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "mt-lg-5 mt-4 w-100 \n\t        \t            d-inline-block"
+                            },
+                            [
+                              _c(
+                                "p",
+                                {
+                                  staticClass:
+                                    "text-gold text-size-20 font-weight-bold mb-0 text-lg-left text-center"
+                                },
+                                [_vm._v("MABLE PAYLE")]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "d-lg-block d-none" }, [
+                                _c("img", {
+                                  staticClass: "d-inline-block img_line",
+                                  attrs: { src: "images/line.svg" }
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "slider-text position-relative"
+                                },
+                                [
+                                  _c(
+                                    "span",
+                                    {
+                                      staticClass:
+                                        "text-gold style-icon d-lg-block d-none"
+                                    },
+                                    [
+                                      _vm._v(
+                                        '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "p",
+                                    {
+                                      staticClass:
+                                        "text-size-14 text-white \n\t        \t                w-70 mt-lg-5 mt-3 w-xs-100 w-sm-100 w-md-100"
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t"
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "span",
+                                    {
+                                      staticClass:
+                                        "text-gold style-icon-2 d-lg-block d-none"
+                                    },
+                                    [
+                                      _vm._v(
+                                        '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
                         ])
                       ])
                     ]),
@@ -24159,11 +24451,12 @@ var render = function() {
                               "div",
                               {
                                 staticClass:
-                                  "slider_img w-xs-100 w-sm-100 w-md-100"
+                                  "client-slider-image w-xs-100 w-sm-100 w-md-100"
                               },
                               [
                                 _c("img", {
-                                  staticClass: "slider_image img-fluid",
+                                  staticClass:
+                                    "slider_image img-fluid w-sm-100 \n\t\t   \t    \t            w-md-100",
                                   attrs: { src: "images/slider_images.svg" }
                                 })
                               ]
@@ -24172,60 +24465,77 @@ var render = function() {
                         ),
                         _vm._v(" "),
                         _c("div", { staticClass: "col-lg-7 col-12" }, [
-                          _c("div", { staticClass: "mt-5" }, [
-                            _c(
-                              "p",
-                              {
-                                staticClass:
-                                  "text-gold text-size-20 font-weight-bold mb-0 Name"
-                              },
-                              [_vm._v("MABLE PAYLE")]
-                            ),
-                            _vm._v(" "),
-                            _c("img", {
-                              staticClass: "d-inline-block img_line",
-                              attrs: { src: "images/line.svg" }
-                            }),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "slider-text position-relative" },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "text-gold style-icon" },
-                                  [
-                                    _vm._v(
-                                      '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "p",
-                                  {
-                                    staticClass:
-                                      "text-size-14 text-white \n\t        \t                w-70 mt-5"
-                                  },
-                                  [
-                                    _vm._v(
-                                      "\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t"
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "span",
-                                  { staticClass: "text-gold style-icon-2" },
-                                  [
-                                    _vm._v(
-                                      '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
-                                    )
-                                  ]
-                                )
-                              ]
-                            )
-                          ])
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "mt-lg-5 mt-4 w-100 \n\t        \t            d-inline-block"
+                            },
+                            [
+                              _c(
+                                "p",
+                                {
+                                  staticClass:
+                                    "text-gold text-size-20 font-weight-bold mb-0 text-lg-left text-center"
+                                },
+                                [_vm._v("MABLE PAYLE")]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "d-lg-block d-none" }, [
+                                _c("img", {
+                                  staticClass: "d-inline-block img_line",
+                                  attrs: { src: "images/line.svg" }
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "slider-text position-relative"
+                                },
+                                [
+                                  _c(
+                                    "span",
+                                    {
+                                      staticClass:
+                                        "text-gold style-icon d-lg-block d-none"
+                                    },
+                                    [
+                                      _vm._v(
+                                        '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "p",
+                                    {
+                                      staticClass:
+                                        "text-size-14 text-white \n\t        \t                w-70 mt-lg-5 mt-3 w-xs-100 w-sm-100 w-md-100"
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t\tFor nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.\n\t\t\t\t\t\t\t"
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "span",
+                                    {
+                                      staticClass:
+                                        "text-gold style-icon-2 d-lg-block d-none"
+                                    },
+                                    [
+                                      _vm._v(
+                                        '\n\t\t\t\t\t\t\t\t"\n\t\t\t\t\t\t\t'
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
                         ])
                       ])
                     ])
@@ -24316,7 +24626,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "how_it_works-section pt-3 pb-3" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-4 col-12" }, [
+            _c("div", { staticClass: "col-lg-5 col-12" }, [
               _c(
                 "h2",
                 { staticClass: "text-gold text-size-30 font-weight-bold mt-4" },
@@ -24387,21 +24697,25 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: " offset-lg-1 col-lg-7 col-12" }, [
-              _c("div", { staticClass: "video mt-2" }, [
-                _c("iframe", {
-                  attrs: {
-                    width: "560",
-                    height: "340",
-                    src:
-                      "https://booksy-public.s3.amazonaws.com/horizontal_.webm",
-                    frameborder: "0",
-                    allow:
-                      "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-                    allowfullscreen: ""
-                  }
-                })
-              ])
+            _c("div", { staticClass: "col-lg-7 col-12" }, [
+              _c(
+                "div",
+                { staticClass: "hair-saloon-video w-100 d-inline-block mt-2" },
+                [
+                  _c("iframe", {
+                    attrs: {
+                      width: "560",
+                      height: "340",
+                      src:
+                        "https://booksy-public.s3.amazonaws.com/horizontal_.webm",
+                      frameborder: "0",
+                      allow:
+                        "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                      allowfullscreen: ""
+                    }
+                  })
+                ]
+              )
             ])
           ])
         ])
@@ -24457,157 +24771,213 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-12 mt-4 blog-categories" }, [
-              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
-                _c(
-                  "p",
-                  {
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-3 col-12 col-sm-6 col-md-6 mt-4 blog-categories mb-lg-5 mb-4"
+              },
+              [
+                _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "text-size-16 text-black d-inline-block font-weight-bold"
+                    },
+                    [_vm._v("Hair saloon near me")]
+                  ),
+                  _vm._v(" "),
+                  _c("i", {
                     staticClass:
-                      "text-size-16 text-black d-inline-block font-weight-bold"
-                  },
-                  [_vm._v("Hair saloon near me")]
-                ),
-                _vm._v(" "),
-                _c("i", {
-                  staticClass:
-                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
-                  attrs: { "aria-hidden": "true" }
-                })
-              ])
-            ]),
+                      "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ])
+              ]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-12 mt-4 blog-categories" }, [
-              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
-                _c(
-                  "p",
-                  {
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-3 col-12 col-sm-6 col-md-6 mt-4 blog-categories mb-lg-5 mb-4"
+              },
+              [
+                _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "text-size-16 text-black d-inline-block font-weight-bold"
+                    },
+                    [_vm._v("Hair saloon near me")]
+                  ),
+                  _vm._v(" "),
+                  _c("i", {
                     staticClass:
-                      "text-size-16 text-black d-inline-block font-weight-bold"
-                  },
-                  [_vm._v("Hair saloon near me")]
-                ),
-                _vm._v(" "),
-                _c("i", {
-                  staticClass:
-                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
-                  attrs: { "aria-hidden": "true" }
-                })
-              ])
-            ]),
+                      "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ])
+              ]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-12 mt-4 blog-categories" }, [
-              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
-                _c(
-                  "p",
-                  {
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-3 col-12 col-sm-6 col-md-6 mt-4 blog-categories mb-lg-5 mb-4"
+              },
+              [
+                _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "text-size-16 text-black d-inline-block font-weight-bold"
+                    },
+                    [_vm._v("Hair saloon near me")]
+                  ),
+                  _vm._v(" "),
+                  _c("i", {
                     staticClass:
-                      "text-size-16 text-black d-inline-block font-weight-bold"
-                  },
-                  [_vm._v("Hair saloon near me")]
-                ),
-                _vm._v(" "),
-                _c("i", {
-                  staticClass:
-                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
-                  attrs: { "aria-hidden": "true" }
-                })
-              ])
-            ]),
+                      "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ])
+              ]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-12 mt-4 blog-categories" }, [
-              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
-                _c(
-                  "p",
-                  {
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-3 col-12 col-sm-6 col-md-6 mt-4 blog-categories mb-lg-5 mb-4"
+              },
+              [
+                _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "text-size-16 text-black d-inline-block font-weight-bold"
+                    },
+                    [_vm._v("Hair saloon near me")]
+                  ),
+                  _vm._v(" "),
+                  _c("i", {
                     staticClass:
-                      "text-size-16 text-black d-inline-block font-weight-bold"
-                  },
-                  [_vm._v("Hair saloon near me")]
-                ),
-                _vm._v(" "),
-                _c("i", {
-                  staticClass:
-                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
-                  attrs: { "aria-hidden": "true" }
-                })
-              ])
-            ]),
+                      "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ])
+              ]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-12 my-5 blog-categories" }, [
-              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
-                _c(
-                  "p",
-                  {
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-3 col-12 col-sm-6 col-md-6 mt-4 blog-categories mb-lg-5 mb-4"
+              },
+              [
+                _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "text-size-16 text-black d-inline-block font-weight-bold"
+                    },
+                    [_vm._v("Hair saloon near me")]
+                  ),
+                  _vm._v(" "),
+                  _c("i", {
                     staticClass:
-                      "text-size-16 text-black d-inline-block font-weight-bold"
-                  },
-                  [_vm._v("Hair saloon near me")]
-                ),
-                _vm._v(" "),
-                _c("i", {
-                  staticClass:
-                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
-                  attrs: { "aria-hidden": "true" }
-                })
-              ])
-            ]),
+                      "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ])
+              ]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-12 my-5 blog-categories" }, [
-              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
-                _c(
-                  "p",
-                  {
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-3 col-12 col-sm-6 col-md-6 mt-4 blog-categories mb-lg-5 mb-4"
+              },
+              [
+                _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "text-size-16 text-black d-inline-block font-weight-bold"
+                    },
+                    [_vm._v("Hair saloon near me")]
+                  ),
+                  _vm._v(" "),
+                  _c("i", {
                     staticClass:
-                      "text-size-16 text-black d-inline-block font-weight-bold"
-                  },
-                  [_vm._v("Hair saloon near me")]
-                ),
-                _vm._v(" "),
-                _c("i", {
-                  staticClass:
-                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
-                  attrs: { "aria-hidden": "true" }
-                })
-              ])
-            ]),
+                      "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ])
+              ]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-12 my-5 blog-categories" }, [
-              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
-                _c(
-                  "p",
-                  {
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-3 col-12 col-sm-6 col-md-6 mt-4 blog-categories mb-lg-5 mb-4"
+              },
+              [
+                _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "text-size-16 text-black d-inline-block font-weight-bold"
+                    },
+                    [_vm._v("Hair saloon near me")]
+                  ),
+                  _vm._v(" "),
+                  _c("i", {
                     staticClass:
-                      "text-size-16 text-black d-inline-block font-weight-bold"
-                  },
-                  [_vm._v("Hair saloon near me")]
-                ),
-                _vm._v(" "),
-                _c("i", {
-                  staticClass:
-                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
-                  attrs: { "aria-hidden": "true" }
-                })
-              ])
-            ]),
+                      "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ])
+              ]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-12 my-5 blog-categories" }, [
-              _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
-                _c(
-                  "p",
-                  {
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-3 col-12 col-sm-6 col-md-6 mt-4 blog-categories mb-lg-5 mb-4"
+              },
+              [
+                _c("a", { staticClass: "pb-2", attrs: { href: "" } }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "text-size-16 text-black d-inline-block font-weight-bold"
+                    },
+                    [_vm._v("Hair saloon near me")]
+                  ),
+                  _vm._v(" "),
+                  _c("i", {
                     staticClass:
-                      "text-size-16 text-black d-inline-block font-weight-bold"
-                  },
-                  [_vm._v("Hair saloon near me")]
-                ),
-                _vm._v(" "),
-                _c("i", {
-                  staticClass:
-                    "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
-                  attrs: { "aria-hidden": "true" }
-                })
-              ])
-            ])
+                      "fa fa-angle-right text-black text-size-25 font-weight-bold ml-5",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ])
+              ]
+            )
           ])
         ])
       ])

@@ -3,7 +3,7 @@
 	    	<div class="how_it_works-section pt-3 pb-3">
 	            <div class="container">
 	        	    <div class="row">
-	        	        <div class="col-lg-4 col-12">
+	        	        <div class="col-lg-5 col-12">
 	        		        <h2 class="text-gold text-size-30 font-weight-bold mt-4">How it works?</h2>
 	        		        <div class="">
 	        		            <ul class="work_service w-100 d-inline-block pl-lg-5 pl-0">
@@ -16,8 +16,8 @@
 	        		            </ul>
 	        		        </div>	
 	        	        </div>
-	        	        <div class=" offset-lg-1 col-lg-7 col-12">
-	        	        	<div class="video mt-2">
+	        	        <div class="col-lg-7 col-12">
+	        	        	<div class="hair-saloon-video w-100 d-inline-block mt-2">
 	        	        	    <iframe width="560" height="340" src="https://booksy-public.s3.amazonaws.com/horizontal_.webm" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 	        	            </div>
 	        	        </div>	

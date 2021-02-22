@@ -51,14 +51,20 @@
 
   
 $(".input-services").click(function(){
-  $(".categories-menu").toggle();
+  $(".categories-menu").hide();
+});
+$(".input-services").click(function(){
+  $(".categories-menu").show();
 });
 
 $(".input-services-2").click(function(){
-  $(".location-menu").toggle();
+  $(".location-menu").hide();
+  // $(".categories-menu").hide();
+});
+$(".input-services-2").click(function(){
+  $(".location-menu").show();
   $(".categories-menu").hide();
 });
-
 $(window).load(function() {
     $('.categories-menu').hide(); 
     $('.location-menu').hide();

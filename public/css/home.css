@@ -73,7 +73,7 @@ opacity: 0.7;
 }
 
 .hair-saloon-categories li{
-	margin-right:36px;
+	margin-right:54px;
 }
 .hair-saloon-categories li .more-btn:hover{
 	background-color:#B59E5C;
@@ -149,7 +149,12 @@ opacity: 0.7;
     font-size:115px;
     color:#B59E5C;
 }
-
+.client-review-slider .VueCarousel-navigation-prev{
+    left:33px !important;
+}
+.client-review-slider .VueCarousel-navigation-next{
+    right:33px !important;
+}
 .bg-gradient{
   background: linear-gradient(0deg, rgba(234,223,198,0.9812967423297444) 1%, rgba(255,255,255,1) 55%);
 

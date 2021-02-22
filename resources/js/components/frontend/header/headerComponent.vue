@@ -2,9 +2,54 @@
 	<div>
 		<header>	
 			
-<div class="hair-saloon-bg-image w-100 d-inline-block">
-		
+<div class="hair-saloon-bg-image w-100 d-inline-block">	
 	<div class="container">
+		<div class="row mt-3">
+			<div class="col-12">
+				<nav class="navbar navbar-expand-lg navbar-light 
+				pl-0 pr-0 d-lg-none d-block">
+					<button class="navbar-toggler bg-white text-size-33" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"> </span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    <ul class="navbar-nav hair-saloon-categories w-100 float-left">
+					        <li class="nav-item">
+					            <a class="nav-link text-white position-relative" href="javascript:void(0)">Hair Salon </a>
+					        </li>
+					        <li class="nav-item">
+				                <a class="nav-link text-white position-relative" href="javascript:void(0)">Barbershop</a>
+					        </li>
+					        <li class="nav-item">
+				                <a class="nav-link text-white position-relative" href="javascript:void(0)">Nail Salon</a>
+					        </li>
+					        <li class="nav-item">
+				                <a class="nav-link text-white position-relative" href="javascript:void(0)">Beauty Salon</a>
+	   				        </li>
+					        <li class="nav-item">
+				                <a class="nav-link text-white position-relative" href="javascript:void(0)">Eye Brows & Lashes</a>
+					        </li>
+					        <li class="nav-item">
+					            <a class="nav-link text-white position-relative" href="javascript:void(0)">Massage</a>
+				            </li>
+				            <li class="nav-item">
+							    <a class="nav-link text-white position-relative" href="javascript:void(0)">Makeup Artist</a>
+					        </li>
+					        <li class="nav-item">
+					            <a class="text-white text-size-16" href="javascript:void(0)" data-toggle="modal" data-target="#login-signup-popup">
+						    <i class="fa fa-user mr-2" aria-hidden="true"></i>
+								Login / Signup
+							</a>
+					        </li> 
+					        <li class="nav-item">
+					        	<div class="bussiness-btn w-100 d-inline-block mt-lg-2 mt-3">
+							<a class="text-white font-weight-bold bg-gold hair-saloon-btn float-left text-size-15" href="javascript:void(0)">For Business</a>
+					    </div>
+					        </li>
+				        </ul>
+					</div>
+				</nav>
+			</div>
+		</div>
 		<div class="row mt-4">
 			<div class="col-lg-7 col-12">
 				<div class="logo">
@@ -16,14 +61,14 @@
 		    <div class="col-lg-5 col-12">
 				<div class="row">
 					<div class="col-lg-6 col-12">
-						<div class="login-signup float-lg-right mt-2">
+						<div class="login-signup float-lg-right mt-2 d-lg-block d-none">
 							<a class="text-white text-size-16" href="javascript:void(0)" data-toggle="modal" data-target="#login-signup-popup">
 						    <i class="fa fa-user mr-2" aria-hidden="true"></i>
 								Login / Signup
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-6 col-12">
+					<div class="col-lg-6 col-12 d-lg-block d-none">
 						<div class="bussiness-btn w-100 d-inline-block mt-lg-0 mt-3">
 							<a class="text-white font-weight-bold bg-gold hair-saloon-btn float-left text-size-15" href="javascript:void(0)">For Business</a>
 					    </div>
@@ -45,7 +90,7 @@
 			<div class="main-service-input w-45 d-block 
 			position-relative w-xs-100 w-sm-100 w-md-100">
 				<div class="row">
-					<div class="col-lg-6 col-12 pr-lg-0">
+					<div class="col-lg-6 col-12 col-md-6 pr-lg-0">
 						<div class="form-group input-services position-relative w-100 float-right mb-0 dropdown">
 							<a class="text-white position-absolute" href="javascript:void(0)">
 							 	<i class="fa fa-search" aria-hidden="true"></i>
@@ -123,8 +168,8 @@
 						    </div>
 						</div>
 					</div>
-				    <div class="col-lg-6 col-12 pl-lg-0">
-						<div class="form-group input-services input-services-2 position-relative w-100 float-left mb-0 dropdown mt-lg-0 mt-3 pb-lg-0 pb-5">
+				    <div class="col-lg-6 col-12 col-md-6 pl-lg-0">
+						<div class="form-group input-services input-services-2 position-relative w-100 float-left mb-0 dropdown mt-xs-3 mt-sm-3 mt-md-0 pb-lg-0 pb-5">
 				     	 	<a class="text-white position-absolute" href="javascript:void(0)">
 							<i class="fa fa-map-marker" aria-hidden="true"></i>
 							</a>
@@ -213,7 +258,7 @@
 			</div>
 		</form>
 		<div class="row">
-			<div class="col-lg-6 col-12 mt-3">
+			<div class="col-lg-6 col-12 col-md-6 mt-3">
 				<div class="home-service-box bg-white border-radius w-65 d-inline-block p-2 w-xs-100 w-sm-100 w-md-100">
 					<div class="heading-home-service w-65 float-left">
 						<h4 class="text-gold font-weight-bold mb-1">Home Service
@@ -233,8 +278,8 @@
 					</div>
 				</div>
 			</div>
-		    <div class="col-lg-6 col-12 mt-3">
-				<div class="appointment-box bg-white d-inline-block p-2 w-65 m-auto d-block box-radius w-xs-100 w-sm-100 
+		    <div class="col-lg-6 col-12 col-md-6 mt-3">
+				<div class="appointment-box bg-white d-inline-block p-2 w-65 m-auto d-block border-radius w-xs-100 w-sm-100 
 				w-md-100">
 					<div class="row">
 						<div class="col-5">
@@ -275,40 +320,29 @@
 		</div>
 		<div class="row mt-3">
 			<div class="col-12">
-				<nav class="navbar navbar-expand-lg navbar-light 
-				pl-0 pr-0">
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"> </span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					    <ul class="navbar-nav hair-saloon-categories w-100 float-left">
-					        <li class="nav-item">
-					            <a class="nav-link text-white position-relative" href="javascript:void(0)">Hair Salon </a>
-					        </li>
-					        <li class="nav-item">
-				                <a class="nav-link text-white position-relative" href="javascript:void(0)">Barbershop</a>
-					        </li>
-					        <li class="nav-item">
-				                <a class="nav-link text-white position-relative" href="javascript:void(0)">Nail Salon</a>
-					        </li>
-					        <li class="nav-item">
-				                <a class="nav-link text-white position-relative" href="javascript:void(0)">Beauty Salon</a>
-	   				        </li>
-					        <li class="nav-item">
-				                <a class="nav-link text-white position-relative" href="javascript:void(0)">Eye Brows & Lashes</a>
-					        </li>
-					        <li class="nav-item">
-					            <a class="nav-link text-white position-relative" href="javascript:void(0)">Massage</a>
-				            </li>
-				            <li class="nav-item">
-							    <a class="nav-link text-white position-relative" href="javascript:void(0)">Makeup Artist</a>
-					        </li>
-					        <li class="nav-item">
-					            <a class="nav-link text-white more-btn" href="javascript:void(0)">More</a>
-					        </li> 
-				        </ul>
-					</div>
-				</nav>
+			    <ul class="navbar-nav hair-saloon-categories w-100 flex-row d-lg-block d-none">
+			        <li class="nav-item float-left">
+			            <a class="nav-link text-white position-relative" href="javascript:void(0)">Hair Salon </a>
+			        </li>
+			        <li class="nav-item float-left">
+		                <a class="nav-link text-white position-relative" href="javascript:void(0)">Barbershop</a>
+			        </li>
+			        <li class="nav-item float-left">
+		                <a class="nav-link text-white position-relative" href="javascript:void(0)">Nail Salon</a>
+			        </li>
+			        <li class="nav-item float-left">
+		                <a class="nav-link text-white position-relative" href="javascript:void(0)">Beauty Salon</a>
+				        </li>
+			        <li class="nav-item float-left">
+		                <a class="nav-link text-white position-relative" href="javascript:void(0)">Eye Brows & Lashes</a>
+			        </li>
+			        <li class="nav-item float-left">
+			            <a class="nav-link text-white position-relative" href="javascript:void(0)">Massage</a>
+		            </li>
+		            <li class="nav-item float-left">
+					    <a class="nav-link text-white position-relative" href="javascript:void(0)">Makeup Artist</a>
+			        </li>
+		        </ul>
 			</div>
 		</div>
 		<div class="row mt-4">

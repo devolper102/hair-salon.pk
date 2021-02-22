@@ -23,7 +23,7 @@
 						</div>
 						<form>
 							<div class="form-group input-number w-75 float-left mr-3">
-								<input type="number" class="form-control text-size-14 h-37" id="input-phone-number" aria-describedby="numberHelp" placeholder="Your phone number" required>
+								<input type="number" class="form-control text-size-14 h-40" id="input-phone-number" aria-describedby="numberHelp" placeholder="Your phone number" required>
 							</div>
 							<div class="send-btn">
 								<button class="h-37 bg-gold text-white 
@@ -33,7 +33,7 @@
 						</form>
 					</div>
 					<div class="col-2 pr-0">
-						<div class="bg-beauty-image w-100 float-left">
+						<div class="bg-beauty-image w-100 float-left d-lg-block d-none">
 							<img class="img-fluid float-right" src="images/bg-beauty-image.svg" alt="bg-beauty-image picture">
 						</div>
 					</div>

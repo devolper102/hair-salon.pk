@@ -80,9 +80,7 @@ border-bottom:30px solid #B59E5C;
 .img_line{
 	margin-left: -130px;
 }
-.Name{
-	margin-left: -77px;
-}
+
 .carousel-control-prev::before{
 	content: "\f104";
     font: normal normal normal 124px FontAwesome;

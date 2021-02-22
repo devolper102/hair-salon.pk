@@ -2203,6 +2203,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "footerComponent"
 });
@@ -20651,7 +20652,7 @@ var staticRenderFns = [
       _c("footer", { staticClass: "footer-bg" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row gold-border" }, [
-            _c("div", { staticClass: "col-lg-5 col-12" }, [
+            _c("div", { staticClass: "col-lg-5 col-12 col-md-5" }, [
               _c("div", { staticClass: "logo mt-4 mb-lg-4" }, [
                 _c("a", { attrs: { href: "javascript:void(0)" } }, [
                   _c("img", {
@@ -20714,122 +20715,137 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-lg-7 col-12 mt-5" }, [
-              _c(
-                "ul",
-                {
-                  staticClass:
-                    "about-contact-section w-100 d-inline-block mb-lg-5"
-                },
-                [
-                  _c(
-                    "li",
-                    {
-                      staticClass:
-                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
-                    },
-                    [
-                      _c(
-                        "a",
-                        { staticClass: "text-white", attrs: { href: "" } },
-                        [_vm._v("Blog")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      staticClass:
-                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
-                    },
-                    [
-                      _c(
-                        "a",
-                        { staticClass: "text-white", attrs: { href: "" } },
-                        [_vm._v("About us")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      staticClass:
-                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
-                    },
-                    [
-                      _c(
-                        "a",
-                        { staticClass: "text-white", attrs: { href: "" } },
-                        [_vm._v("Privacy policy")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      staticClass:
-                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
-                    },
-                    [
-                      _c(
-                        "a",
-                        { staticClass: "text-white", attrs: { href: "" } },
-                        [_vm._v("Term of Service")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      staticClass:
-                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
-                    },
-                    [
-                      _c(
-                        "a",
-                        { staticClass: "text-white", attrs: { href: "" } },
-                        [_vm._v("Careers")]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      staticClass:
-                        "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
-                    },
-                    [
-                      _c(
-                        "a",
-                        { staticClass: "text-white", attrs: { href: "" } },
-                        [_vm._v("Contact")]
-                      )
-                    ]
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "android-ios float-right mt-lg-4" }, [
-                _c("a", { attrs: { href: "javascript:void(0)" } }, [
-                  _c("img", {
-                    staticClass: "d-inline-block",
-                    attrs: { src: "images/ios.svg" }
-                  })
-                ]),
+            _c(
+              "div",
+              { staticClass: "col-lg-7 col-12 mt-lg-5 mt-4 col-md-7" },
+              [
+                _c(
+                  "ul",
+                  {
+                    staticClass:
+                      "about-contact-section w-100 d-inline-block mb-lg-5 p-0"
+                  },
+                  [
+                    _c(
+                      "li",
+                      {
+                        staticClass:
+                          "d-inline-block pr-lg-4 text-size-14 font-weight-bold"
+                      },
+                      [
+                        _c(
+                          "a",
+                          { staticClass: "text-white", attrs: { href: "" } },
+                          [_vm._v("Blog")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        staticClass:
+                          "d-inline-block pr-lg-4 pl-4 text-size-14 font-weight-bold"
+                      },
+                      [
+                        _c(
+                          "a",
+                          { staticClass: "text-white", attrs: { href: "" } },
+                          [_vm._v("About us")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        staticClass:
+                          "d-inline-block pr-lg-4 pl-4 text-size-14 font-weight-bold"
+                      },
+                      [
+                        _c(
+                          "a",
+                          { staticClass: "text-white", attrs: { href: "" } },
+                          [_vm._v("Privacy policy")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        staticClass:
+                          "d-inline-block pr-lg-4 pl-4 text-size-14 font-weight-bold"
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "text-white mt-xs-4 mt-md-4",
+                            attrs: { href: "" }
+                          },
+                          [_vm._v("Term of Service")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        staticClass:
+                          "d-inline-block pr-4 pl-4 text-size-14 font-weight-bold mt-xs-4 mt-md-4"
+                      },
+                      [
+                        _c(
+                          "a",
+                          { staticClass: "text-white", attrs: { href: "" } },
+                          [_vm._v("Careers")]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        staticClass:
+                          "d-inline-block pr-lg-4 text-size-14 font-weight-bold mt-xs-4 mt-md-4"
+                      },
+                      [
+                        _c(
+                          "a",
+                          { staticClass: "text-white", attrs: { href: "" } },
+                          [_vm._v("Contact")]
+                        )
+                      ]
+                    )
+                  ]
+                ),
                 _vm._v(" "),
-                _c("a", { attrs: { href: "javascript:void(0)" } }, [
-                  _c("img", {
-                    staticClass: "d-inline-block mt-lg-0 mt-4",
-                    attrs: { src: "images/android.svg" }
-                  })
-                ])
-              ])
-            ])
+                _c(
+                  "div",
+                  {
+                    staticClass: "android-ios float-right mt-lg-4 mb-lg-0 mb-3"
+                  },
+                  [
+                    _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                      _c("img", {
+                        staticClass:
+                          "d-inline-block mt-lg-0 mt-xs-4 mt-sm-4 \n\t    \t    \t\tmt-md-4",
+                        attrs: { src: "images/ios.svg" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("a", { attrs: { href: "javascript:void(0)" } }, [
+                      _c("img", {
+                        staticClass:
+                          "d-inline-block mt-lg-0 mt-xs-4 mt-sm-4 mt-md-4",
+                        attrs: { src: "images/android.svg" }
+                      })
+                    ])
+                  ]
+                )
+              ]
+            )
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "text-center text-white pt-3 pb-1" }, [
