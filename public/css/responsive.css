@@ -1,0 +1,211 @@
+@media (max-width: 991px){
+/*Start utilities*/	
+.w-md-25{width: 25%;}
+.w-md-50{width: 50%;}
+.w-md-75{width: 75%!important;}
+.w-md-100{width: 100%!important;}
+.text-md-13{
+	font-size: 13px !important
+}
+.text-md-14{
+	font-size: 14px !important
+}
+.text-md-12{
+	font-size: 12px !important
+}
+.text-md-10{
+	font-size: 10px !important
+}
+.text-md-20{
+	font-size: 20px !important
+}
+.text-md-30{
+	font-size: 30px !important
+}
+.mt-md-0{margin-top: 0!important;}
+.mt-md-2{margin-top: .5rem!important;}
+.mt-md-3{margin-top: 1rem!important;}
+.mt-md-4{margin-top: 1.5rem!important;}
+.mt-md-5{margin-top: 3rem!important;}
+/*End utilities*/
+.main-service-input{
+	border:0;
+	margin-top:10px;
+}
+.input-services input, .input-services-2 input{
+    border-radius: 45px;
+}
+.logo-image {
+    margin-top: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 767px){
+/*Start utilities*/	
+.w-sm-25{width: 25% !important;}
+.w-sm-50{width: 50% !important;}
+.w-sm-75{width: 75% !important;}
+.w-sm-100{width: 100% !important;}
+.text-sm-15 {
+font-size: 15px;
+}
+.text-sm-13 {
+	font-size: 13px;
+}
+.text-sm-14 {
+	font-size: 14px;
+}
+.text-sm-20 {
+	font-size: 20px !important;
+}
+.text-sm-25{
+	font-size: 25px!important;
+}
+.text-sm-28{
+	font-size: 28px!important;
+}
+.mt-sm-0{margin-top: 0!important;}
+.mt-sm-2{margin-top: .5rem!important;}
+.mt-sm-3{margin-top: 1rem!important;}
+.mt-sm-4{margin-top: 1.5rem!important;}
+.mt-sm-5{margin-top: 3rem!important;}
+/*End utilities*/
+.logo-image {
+    margin-top: 3rem;
+}
+.main-service-input{
+	border:0;
+	margin-top:10px;
+}
+.input-services input, .input-services-2 input{
+    border-radius: 45px;
+}
+.hair-saloon-video iframe{
+width:510px;
+}
+.client-review-slider .VueCarousel-navigation-prev {
+    left: 4px !important;
+}
+.client-review-slider .VueCarousel-navigation-next {
+    right: 4px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 576px){
+/*Start utilities*/
+.w-xs-25{width: 25% !important;}
+.w-xs-50{width: 50% !important;}
+.w-xs-75{width: 75% !important;}
+.w-xs-100{width: 100% !important;}
+.text-xs-15 {
+font-size: 15px;
+}
+.text-xs-13 {
+	font-size: 13px;
+}
+.text-xs-14 {
+	font-size: 14px;
+}
+.text-xs-11 {
+	font-size: 11px;
+}
+.text-xs-20 {
+	font-size: 20px !important;
+}
+.text-xs-25{
+	font-size: 25px!important;
+}
+.text-xs-28{
+	font-size: 28px!important;
+}
+.mt-xs-0{margin-top: 0!important;}
+.mt-xs-2{margin-top: .5rem!important;}
+.mt-xs-3{margin-top: 1rem!important;}
+.mt-xs-4{margin-top: 1.5rem!important;}
+.mt-xs-5{margin-top: 3rem!important;}
+/*End utilities*/
+.banner-heading h1{
+	margin-top:2rem;
+}
+.main-service-input{
+	border:0;
+	margin-top:10px;
+}
+.input-services input, .input-services-2 input{
+    border-radius: 45px;
+}
+.logo-image {
+    margin-top: 2rem;
+}
+.hair-saloon-video iframe{
+width:289px;
+height:200px;
+}
+
+.client-review-slider .VueCarousel-navigation-prev {
+    left: 44px !important;
+    top:35% !important;
+}
+.client-review-slider .VueCarousel-navigation-next {
+    right: 44px !important;
+    top:35% !important;
+}
+.categories-menu, .location-menu {
+    width: 320px;
+}
+.categories-menu, .location-menu{
+	left:-15px !important;
+}
+.search-near-btn a {
+    padding: 6px 16px;
+}
+.work_service li a {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 320px){
+
+
+
+
+
+}
+

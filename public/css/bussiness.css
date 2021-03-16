@@ -1,0 +1,128 @@
+
+
+.bussiness-bg-image {
+    background: url(../images/bussiness-bg-image.svg) no-repeat left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    min-height:700px;
+}
+.heading-booking-mind h1{
+letter-spacing: 2px;
+    margin-top: 13rem;
+}
+.heading-booking-mind span{
+	border-bottom: 2px solid #B59E5C;
+}	
+.business-mobile-image{
+	margin-top:5rem;
+}
+.bg-business-introduction{
+	background: linear-gradient(0deg, rgb(238 238 238) 43%, rgb(196 196 196 / 38%) 50%);
+padding-top: 4rem;
+}
+
+.bg-image-business-booking{
+background: url(../images/bg-image-business-booking.svg) no-repeat left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+.bt-learn-more{
+	margin-top: 32rem;
+}
+
+.bg-business-gradient{
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(196 196 196 / 32%) 100%);
+
+}
+.barber-shop{
+	margin-top: 20px;
+}
+
+.social-icon-btn .facebook-btn {
+    background-color: #506AC5;
+}
+.social-icon-btn .gmail-btn {
+    background-color: #F12B2B;
+}
+.note-member-signup a:hover{
+color: #F12B2B;
+}
+.forgot-password a {
+    border: 1px solid #777777;
+    border-radius: 30px;
+}
+.forgot-password a:hover{
+color: #777777;
+}
+.slider {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  overflow:hidden;
+}
+.slider .is-grabbing {
+	 cursor: e-resize;
+}
+
+.slider__inner {
+  position: relative;
+  top: 25px;
+  left: 0;
+  height: 40vh;
+  pointer-events: none;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 15vw;
+  height: 60vh;
+  padding:10px;
+}
+
+.slide__bg {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+    bottom: 35%;
+    right: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide__title {
+  position: relative;
+  color: #fff;
+  font-size: calc(1rem + 3vw);
+  font-weight: normal;
+  z-index: 2;
+}
+
+.text {
+  position: absolute;
+  color: #666;
+  left: 4rem;
+  bottom: 3rem;
+}
+
+.cursor-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.cursor {
+  position: fixed;
+  top: -30px;
+  left: -30px;
+}
+

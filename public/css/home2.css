@@ -1,0 +1,17 @@
+.bg-barber-saloon{
+	min-height:700px;
+}
+
+.barber-image{
+	top: 138px;
+    left: 47%;
+}
+.android-app-logo{
+	margin-top:13rem;
+}
+.categories-bg-image{
+	background: url(../images/categories-bg-image.svg) no-repeat left;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}

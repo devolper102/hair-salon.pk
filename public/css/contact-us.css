@@ -1,0 +1,43 @@
+.login-signup a:hover {
+    color: #000;
+}
+.heading-contact-us h3:before{
+display: block;
+    content: '';
+    width: 140px;
+    height: 25px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    left: 44%;
+    top: 65px;
+    position: absolute;
+    border-bottom: 3px solid #b59e5c;
+}
+.bg-contact-us-section{
+	margin: 60px auto 0;
+}
+.bg-image-contact-us{
+	background: url(../images/bg-image-contact-us.svg) no-repeat left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+.location-icon a{
+	font-size:60px;
+}
+.location-icon a:hover, .phone-icon a:hover, .message-icon a:hover{
+	color:#282828;
+}
+.form-control:focus{
+	box-shadow:none;
+}
+.feed-back textarea{
+    resize:none;
+}
+.input-contact input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.pricing-nav li a:hover{
+    color:#b59e5c;
+}

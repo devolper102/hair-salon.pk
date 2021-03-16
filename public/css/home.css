@@ -1,0 +1,318 @@
+
+.hair-saloon-bg-image
+{background: url(../images/hair-saloon-bg-image.svg) no-repeat left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:100%;
+}
+  
+.login-signup a{
+font-family: 'Red Hat Display';
+}
+.login-signup a:hover, .bussiness-btn a{
+text-decoration:none;
+}
+
+.bussiness-btn a{
+	border-radius:5px;
+}
+
+.banner-heading h1{
+	margin-top:5rem;
+	 font-family: 'Poppins';
+}
+.banner-heading h1 span{
+	border-bottom:3px solid #B59E5C; 
+}
+
+.input-services .form-control:focus{
+background-color: #777777;
+box-shadow:none;
+}
+.input-services input::placeholder{
+	color:#fff !important;
+}
+.input-services a{
+top: 13px;
+    left: 18px;
+}
+.input-services input{
+border-radius:45px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border-right: 1px solid #D1D1D1 !important;
+opacity: 0.7;
+}
+.input-services-2 input{
+	border-radius:45px;
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border:0 !important;
+    opacity: 0.7;
+}
+.input-services .location-icon{
+	top: 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    left: 84%;
+}
+.main-service-input{
+	border-radius:45px;
+	margin:40px auto;
+	border: 4px solid rgb(181 158 92 / 0.6);
+}
+
+.appointment-box a:hover{
+	color:#000;
+	text-decoration:none;
+}
+.confirm-btn a{
+	background-color: #24DF4D;
+    padding: 2px 13px;
+}
+
+.hair-saloon-categories li{
+	margin-right:54px;
+}
+.hair-saloon-categories li .more-btn:hover{
+	background-color:#B59E5C;
+}
+.bg-hair-saloon-address p{
+	margin-bottom:13px;
+}
+.bg-hair-saloon-address a:hover{
+    color:#B59E5C;
+}
+.hair-saloon-categories li a{
+	z-index:1;
+}
+.hair-saloon-categories li a:hover:before {
+    display: block;
+    content: '';
+    background-color:#B59E5C;;
+    width: 62px;
+    height: 25px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    left:0;
+    top:7px;
+    position: absolute;
+}
+.reviews-text{
+	background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    text-align: center;
+    width: 80px;
+    height: 45px;
+}
+
+.hair-saloon-slider .VueCarousel-navigation-prev{
+    left: 20px !important;
+    background-color: #B59E5C !important;
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    color: #fff !important;
+    font-size: 25px;
+    border-radius: 4px;
+}
+.hair-saloon-slider .VueCarousel-navigation-next{
+    right: 20px !important;
+    background-color: #B59E5C !important;
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    color: #fff !important;
+    font-size: 25px;
+    border-radius: 4px;
+}
+.hair-saloon-slider .VueCarousel-navigation-prev i{
+    top: 8px;
+    left: 13px;
+    position: absolute;
+}
+.hair-saloon-slider .VueCarousel-navigation-next i{
+    top: 8px;
+    right: 20px;
+    position: absolute;
+}
+.client-review-slider .VueCarousel-navigation-prev, 
+.client-review-slider .VueCarousel-navigation-next{
+    background-color: transparent !important;
+}
+.client-review-slider .VueCarousel-navigation-prev i, 
+.client-review-slider .VueCarousel-navigation-next i{
+    font-size:115px;
+    color:#B59E5C;
+}
+.client-review-slider .VueCarousel-navigation-prev{
+    left:33px !important;
+}
+.client-review-slider .VueCarousel-navigation-next{
+    right:33px !important;
+}
+.bg-gradient{
+  background: linear-gradient(0deg, rgba(234,223,198,0.9812967423297444) 1%, rgba(255,255,255,1) 55%);
+
+
+}
+
+.logo-image{
+	margin-top:14rem;
+}
+.logo-image p{
+	letter-spacing:2px;
+}
+.logo-image span{
+	letter-spacing:4px;
+	border-bottom: 2px solid #B59E5C;
+}
+.input-number input:focus, .input-email input:focus{
+box-shadow: none;
+}
+.bg-beauty-image{
+	margin-top:10rem;
+}
+/*.sign-modal-heading h5{
+	border-bottom: 2px solid #777;
+}*/
+.note-member-signup a{
+    color:#F12B2B;
+}
+.forgot-password a{
+    border: 1px solid #777777;
+    border-radius: 30px;
+}
+.forgot-password a:hover{
+    color: #777777;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.social-icon-btn .facebook-btn{
+background-color:#506AC5;
+}
+.social-icon-btn .gmail-btn{
+background-color:#F12B2B;
+}
+/*.privacy-policy span{
+	border-bottom:1px solid #777777;
+}*/
+.cross-btn span{
+	width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 14px;
+}
+
+.input-number input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.blog-categories a::before {
+    display: block;
+    content: '';
+    width: 91px;
+    height: 25px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    left: 14px;
+    top: 15px;
+    position: absolute;
+    border-bottom: 5px solid #b59e5c;
+}
+.service-box{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.popular-service span{
+    font-size:14px;
+}
+.hair-cut a{
+    border-radius: 16px;
+    border: 1px solid #ebebeb;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.11);
+
+}
+.hair-saloon-slider{
+    cursor:pointer;
+}
+.hair-cut a:hover{
+    color: #777777;
+}
+.city-location a:hover, .current-location a:hover{
+    color:#777777;
+}
+.search-btn a{
+    padding: 4px 65px;
+    border-radius: 20px;
+}
+.dropdown-menu a {
+    min-width:15%;
+}
+.current-location a{
+    font-size: 14px;
+}
+.search-near-btn a{
+    font-size: 14px;
+    background-color: #B59E5C;
+    color: #fff;
+    padding: 6px 25px;
+    border-radius: 20px;
+}
+.city-location a{
+    font-size:14px;
+}
+.categories-menu, .location-menu{
+    width:498px;
+border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
+.looking-services{
+border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
+.heading-home-service a{
+    padding:4px 38px;
+}
+
+.total-price input{
+    height:25px;
+    border:1px solid #282828;
+}
+
+.input-address input{
+    height:25px;
+}
+.clear-confirm-btn .confirm-button{
+    margin-right:30px;
+}
+.looking-services{
+border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
+.slider-text .style-icon{
+    left: -57px;
+    top: -70px;
+    position: absolute;
+    font-size: 130px;
+    transform: rotate(13deg);
+}
+.slider-text .style-icon-2{
+    top: 55%;
+    position: absolute;
+    font-size: 130px;
+    transform: rotate(13deg);
+    right: 28%;
+    
+}
+

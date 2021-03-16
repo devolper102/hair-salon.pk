@@ -10,7 +10,7 @@
 	background-color: #282828;
 }
 
-.gold_border{
+.gold-border{
    
    border-bottom: 1px solid #B59E5C;
 }
@@ -19,7 +19,7 @@
 	font-family: Red Hat Display;
 }
 
-.media_icons a{
+.media-icons a{
     padding: 5px 10px
 }
 .media_icons a:hover{
@@ -80,9 +80,7 @@ border-bottom:30px solid #B59E5C;
 .img_line{
 	margin-left: -130px;
 }
-.Name{
-	margin-left: -77px;
-}
+
 .carousel-control-prev::before{
 	content: "\f104";
     font: normal normal normal 124px FontAwesome;
@@ -102,4 +100,7 @@ border-bottom:30px solid #B59E5C;
 }
 .carousel-control-prev-icon{
 	display: none !important;
+}
+.work_service li a{
+    margin-bottom:40px;
 }

@@ -1,0 +1,77 @@
+.login-signup a:hover{
+	color:#000;
+}
+.pricing-nav .nav-item a:hover {
+    color: #b59e5c;
+}
+.social-icon-btn .facebook-btn {
+    background-color: #506AC5;
+}
+.social-icon-btn .gmail-btn {
+    background-color: #F12B2B;
+}
+.note-member-signup a:hover{
+color: #F12B2B;
+}
+.forgot-password a {
+    border: 1px solid #777777;
+    border-radius: 30px;
+}
+.forgot-password a:hover{
+color: #777777;
+}
+.faq-banner-heading h4:before{
+	display: block;
+    content: '';
+    width: 300px;
+    height: 25px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    left: 37%;
+    top: 60px;
+    position: absolute;
+    border-bottom: 3px solid #b59e5c;
+}
+.faq-bg-image{
+background: url(../images/faq-bg-image.svg) no-repeat left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 21%;
+}
+.input-banner a {
+    top: 13px;
+    left: 18px;
+}
+.input-banner .form-control:focus{
+	border: 3px solid #B59E5C;
+	background:0;
+}
+.form-control:focus{
+	box-shadow:none;
+}
+.input-banner{
+	margin: 30px auto
+}
+.input-banner input{
+	border: 3px solid #B59E5C;
+    border-radius: 45px;
+    background:0;
+}
+.input-banner .location-icon {
+    top: 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    left: 92%;
+}
+.input-banner input::placeholder{
+color:#3c3c3c;
+}
+.faq-question a{
+	padding: 17px 0 17px 0;
+	border:1px solid #000;
+}
+.faq-question a:hover{
+	color:#000;
+}
